@@ -33,27 +33,33 @@ All held-out (by-document split), SAE = ground truth. Two metrics — state whic
 ## Quickstart
 
 ```bash
-pip install torch numpy sentencepiece scikit-learn
+pip install torch numpy sentencepiece
 python probe/infer.py "the water was cold and frozen solid by morning"
 ```
 
-Scores any text into the SAE's concepts on a CPU:
+This loads the **shipped 5 MB int8 probe** (`mega_golf_probe_int8.pkl.gz`, self-contained) and scores any text into the SAE's concepts on a CPU:
 
 ```
+[loaded int8 (5 MB, shipped)]
 > the water was cold and frozen solid by morning
-   +3.99  Cold, chilled, or frozen states and temperatures
+   +4.03  Cold, chilled, or frozen states and temperatures
    +3.52  Detects the concept of 'hard' in various contexts, often contrasted with 'soft'.
    ...
 ```
 
+(Pass `--fp32` to load the 21 MB fp32 `.pth` instead — same outputs, minus the int8 rounding.)
+
 ### The interactive UI
 
+The app also uses a frozen `bge-small` embedder (for the side-by-side baseline and some tabs), so it needs a couple more packages and a one-time ~33 MB model download:
+
 ```bash
-pip install torch numpy sentencepiece
-python monitor_app/monitor_explorer.py      # serves on http://localhost:7860
+pip install torch numpy sentencepiece sentence-transformers scikit-learn
+HF_HUB_OFFLINE=0 python monitor_app/monitor_explorer.py   # first run downloads bge-small (~33 MB)
+# subsequent runs: python monitor_app/monitor_explorer.py  (serves on http://localhost:7860)
 ```
 
-A flat, information-dense suite: paste text and see the concepts the probe surfaces, per-token evidence, the architecture, a live CPU throughput benchmark, and an **agent-monitoring** demo — the cheap probe screens every message and escalates flagged spans to a Claude Code / sentry model (the tiered-oversight pattern). *Demonstrated, not evaluated as a safety system.*
+A flat, information-dense suite: paste text and see the concepts the probe surfaces, per-token evidence, the architecture, a live CPU throughput benchmark, and an **agent-monitoring** demo — the cheap probe screens every message and escalates flagged spans to a Claude Code / sentry model (the tiered-oversight pattern). *Demonstrated, not evaluated as a safety system.* (The app also loads a small legacy 2B-SAE monitor for comparison; the seq2feature probe is `golf_final/`.)
 
 ---
 
