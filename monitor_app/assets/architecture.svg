@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 478" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <defs>
+    <marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#9A8F77"/></marker>
+    <marker id="ac" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 z" fill="#BF5A38"/></marker>
+  </defs>
+  <rect width="820" height="478" fill="#FFFFFF"/>
+
+  <!-- TEACHER -->
+  <rect x="15" y="12" width="790" height="150" rx="12" fill="#F4EEE0" stroke="#D8CBB0" stroke-width="1.5"/>
+  <text x="32" y="36" font-size="13" font-weight="700" fill="#A84D2E" letter-spacing=".4">TEACHER — train-time only · discarded after distillation</text>
+  <g font-size="13" fill="#33302A">
+    <rect x="32" y="66" width="130" height="56" rx="8" fill="#fff" stroke="#C9BFA9"/><text x="97" y="99" text-anchor="middle">mixed corpus</text>
+    <rect x="208" y="66" width="130" height="56" rx="8" fill="#fff" stroke="#C9BFA9"/><text x="273" y="99" text-anchor="middle">gemma-2-9b</text>
+    <rect x="384" y="66" width="178" height="56" rx="8" fill="#fff" stroke="#C9BFA9"/><text x="473" y="90" text-anchor="middle">GemmaScope SAE</text><text x="473" y="108" text-anchor="middle" font-size="12" fill="#8B8273">16k latents · L20</text>
+    <rect x="610" y="66" width="178" height="56" rx="8" fill="#fff" stroke="#C9BFA9"/><text x="699" y="90" text-anchor="middle">firings + captions</text><text x="699" y="108" text-anchor="middle" font-size="12" fill="#8B8273">2,048 relabelled · 874 gated</text>
+  </g>
+  <g stroke="#9A8F77" stroke-width="1.6" fill="none" marker-end="url(#a)">
+    <path d="M162,94 H206"/><path d="M338,94 H382"/><path d="M562,94 H608"/>
+  </g>
+
+  <!-- arrow teacher -> distil -->
+  <path d="M410,162 V184" stroke="#9A8F77" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+
+  <!-- DISTIL -->
+  <rect x="15" y="186" width="790" height="116" rx="12" fill="#FBFAF5" stroke="#DDD4C3" stroke-width="1.5"/>
+  <text x="32" y="210" font-size="13" font-weight="700" fill="#A84D2E" letter-spacing=".4">DISTIL — train the cheap student to reproduce the teacher from TEXT alone</text>
+  <g font-size="13" fill="#33302A">
+    <rect x="32" y="234" width="100" height="50" rx="8" fill="#fff" stroke="#C9BFA9"/><text x="82" y="263" text-anchor="middle">text</text>
+    <rect x="246" y="234" width="300" height="50" rx="8" fill="#fff" stroke="#C9BFA9"/><text x="396" y="256" text-anchor="middle">student encoder</text><text x="396" y="274" text-anchor="middle" font-size="12" fill="#8B8273">32k BPE → factorized tables → Transformer</text>
+    <rect x="628" y="234" width="160" height="50" rx="8" fill="#fff" stroke="#C9BFA9"/><text x="708" y="256" text-anchor="middle">per-token latents</text><text x="708" y="273" text-anchor="middle" font-size="12" fill="#8B8273">BCE + soft distill</text>
+  </g>
+  <g stroke="#9A8F77" stroke-width="1.6" fill="none" marker-end="url(#a)">
+    <path d="M132,259 H244"/><path d="M546,259 H626"/>
+  </g>
+  <path d="M699,122 C699,160 708,170 708,232" stroke="#BF5A38" stroke-width="1.5" fill="none" stroke-dasharray="4 3" marker-end="url(#ac)"/>
+  <text x="724" y="180" font-size="11.5" fill="#BF5A38">targets (offline)</text>
+
+  <!-- arrow distil -> inference -->
+  <path d="M410,302 V326" stroke="#9A8F77" stroke-width="1.6" fill="none" marker-end="url(#a)"/>
+
+  <!-- INFERENCE -->
+  <rect x="15" y="328" width="790" height="138" rx="12" fill="#EFF3EC" stroke="#BCD0BD" stroke-width="1.5"/>
+  <text x="32" y="352" font-size="13" font-weight="700" fill="#3F7A52" letter-spacing=".4">INFERENCE — in the app · no SAE · no Gemma · CPU / offline</text>
+  <g font-size="13" fill="#33302A">
+    <rect x="32" y="378" width="96" height="56" rx="8" fill="#fff" stroke="#B7C9B3"/><text x="80" y="411" text-anchor="middle">text in</text>
+    <rect x="196" y="378" width="172" height="56" rx="8" fill="#fff" stroke="#B7C9B3"/><text x="282" y="402" text-anchor="middle">golf probe</text><text x="282" y="420" text-anchor="middle" font-size="12" fill="#8B8273">5.3M · 5.3MB int8</text>
+    <rect x="436" y="378" width="150" height="56" rx="8" fill="#fff" stroke="#B7C9B3"/><text x="511" y="402" text-anchor="middle">latents + z</text><text x="511" y="420" text-anchor="middle" font-size="12" fill="#8B8273">witnesses · boundaries</text>
+    <rect x="630" y="378" width="158" height="56" rx="8" fill="#fff" stroke="#B7C9B3"/><text x="709" y="402" text-anchor="middle">tokens · boundaries</text><text x="709" y="420" text-anchor="middle" font-size="12" fill="#8B8273">Claude judge</text>
+  </g>
+  <g stroke="#7FA985" stroke-width="1.7" fill="none" marker-end="url(#a)">
+    <path d="M128,406 H194"/><path d="M368,406 H434"/><path d="M586,406 H628"/>
+  </g>
+</svg>

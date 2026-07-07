@@ -1,0 +1,25 @@
+{
+ "teacher": {
+  "model": "gemma-2-9b",
+  "sae": "layer_20/width_16k/canonical"
+ },
+ "corpus": {
+  "web": 12285,
+  "code": 9942,
+  "cot": 10800,
+  "math": 5744,
+  "chat": 4898
+ },
+ "spans": 43669,
+ "tokens": 1187120,
+ "kept_latents": 2048,
+ "captions_written": 2045,
+ "passed_gate": 874,
+ "writer": "google/gemini-2.5-flash-lite",
+ "checker": "google/gemini-2.5-flash-lite",
+ "spend_usd": 0.83,
+ "gates": {
+  "specificity": 2,
+  "val_f1": 0.6
+ }
+}

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 372" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <rect width="820" height="372" fill="#FFFFFF"/>
+  <text x="40" y="30" font-size="16" font-weight="700" fill="#33302A">The ladder — z-p@5 (top-5 precision vs the 9B teacher), one variable per rung</text>
+  <text x="40" y="50" font-size="12.5" fill="#8B8273">held-out documents · spans fire 138/2,048 latents · every bar is read as distance above the frequency floor</text>
+
+  <!-- gridlines + y labels -->
+  <g font-size="11.5" fill="#9A8F77">
+    <line x1="88" y1="310" x2="792" y2="310" stroke="#E6E0D2"/><text x="78" y="314" text-anchor="end">0.0</text>
+    <line x1="88" y1="250" x2="792" y2="250" stroke="#E6E0D2"/><text x="78" y="254" text-anchor="end">0.25</text>
+    <line x1="88" y1="190" x2="792" y2="190" stroke="#E6E0D2"/><text x="78" y="194" text-anchor="end">0.50</text>
+    <line x1="88" y1="130" x2="792" y2="130" stroke="#E6E0D2"/><text x="78" y="134" text-anchor="end">0.75</text>
+    <line x1="88" y1="70"  x2="792" y2="70"  stroke="#E6E0D2"/><text x="78" y="74"  text-anchor="end">1.0</text>
+  </g>
+
+  <!-- frequency-5 floor -->
+  <line x1="88" y1="238.7" x2="792" y2="238.7" stroke="#BD6B53" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <text x="792" y="233" font-size="11.5" fill="#BD6B53" text-anchor="end">frequency-5 floor 0.297 (“always show the 5 most common”)</text>
+
+  <!-- bars: y = 310 - 240*value -->
+  <g>
+    <rect x="101" y="81.3" width="78" height="228.7" rx="4" fill="#D6CDBB"/>
+    <rect x="211" y="84.4" width="78" height="225.6" rx="4" fill="#D6CDBB"/>
+    <rect x="321" y="85.6" width="78" height="224.4" rx="4" fill="#D6CDBB"/>
+    <rect x="431" y="82.5" width="78" height="227.5" rx="4" fill="#C9A48D"/>
+    <rect x="541" y="82.7" width="78" height="227.3" rx="4" fill="#C9A48D"/>
+    <rect x="661" y="80.6" width="78" height="229.4" rx="4" fill="#BF5A38"/>
+  </g>
+
+  <!-- values -->
+  <g font-size="13" font-weight="700" fill="#33302A" text-anchor="middle">
+    <text x="140" y="74">0.953</text>
+    <text x="250" y="77">0.940</text>
+    <text x="360" y="78">0.935</text>
+    <text x="470" y="75">0.948</text>
+    <text x="580" y="75">0.947</text>
+    <text x="700" y="67" fill="#BF5A38">0.956</text>
+  </g>
+
+  <!-- rung labels -->
+  <g font-size="12" fill="#33302A" text-anchor="middle">
+    <text x="140" y="330">A · old recipe</text>
+    <text x="250" y="330">B · +32k tokenizer</text>
+    <text x="360" y="330">C · +factorized</text>
+    <text x="470" y="330">D · +entropy golf</text>
+    <text x="580" y="330">E · smear-for-table</text>
+    <text x="700" y="330" font-weight="700">F · trained out</text>
+  </g>
+  <g font-size="11" fill="#8B8273" text-anchor="middle">
+    <text x="140" y="346">23.1M · new data</text>
+    <text x="250" y="346">14.7M</text>
+    <text x="360" y="346">5.3M</text>
+    <text x="470" y="346">5.3M · zero params</text>
+    <text x="580" y="346">4.25M · 13-param gate</text>
+    <text x="700" y="346" fill="#BF5A38">5.3M · shipped · 5.3MB int8</text>
+  </g>
+  <text x="40" y="366" font-size="11.5" fill="#8B8273">read: B−A = tokenizer cost · C−B = factorization cost · D−C = entropy golf gain · E−D = compute replaces memory · per-domain (F): web .93 · code .95 · CoT .97 · math .96 · chat .99</text>
+</svg>

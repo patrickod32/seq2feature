@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <rect width="820" height="400" fill="#FFFFFF"/>
+  <text x="40" y="30" font-size="16" font-weight="700" fill="#33302A">Size vs recovery — every system against its own teacher</text>
+  <text x="40" y="50" font-size="12.5" fill="#8B8273">x = disk size (log scale) · y = top-5 agreement with the SAE teacher · the arrow is the project</text>
+  <!-- axes: x log10(MB) 0.5→4.5 maps 100→760 ; y 0→1 maps 330→80 -->
+  <g font-size="11" fill="#9A8F77">
+    <line x1="100" y1="330" x2="770" y2="330" stroke="#D6CDBB"/>
+    <line x1="100" y1="330" x2="100" y2="70" stroke="#D6CDBB"/>
+    <line x1="182.5" y1="330" x2="182.5" y2="76" stroke="#EDE7D8"/><text x="182.5" y="346" text-anchor="middle">10MB</text>
+    <line x1="347.5" y1="330" x2="347.5" y2="76" stroke="#EDE7D8"/><text x="347.5" y="346" text-anchor="middle">100MB</text>
+    <line x1="512.5" y1="330" x2="512.5" y2="76" stroke="#EDE7D8"/><text x="512.5" y="346" text-anchor="middle">1GB</text>
+    <line x1="677.5" y1="330" x2="677.5" y2="76" stroke="#EDE7D8"/><text x="677.5" y="346" text-anchor="middle">10GB</text>
+    <text x="92" y="334" text-anchor="end">0.0</text>
+    <line x1="100" y1="205" x2="770" y2="205" stroke="#EDE7D8"/><text x="92" y="209" text-anchor="end">0.5</text>
+    <line x1="100" y1="80" x2="770" y2="80" stroke="#EDE7D8"/><text x="92" y="84" text-anchor="end">1.0</text>
+  </g>
+  <!-- frequency floor for the golf dictionary -->
+  <line x1="100" y1="255.75" x2="770" y2="255.75" stroke="#BD6B53" stroke-width="1.3" stroke-dasharray="6 4"/>
+  <text x="768" y="250" font-size="10.5" fill="#BD6B53" text-anchor="end">frequency-5 floor 0.297 · shuffle-null 0.068</text>
+  <!-- points: x=100+(log10(MB)-0.5)*165 ; y=330-250*acc -->
+  <!-- teacher 18500MB→log 4.267→x 721.6, acc 1.0→y 80 -->
+  <circle cx="721" cy="80" r="9" fill="#8B8273"/>
+  <text x="721" y="63" font-size="12" font-weight="700" fill="#33302A" text-anchor="middle">Gemma-9B + SAE (teacher)</text>
+  <text x="721" y="100" font-size="10.5" fill="#8B8273" text-anchor="middle">9.2B params · 18.5GB · 1.00</text>
+  <!-- bge 133MB→log 2.124→x 368, acc 0.53→y 197.5 -->
+  <circle cx="368" cy="197.5" r="8" fill="#C9BFA9"/>
+  <text x="368" y="181" font-size="12" fill="#33302A" text-anchor="middle">bge bi-encoder</text>
+  <text x="368" y="215" font-size="10.5" fill="#8B8273" text-anchor="middle">33M · 133MB · 0.53 (2B dict)</text>
+  <!-- nano 6MB→log 0.778→x 145.9, acc 0.84→y 120 -->
+  <circle cx="146" cy="120" r="8" fill="#C9A48D"/>
+  <text x="150" y="104" font-size="12" fill="#33302A" text-anchor="middle">nano (Act I)</text>
+  <text x="152" y="137" font-size="10.5" fill="#8B8273" text-anchor="middle">22M · 6MB · 0.84 (2B dict)</text>
+  <!-- golf 5.3MB→log 0.724→x 137 , acc 0.956→y 91 -->
+  <circle cx="137" cy="91" r="10" fill="#BF5A38"/>
+  <text x="188" y="80" font-size="13" font-weight="700" fill="#BF5A38" text-anchor="start">golf probe — 5.3M · 5.3MB · 0.956</text>
+  <text x="188" y="94" font-size="10.5" fill="#BF5A38" text-anchor="start">own 0.8MB tokenizer · 10–25k tok/s CPU · 2,048 latents (9B dict)</text>
+  <!-- the arrow -->
+  <path d="M705,88 C500,50 300,55 156,84" stroke="#BF5A38" stroke-width="2" fill="none" stroke-dasharray="2 4" marker-end="url(#ah2)"/>
+  <defs><marker id="ah2" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#BF5A38"/></marker></defs>
+  <text x="430" y="42" font-size="11.5" fill="#BF5A38" font-weight="600" text-anchor="middle">≈3,500× less disk, 96% of the readout kept</text>
+  <text x="40" y="382" font-size="11" fill="#8B8273">Accuracies are vs each system's own teacher/dictionary (bge and nano were built against the 2B teacher; golf against the 9B) — the floors shown are golf's.</text>
+</svg>

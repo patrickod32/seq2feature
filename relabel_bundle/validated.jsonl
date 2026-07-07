@@ -1,0 +1,2551 @@
+{"latent": 6558, "caption": "Detects mathematical operations like addition, subtraction, multiplication, division, and simplification.", "trigger": "\u00ab+\u00bb \u00ab(-\u00bb \u00ab1\u00bb ) + \u00b7 0 + \u00b7 1 + \u00b7 2", "specificity": 4}
+{"latent": 6573, "caption": "Code related to mathematical expressions, data structures, and programming functions.", "trigger": "\u00ab", "specificity": 3}
+{"latent": 128, "f1": 0.75}
+{"latent": 258, "f1": 0.4}
+{"latent": 151, "f1": 0.889}
+{"latent": 6417, "caption": "Detects code related to API endpoints, URLs, and data structures.", "trigger": "\u00abapi\u00bb . \u00abv\u00bb \u00abdomain\u00bb \u00abqueue\u00bb . \u00abamazonaws\u00bb . com \u00ab/\u00bb \u00abusers\u00bb ? \u00abmax\u00bb", "specificity": 4}
+{"latent": 120, "f1": 0.8}
+{"latent": 75, "f1": 0.222}
+{"latent": 107, "f1": 0.533}
+{"latent": 44, "f1": 0.714}
+{"latent": 121, "f1": 0.222}
+{"latent": 319, "f1": 0.889}
+{"latent": 95, "f1": 0.462}
+{"latent": 304, "f1": 0.222}
+{"latent": 165, "f1": 0.429}
+{"latent": 115, "f1": 0.533}
+{"latent": 250, "f1": 0.824}
+{"latent": 6601, "caption": "Mathematical expressions and code snippets involving numbers, operators, and symbols.", "trigger": "\u00ab=\u00bb", "specificity": 4}
+{"latent": 277, "f1": 0.769}
+{"latent": 70, "f1": 0.667}
+{"latent": 173, "f1": 0.333}
+{"latent": 249, "f1": 0.462}
+{"latent": 261, "f1": 0.696}
+{"latent": 6595, "caption": "Detects Python import statements, especially for standard libraries like sys, os, and re.", "trigger": "import", "specificity": 4}
+{"latent": 198, "f1": 0.222}
+{"latent": 6563, "caption": "This latent detects tokens related to parsing and schema definition in code, and tax/rental information in web contexts.", "trigger": "schema, parser, Taxes, apartments", "specificity": 3}
+{"latent": 307, "f1": 0.769}
+{"latent": 6575, "caption": "Code related to thresholds, zero values, and specific code constructs like 'reset'.", "trigger": "threshold, zero, reset", "specificity": 4}
+{"latent": 265, "f1": 1.0}
+{"latent": 229, "f1": 0.875}
+{"latent": 334, "f1": 0.714}
+{"latent": 100, "f1": 0.696}
+{"latent": 79, "f1": 1.0}
+{"latent": 6637, "caption": "This latent detects domain names, specifically the '.com' top-level domain.", "trigger": ".\u00abcom\u00bb", "specificity": 5}
+{"latent": 313, "f1": 0.4}
+{"latent": 462, "f1": 0.875}
+{"latent": 220, "f1": 0.615}
+{"latent": 6615, "caption": "This latent detects mentions of Pakistan and related locations like Peshawar and Kohat.", "trigger": "Pakistan", "specificity": 4}
+{"latent": 184, "f1": 0.769}
+{"latent": 6544, "caption": "Detects sentence-ending punctuation and conjunctions like 'and' and 'or'.", "trigger": "\u00ab.\u00bb \u00ab,\u00bb \u00aband\u00bb \u00abor\u00bb", "specificity": 3}
+{"latent": 260, "f1": 0.632}
+{"latent": 472, "f1": 0.615}
+{"latent": 6671, "caption": "Detects bracketed expressions, often representing ranges or lists of items.", "trigger": "[", "specificity": 2}
+{"latent": 6677, "caption": "Python code related to database operations, Django models, and data structures.", "trigger": "db .", "specificity": 3}
+{"latent": 454, "f1": 0.8}
+{"latent": 477, "f1": 0.364}
+{"latent": 6624, "caption": "Logging configuration and related settings.", "trigger": "logging", "specificity": 4}
+{"latent": 478, "f1": 0.364}
+{"latent": 413, "f1": 0.533}
+{"latent": 558, "f1": 0.571}
+{"latent": 469, "f1": 0.2}
+{"latent": 176, "f1": 0.364}
+{"latent": 403, "f1": 0.0}
+{"latent": 422, "f1": 0.571}
+{"latent": 6656, "caption": "Latent detects concepts related to planets, space, and the universe.", "trigger": "planet, space, universe, earth, mars, galaxy, heaven, cosmic, quantum", "specificity": 4}
+{"latent": 406, "f1": 0.615}
+{"latent": 498, "f1": 0.222}
+{"latent": 6704, "caption": "Locations like offices, labs, studios, and hospitals.", "trigger": "office, lab, studio, hospital", "specificity": 3}
+{"latent": 85, "f1": 0.429}
+{"latent": 210, "f1": 0.667}
+{"latent": 6690, "caption": "Detects code related to language settings and file paths.", "trigger": "settings.LANG UAGES : \u00b7 if lang [ 0 ] == settings . LANGUAGE _ CODE : \u00b7 lang _ \u00abname\u00bb \u00ab=\u00bb lang [ 1 ]", "specificity": 3}
+{"latent": 246, "f1": 0.875}
+{"latent": 549, "f1": 0.625}
+{"latent": 561, "f1": 0.0}
+{"latent": 570, "f1": 0.8}
+{"latent": 504, "f1": 0.737}
+{"latent": 642, "f1": 0.857}
+{"latent": 629, "f1": 0.875}
+{"latent": 536, "f1": 1.0}
+{"latent": 6708, "caption": "Detects tokens related to code imports and specific programming language keywords.", "trigger": "import", "specificity": 4}
+{"latent": 417, "f1": 0.769}
+{"latent": 689, "f1": 0.222}
+{"latent": 630, "f1": 0.5}
+{"latent": 600, "f1": 0.769}
+{"latent": 6709, "caption": "This latent detects country names, particularly those in Asia and Europe.", "trigger": "\u00abFrance\u00bb", "specificity": 4}
+{"latent": 521, "f1": 0.545}
+{"latent": 711, "f1": 0.615}
+{"latent": 644, "f1": 0.4}
+{"latent": 707, "f1": 0.8}
+{"latent": 708, "f1": 0.625}
+{"latent": 6740, "caption": "Tokens related to making, crafting, and distributing things.", "trigger": "\u00abmaking\u00bb \u00abthis\u00bb \u00abspecial\u00bb", "specificity": 3}
+{"latent": 730, "f1": 0.857}
+{"latent": 750, "f1": 0.667}
+{"latent": 673, "f1": 0.667}
+{"latent": 724, "f1": 0.857}
+{"latent": 667, "f1": 0.182}
+{"latent": 6766, "caption": "Mathematical expressions and code snippets often use special characters like colons, periods, and backslashes.", "trigger": "[: \u00b7 \\", "specificity": 3}
+{"latent": 790, "f1": 0.364}
+{"latent": 770, "f1": 0.222}
+{"latent": 737, "f1": 0.667}
+{"latent": 800, "f1": 0.571}
+{"latent": 421, "f1": 0.308}
+{"latent": 810, "f1": 0.667}
+{"latent": 376, "f1": 0.842}
+{"latent": 699, "f1": 0.857}
+{"latent": 6772, "caption": "The concept of a 'day', often in a narrative or event context.", "trigger": "day", "specificity": 3}
+{"latent": 717, "f1": 0.75}
+{"latent": 834, "f1": 0.4}
+{"latent": 740, "f1": 0.182}
+{"latent": 341, "f1": 0.2}
+{"latent": 833, "f1": 0.5}
+{"latent": 764, "f1": 0.2}
+{"latent": 856, "f1": 0.8}
+{"latent": 815, "f1": 0.667}
+{"latent": 331, "f1": 0.0}
+{"latent": 902, "f1": 0.4}
+{"latent": 881, "f1": 0.824}
+{"latent": 160, "f1": 0.143}
+{"latent": 404, "f1": 0.5}
+{"latent": 835, "f1": 0.429}
+{"latent": 146, "f1": 0.933}
+{"latent": 837, "f1": 0.4}
+{"latent": 6785, "caption": "This latent detects tokens related to code structure, including function definitions, properties, and attribute access.", "trigger": "def . return . self .", "specificity": 4}
+{"latent": 876, "f1": 1.0}
+{"latent": 932, "f1": 0.632}
+{"latent": 954, "f1": 0.462}
+{"latent": 779, "f1": 0.941}
+{"latent": 992, "f1": 0.667}
+{"latent": 142, "f1": 0.4}
+{"latent": 6793, "caption": "This latent detects code related to string manipulation, file handling, and argument parsing.", "trigger": "'.'.join", "specificity": 3}
+{"latent": 899, "f1": 0.571}
+{"latent": 994, "f1": 0.4}
+{"latent": 984, "f1": 0.857}
+{"latent": 958, "f1": 0.588}
+{"latent": 1061, "f1": 0.222}
+{"latent": 955, "f1": 0.842}
+{"latent": 990, "f1": 0.571}
+{"latent": 922, "f1": 0.8}
+{"latent": 6810, "caption": "Detects tokens related to awards, possibly in a legal or technical context.", "trigger": "aw", "specificity": 3}
+{"latent": 1085, "f1": 0.462}
+{"latent": 1024, "f1": 0.615}
+{"latent": 975, "f1": 0.706}
+{"latent": 6679, "caption": "Proper nouns, often names of people, places, or organizations.", "trigger": "\u00abAnton\u00bb \u00abKo\u00bb \u00ablig\u00bb", "specificity": 3}
+{"latent": 979, "f1": 0.118}
+{"latent": 1021, "f1": 1.0}
+{"latent": 1030, "f1": 0.533}
+{"latent": 1123, "f1": 0.571}
+{"latent": 996, "f1": 0.941}
+{"latent": 1054, "f1": 0.533}
+{"latent": 1118, "f1": 0.5}
+{"latent": 1109, "f1": 0.737}
+{"latent": 1167, "f1": 0.615}
+{"latent": 1111, "f1": 0.933}
+{"latent": 1191, "f1": 0.706}
+{"latent": 1082, "f1": 0.667}
+{"latent": 1156, "f1": 0.462}
+{"latent": 959, "f1": 0.8}
+{"latent": 1196, "f1": 0.778}
+{"latent": 1217, "f1": 0.8}
+{"latent": 1213, "f1": 0.429}
+{"latent": 1105, "f1": 0.667}
+{"latent": 6811, "caption": "The latent detects the concept of a 'case' as a specific instance or scenario.", "trigger": "case", "specificity": 4}
+{"latent": 906, "f1": 0.5}
+{"latent": 1235, "f1": 0.545}
+{"latent": 1184, "f1": 0.4}
+{"latent": 1292, "f1": 0.769}
+{"latent": 1140, "f1": 0.636}
+{"latent": 6821, "caption": "Detects phrases related to 'lucky' numbers, 'quality' or 'live' events, and 'tradition' or 'code' examples.", "trigger": "lucky|quality|live|tradition|code", "specificity": 3}
+{"latent": 1168, "f1": 0.2}
+{"latent": 1093, "f1": 0.5}
+{"latent": 6845, "caption": "Detects tokens related to physical actions, states, or conditions of entities.", "trigger": "walk, talk, be, pay, feel, supple, itself, man, or, from, 2, 1, present, database, fasten, seat, belt, human, rights, focus, for, years, mode, file, stash, 1, it, public, key, suggestions, you, general, true, both, honest, suitable, z, discussions, about, inclusive, t, be, there", "specificity": 3}
+{"latent": 1238, "f1": 0.778}
+{"latent": 1324, "f1": 0.667}
+{"latent": 1363, "f1": 0.571}
+{"latent": 1447, "f1": 0.667}
+{"latent": 1285, "f1": 0.769}
+{"latent": 1384, "f1": 0.5}
+{"latent": 1205, "f1": 0.889}
+{"latent": 1418, "f1": 1.0}
+{"latent": 1263, "f1": 0.4}
+{"latent": 1451, "f1": 0.824}
+{"latent": 6869, "caption": "This latent detects tokens related to programming code, especially imports and variable assignments.", "trigger": "import", "specificity": 4}
+{"latent": 1249, "f1": 0.571}
+{"latent": 1388, "f1": 0.667}
+{"latent": 1362, "f1": 0.636}
+{"latent": 6847, "caption": "Guidance on how to 'do' things, often involving advice or instructions.", "trigger": "do", "specificity": 3}
+{"latent": 1273, "f1": 0.933}
+{"latent": 1547, "f1": 0.0}
+{"latent": 1174, "f1": 0.933}
+{"latent": 1404, "f1": 0.571}
+{"latent": 6770, "caption": "Tokens related to positive emotions, relationships, and aspirations.", "trigger": "\u00ablove\u00bb | \u00abhope\u00bb | \u00abglory\u00bb | \u00abhonor\u00bb | \u00abvalue\u00bb | \u00abloyalty\u00bb | \u00abpeace\u00bb | \u00absuccess\u00bb | \u00ablaughter\u00bb | \u00absalvation\u00bb | \u00abfreedom\u00bb | \u00abliberty\u00bb | \u00abtruth\u00bb | \u00abreason\u00bb | \u00abcuriosity\u00bb | \u00abpassion\u00bb | \u00abbond\u00bb | \u00abintention\u00bb | \u00abreliance\u00bb | \u00abdefense\u00bb", "specificity": 4}
+{"latent": 1532, "f1": 0.2}
+{"latent": 1645, "f1": 0.667}
+{"latent": 1453, "f1": 0.7}
+{"latent": 1644, "f1": 0.222}
+{"latent": 1293, "f1": 0.667}
+{"latent": 1629, "f1": 0.769}
+{"latent": 6871, "caption": "Conditional statements involving parentheses", "trigger": "\u00ab(\u00bb", "specificity": 3}
+{"latent": 1536, "f1": 0.333}
+{"latent": 1621, "f1": 0.857}
+{"latent": 6640, "caption": "The latent detects the phrase 'Okay, so' often preceding a problem statement or explanation.", "trigger": "Okay , \u00abso\u00bb", "specificity": 4}
+{"latent": 138, "f1": 0.364}
+{"latent": 1561, "f1": 0.571}
+{"latent": 6872, "caption": "Tokens indicating a statement of fact or belief, often introduced by 'that'.", "trigger": "that", "specificity": 3}
+{"latent": 1655, "f1": 0.571}
+{"latent": 1075, "f1": 0.364}
+{"latent": 1463, "f1": 0.364}
+{"latent": 1559, "f1": 0.154}
+{"latent": 1650, "f1": 0.75}
+{"latent": 1562, "f1": 0.8}
+{"latent": 1663, "f1": 0.615}
+{"latent": 1662, "f1": 0.545}
+{"latent": 1229, "f1": 0.2}
+{"latent": 1637, "f1": 0.588}
+{"latent": 1279, "f1": 0.462}
+{"latent": 1681, "f1": 0.706}
+{"latent": 6880, "caption": "Tokens related to organizations, companies, and their services or products.", "trigger": "\u00abtenant\u00bb \u00abportal\u00bb", "specificity": 3}
+{"latent": 396, "f1": 0.75}
+{"latent": 1665, "f1": 0.714}
+{"latent": 1627, "f1": 0.375}
+{"latent": 1441, "f1": 0.429}
+{"latent": 1724, "f1": 0.0}
+{"latent": 1525, "f1": 0.308}
+{"latent": 1784, "f1": 0.2}
+{"latent": 1822, "f1": 0.556}
+{"latent": 1719, "f1": 0.308}
+{"latent": 6897, "caption": "This latent detects mentions of Russia, Russian people, and the Soviet Union.", "trigger": "\u00abRussian\u00bb", "specificity": 4}
+{"latent": 1750, "f1": 0.556}
+{"latent": 1639, "f1": 0.769}
+{"latent": 6934, "caption": "Detects phrases indicating a condition or definition, often using 'if' or 'iff'.", "trigger": "if", "specificity": 3}
+{"latent": 1657, "f1": 0.632}
+{"latent": 1751, "f1": 0.933}
+{"latent": 1912, "f1": 0.75}
+{"latent": 1865, "f1": 0.545}
+{"latent": 6915, "caption": "The connection or association between entities.", "trigger": "relationship", "specificity": 4}
+{"latent": 1769, "f1": 0.632}
+{"latent": 6930, "caption": "Tokens related to names, possibly of people or places, often appearing in code or text contexts.", "trigger": "\u00abAk\u00bb", "specificity": 3}
+{"latent": 1922, "f1": 0.778}
+{"latent": 592, "f1": 0.4}
+{"latent": 1664, "f1": 0.824}
+{"latent": 6888, "caption": "Detects tokens related to mathematical operations, equations, and numerical concepts.", "trigger": "\u00aba\u00bb _ r", "specificity": 4}
+{"latent": 1746, "f1": 0.625}
+{"latent": 393, "f1": 1.0}
+{"latent": 1936, "f1": 0.875}
+{"latent": 12, "f1": 0.824}
+{"latent": 456, "f1": 0.0}
+{"latent": 1758, "f1": 0.667}
+{"latent": 359, "f1": 0.4}
+{"latent": 1952, "f1": 0.824}
+{"latent": 1917, "f1": 0.667}
+{"latent": 1805, "f1": 0.667}
+{"latent": 1492, "f1": 0.571}
+{"latent": 363, "f1": 1.0}
+{"latent": 1548, "f1": 0.769}
+{"latent": 268, "f1": 0.533}
+{"latent": 1954, "f1": 0.0}
+{"latent": 6936, "caption": "Tokens related to dates, months, and specific numerical values.", "trigger": "\u00abNovember\u00bb \u00b7 2 2", "specificity": 3}
+{"latent": 1885, "f1": 0.75}
+{"latent": 1539, "f1": 0.5}
+{"latent": 1794, "f1": 0.167}
+{"latent": 1840, "f1": 0.222}
+{"latent": 1971, "f1": 0.5}
+{"latent": 1969, "f1": 0.769}
+{"latent": 2020, "f1": 0.4}
+{"latent": 1408, "f1": 0.615}
+{"latent": 6701, "caption": "Detects tokens related to code, math, and factual statements.", "trigger": "\u00abthe\u00bb \u00abscore\u00bb \u00abgets\u00bb", "specificity": 2}
+{"latent": 1987, "f1": 0.4}
+{"latent": 6953, "caption": "Events occurring a specific duration before or after a reference point in time.", "trigger": "before \u00abthe\u00bb \u00abqualifier\u00bb", "specificity": 4}
+{"latent": 2076, "f1": 0.222}
+{"latent": 1974, "f1": 0.462}
+{"latent": 1961, "f1": 0.4}
+{"latent": 2108, "f1": 0.714}
+{"latent": 1680, "f1": 0.769}
+{"latent": 2138, "f1": 0.824}
+{"latent": 2070, "f1": 0.625}
+{"latent": 1889, "f1": 0.615}
+{"latent": 1985, "f1": 0.533}
+{"latent": 6994, "caption": "This latent detects mathematical expressions involving the exponent '2', often representing squares.", "trigger": "\u00ab2\u00bb", "specificity": 4}
+{"latent": 1845, "f1": 0.308}
+{"latent": 474, "f1": 0.364}
+{"latent": 2001, "f1": 0.545}
+{"latent": 2089, "f1": 0.769}
+{"latent": 1812, "f1": 0.222}
+{"latent": 2147, "f1": 0.8}
+{"latent": 1997, "f1": 0.875}
+{"latent": 2169, "f1": 0.615}
+{"latent": 2081, "f1": 0.667}
+{"latent": 6707, "caption": "Detects tokens related to 'sub' as a prefix for words like 'subtract', 'subarray', 'substring', and 'submodule'.", "trigger": "sub", "specificity": 4}
+{"latent": 2102, "f1": 0.222}
+{"latent": 7005, "caption": "This latent detects mathematical expressions involving sequences and series, often with indices like 'n' or 'k'.", "trigger": "n", "specificity": 4}
+{"latent": 2226, "f1": 0.824}
+{"latent": 626, "f1": 0.737}
+{"latent": 1389, "f1": 0.778}
+{"latent": 2266, "f1": 0.667}
+{"latent": 2166, "f1": 1.0}
+{"latent": 2135, "f1": 0.625}
+{"latent": 2119, "f1": 0.636}
+{"latent": 2181, "f1": 0.75}
+{"latent": 2074, "f1": 0.8}
+{"latent": 6727, "caption": "Tokens related to the creation or production of goods and services.", "trigger": "manufactured, made, manufacturing, manufacturers", "specificity": 4}
+{"latent": 2155, "f1": 0.625}
+{"latent": 2185, "f1": 0.667}
+{"latent": 7016, "caption": "Detects concepts of opposition, reversal, or inverse relationships.", "trigger": "opposite", "specificity": 4}
+{"latent": 2264, "f1": 0.667}
+{"latent": 7014, "caption": "This latent detects concepts related to spirituality, faith, and religious practices.", "trigger": "\u00abpeace\u00bb \u00abholy\u00bb \u00abfaith\u00bb \u00abBlessed\u00bb \u00abtemple\u00bb \u00absanctuary\u00bb \u00abspiritually\u00bb \u00abworship\u00bb \u00abPastor\u00bb \u00abChristian\u00bb \u00abmissionary\u00bb \u00abrevered\u00bb \u00abprayers\u00bb \u00abholiness\u00bb \u00abreligious\u00bb", "specificity": 4}
+{"latent": 2333, "f1": 0.615}
+{"latent": 2214, "f1": 0.545}
+{"latent": 6995, "caption": "This latent detects phrases indicating movement or progression, often with a directional or temporal component.", "trigger": "go", "specificity": 3}
+{"latent": 2308, "f1": 0.2}
+{"latent": 2196, "f1": 0.222}
+{"latent": 2365, "f1": 0.4}
+{"latent": 564, "f1": 1.0}
+{"latent": 2159, "f1": 0.222}
+{"latent": 2278, "f1": 0.571}
+{"latent": 2339, "f1": 0.364}
+{"latent": 6947, "caption": "This latent detects tokens related to 'bin' and 'min'/'max' in code and text.", "trigger": "bin|min|max", "specificity": 3}
+{"latent": 530, "f1": 0.714}
+{"latent": 2355, "f1": 0.857}
+{"latent": 2101, "f1": 0.526}
+{"latent": 2190, "f1": 0.0}
+{"latent": 2294, "f1": 0.778}
+{"latent": 2382, "f1": 0.0}
+{"latent": 2356, "f1": 0.533}
+{"latent": 2419, "f1": 0.75}
+{"latent": 2255, "f1": 1.0}
+{"latent": 7024, "caption": "Casting a string to an integer type.", "trigger": "\u00abint\u00bb", "specificity": 5}
+{"latent": 7029, "caption": "Code comments and documentation markers like '<!--', '-----', and '----------'.", "trigger": "\u00ab<!--\u00bb|\u00ab-->\u00bb|\u00ab-----\u00bb|\u00ab----------\u00bb", "specificity": 4}
+{"latent": 129, "f1": 0.625}
+{"latent": 7030, "caption": "This latent detects Python code related to HTTP requests, class definitions, and function calls.", "trigger": "http.request", "specificity": 4}
+{"latent": 2235, "f1": 0.857}
+{"latent": 2303, "f1": 0.714}
+{"latent": 2399, "f1": 0.364}
+{"latent": 2494, "f1": 0.333}
+{"latent": 2417, "f1": 0.75}
+{"latent": 2487, "f1": 0.462}
+{"latent": 2240, "f1": 0.333}
+{"latent": 2376, "f1": 0.588}
+{"latent": 2421, "f1": 0.714}
+{"latent": 2348, "f1": 0.462}
+{"latent": 2373, "f1": 0.571}
+{"latent": 2453, "f1": 0.333}
+{"latent": 2400, "f1": 0.778}
+{"latent": 7042, "caption": "This latent detects mentions of a 'website' in various contexts, from personal pages to business services.", "trigger": "\u00abwebsite\u00bb", "specificity": 4}
+{"latent": 669, "f1": 0.0}
+{"latent": 2498, "f1": 0.857}
+{"latent": 2485, "f1": 0.333}
+{"latent": 7038, "caption": "Detects mentions of Wi-Fi, a wireless networking technology.", "trigger": "Wi-Fi", "specificity": 4}
+{"latent": 2442, "f1": 0.941}
+{"latent": 2262, "f1": 0.308}
+{"latent": 2372, "f1": 0.615}
+{"latent": 2489, "f1": 0.222}
+{"latent": 2450, "f1": 0.667}
+{"latent": 2478, "f1": 0.8}
+{"latent": 1515, "f1": 0.4}
+{"latent": 2170, "f1": 0.0}
+{"latent": 2117, "f1": 0.8}
+{"latent": 2490, "f1": 0.364}
+{"latent": 7056, "caption": "The conjunction '&' used to connect items in a list or phrases.", "trigger": "&", "specificity": 4}
+{"latent": 7052, "caption": "Detects phrases related to divine or human action, possession, and knowledge.", "trigger": "that you are", "specificity": 3}
+{"latent": 2360, "f1": 0.4}
+{"latent": 2395, "f1": 0.769}
+{"latent": 2727, "f1": 0.222}
+{"latent": 2552, "f1": 0.706}
+{"latent": 7090, "caption": "Detects mathematical expressions and code snippets involving variables, numbers, and operators.", "trigger": "\u00ab\u00b7\u00bb", "specificity": 3}
+{"latent": 2567, "f1": 0.875}
+{"latent": 1585, "f1": 0.769}
+{"latent": 2532, "f1": 0.667}
+{"latent": 2663, "f1": 0.556}
+{"latent": 2516, "f1": 0.167}
+{"latent": 2634, "f1": 0.462}
+{"latent": 2544, "f1": 0.615}
+{"latent": 2596, "f1": 0.222}
+{"latent": 2761, "f1": 0.222}
+{"latent": 2804, "f1": 0.462}
+{"latent": 2839, "f1": 0.333}
+{"latent": 2784, "f1": 0.706}
+{"latent": 7073, "caption": "The presence of an indefinite article ('a' or 'an') preceding a noun.", "trigger": "a", "specificity": 3}
+{"latent": 2611, "f1": 0.5}
+{"latent": 6978, "caption": "This latent detects expressions of doubt, uncertainty, suspicion, and questioning.", "trigger": "doubt, suspect, wonder, uncertain, guess, strange", "specificity": 4}
+{"latent": 2799, "f1": 0.75}
+{"latent": 7101, "caption": "Numbers, especially sequences and specific values, often appearing in mathematical or code contexts.", "trigger": "numeric sequences and specific numbers", "specificity": 4}
+{"latent": 2711, "f1": 0.545}
+{"latent": 2737, "f1": 0.4}
+{"latent": 2547, "f1": 0.182}
+{"latent": 2791, "f1": 0.667}
+{"latent": 7127, "caption": "Detects code related to setting or updating parameters, like 'alpha', 'pylab', or 'password'.", "trigger": "alpha", "specificity": 3}
+{"latent": 2586, "f1": 0.364}
+{"latent": 7094, "caption": "Detects code and math snippets, especially those involving variables, functions, and mathematical operations.", "trigger": "code, math, \u00abset\u00bb, \u00abrequirement\u00bb, \u00aboffset\u00bb, \u00abline\u00bb, \u00abpoint\u00bb, \u00abgradient\u00bb, \u00abnumber\u00bb, \u00ablon\u00bb, \u00absettings\u00bb, \u00abpool\u00bb, \u00abregion\u00bb, \u00abC\u00bb, \u00abA\u00bb, \u00ab1\u00bb, \u00ab3\u00bb", "specificity": 4}
+{"latent": 2746, "f1": 0.4}
+{"latent": 2816, "f1": 0.625}
+{"latent": 7119, "caption": "Detects mathematical and programming constructs, including sequences, variables, and code syntax.", "trigger": "\u00ab\\\u00bb", "specificity": 3}
+{"latent": 2272, "f1": 0.222}
+{"latent": 2805, "f1": 0.625}
+{"latent": 2563, "f1": 0.933}
+{"latent": 2921, "f1": 0.222}
+{"latent": 2823, "f1": 0.778}
+{"latent": 2601, "f1": 0.429}
+{"latent": 2645, "f1": 0.615}
+{"latent": 7105, "caption": "This latent detects specific tokens related to code, math, and web content.", "trigger": "\u00abof\u00bb", "specificity": 1}
+{"latent": 2901, "f1": 0.75}
+{"latent": 2961, "f1": 0.824}
+{"latent": 3058, "f1": 0.2}
+{"latent": 2923, "f1": 0.2}
+{"latent": 3032, "f1": 0.875}
+{"latent": 2982, "f1": 0.714}
+{"latent": 2919, "f1": 0.824}
+{"latent": 2991, "f1": 0.5}
+{"latent": 3024, "f1": 0.857}
+{"latent": 7128, "caption": "Mathematical expressions involving functions, variables, and equations.", "trigger": "\u00ab(\u00bb", "specificity": 4}
+{"latent": 2936, "f1": 0.286}
+{"latent": 3039, "f1": 0.222}
+{"latent": 2997, "f1": 0.222}
+{"latent": 2674, "f1": 0.615}
+{"latent": 1753, "f1": 0.545}
+{"latent": 2985, "f1": 0.941}
+{"latent": 2996, "f1": 0.545}
+{"latent": 2994, "f1": 0.333}
+{"latent": 2461, "f1": 0.429}
+{"latent": 3088, "f1": 0.933}
+{"latent": 3044, "f1": 0.5}
+{"latent": 2909, "f1": 0.778}
+{"latent": 7164, "caption": "This latent detects numerical sequences, especially lists of numbers and ranges.", "trigger": "\u00b7 1 \u00ab5\u00bb , \u00b7 1 \u00ab7\u00bb , \u00b7 1 \u00ab9\u00bb", "specificity": 4}
+{"latent": 2874, "f1": 0.8}
+{"latent": 2672, "f1": 0.4}
+{"latent": 2662, "f1": 0.222}
+{"latent": 3013, "f1": 0.545}
+{"latent": 2797, "f1": 0.714}
+{"latent": 7173, "caption": "This latent detects mathematical expressions involving exponents, powers, and roots.", "trigger": "\u00ab^{\u00bb", "specificity": 4}
+{"latent": 2978, "f1": 0.571}
+{"latent": 3059, "f1": 0.625}
+{"latent": 2972, "f1": 0.588}
+{"latent": 3154, "f1": 0.0}
+{"latent": 3086, "f1": 0.5}
+{"latent": 3201, "f1": 0.941}
+{"latent": 2848, "f1": 0.667}
+{"latent": 7238, "caption": "This latent detects mathematical expressions involving variables like p, q, n, m, and k.", "trigger": "\u00abp\u00bb", "specificity": 4}
+{"latent": 7187, "caption": "Python code related to configuration, testing, and command-line arguments.", "trigger": "['\u00bb', '\u00ab', '.']", "specificity": 3}
+{"latent": 3097, "f1": 0.267}
+{"latent": 3077, "f1": 0.8}
+{"latent": 2286, "f1": 0.875}
+{"latent": 3064, "f1": 0.5}
+{"latent": 2679, "f1": 0.462}
+{"latent": 2988, "f1": 0.545}
+{"latent": 7178, "caption": "The latent detects expressions of personal states and actions, often using 'am' or 'are'.", "trigger": "am", "specificity": 3}
+{"latent": 3221, "f1": 0.167}
+{"latent": 3171, "f1": 0.0}
+{"latent": 3104, "f1": 0.364}
+{"latent": 3248, "f1": 0.545}
+{"latent": 2683, "f1": 0.364}
+{"latent": 3071, "f1": 0.429}
+{"latent": 3269, "f1": 0.0}
+{"latent": 3164, "f1": 0.526}
+{"latent": 3170, "f1": 0.2}
+{"latent": 3255, "f1": 0.462}
+{"latent": 7171, "caption": "Contrasting two ideas or possibilities, often introduced by 'but'.", "trigger": "but", "specificity": 4}
+{"latent": 1632, "f1": 0.5}
+{"latent": 3244, "f1": 0.0}
+{"latent": 2521, "f1": 0.933}
+{"latent": 3263, "f1": 0.714}
+{"latent": 3222, "f1": 0.75}
+{"latent": 3212, "f1": 0.615}
+{"latent": 3091, "f1": 0.364}
+{"latent": 7048, "caption": "Detects Python code related to configuration, data structures, and object-oriented programming.", "trigger": "\u00ab_\u00bb", "specificity": 2}
+{"latent": 7279, "caption": "This latent detects tokens related to problem-solving and guidance.", "trigger": "\u00abtackle\u00bb \u00abproblem\u00bb", "specificity": 4}
+{"latent": 2554, "f1": 0.0}
+{"latent": 3311, "f1": 0.182}
+{"latent": 3299, "f1": 0.364}
+{"latent": 3214, "f1": 0.714}
+{"latent": 3338, "f1": 0.889}
+{"latent": 3288, "f1": 0.5}
+{"latent": 7251, "caption": "This latent detects concepts related to systems, logic, and operations.", "trigger": "logic|system|operation|skill|set|alignment|modulo|flag|floating|point|personnel|army|comma|competitions|joy|Christ|America|human|nature|our|cultural|biases|Addison|books|hops|someone|else|s|men|rape", "specificity": 3}
+{"latent": 7291, "caption": "Tokens related to admitting, realizing, deciding, or telling something to someone.", "trigger": "realized", "specificity": 4}
+{"latent": 2926, "f1": 0.737}
+{"latent": 7288, "caption": "Detects the concept of 'non-' followed by various adjectives or nouns, often in formal or technical contexts.", "trigger": "\u00abnon\u00bb", "specificity": 4}
+{"latent": 7248, "caption": "Detects phrases indicating universality or lack of restriction.", "trigger": "any", "specificity": 3}
+{"latent": 3291, "f1": 0.667}
+{"latent": 3396, "f1": 0.588}
+{"latent": 3397, "f1": 0.533}
+{"latent": 3314, "f1": 0.462}
+{"latent": 3297, "f1": 0.778}
+{"latent": 3401, "f1": 0.222}
+{"latent": 3153, "f1": 0.4}
+{"latent": 2525, "f1": 0.737}
+{"latent": 3124, "f1": 0.0}
+{"latent": 7276, "caption": "This latent detects concepts related to cycling, bicycles, and related activities.", "trigger": "bicycle, bike, cycling, cyclist, biking", "specificity": 4}
+{"latent": 3362, "f1": 0.0}
+{"latent": 3424, "f1": 0.533}
+{"latent": 3455, "f1": 0.824}
+{"latent": 3423, "f1": 0.769}
+{"latent": 3398, "f1": 0.696}
+{"latent": 3358, "f1": 0.462}
+{"latent": 3391, "f1": 0.222}
+{"latent": 3412, "f1": 0.222}
+{"latent": 7321, "caption": "Tokens related to code imports, mathematical expressions, and definitions.", "trigger": "import|def|class|function|math|equation|variable|token", "specificity": 2}
+{"latent": 3442, "f1": 0.2}
+{"latent": 3389, "f1": 0.0}
+{"latent": 3344, "f1": 0.933}
+{"latent": 7313, "caption": "Detects Python code related to object instantiation and attribute access.", "trigger": "\u00abgetattr\u00bb", "specificity": 4}
+{"latent": 3313, "f1": 0.667}
+{"latent": 3474, "f1": 0.222}
+{"latent": 7328, "caption": "This latent detects tokens related to 'slots' in various contexts, including programming, games, and data structures.", "trigger": "slots", "specificity": 4}
+{"latent": 7361, "caption": "Detects abbreviations and acronyms, often in code or technical contexts.", "trigger": "RE", "specificity": 4}
+{"latent": 3561, "f1": 0.667}
+{"latent": 3339, "f1": 0.5}
+{"latent": 3366, "f1": 0.667}
+{"latent": 3452, "f1": 0.235}
+{"latent": 3462, "f1": 0.857}
+{"latent": 2813, "f1": 0.824}
+{"latent": 3565, "f1": 0.0}
+{"latent": 3537, "f1": 0.857}
+{"latent": 2759, "f1": 0.286}
+{"latent": 3494, "f1": 0.8}
+{"latent": 3523, "f1": 0.0}
+{"latent": 3147, "f1": 0.615}
+{"latent": 3548, "f1": 0.364}
+{"latent": 3534, "f1": 0.533}
+{"latent": 7368, "caption": "Tokens indicating something is capable of being acted upon or modified.", "trigger": "able", "specificity": 4}
+{"latent": 3540, "f1": 0.615}
+{"latent": 7300, "caption": "This latent detects mentions of 'Latin' and related classical or historical terms.", "trigger": "Latin", "specificity": 4}
+{"latent": 3553, "f1": 0.571}
+{"latent": 3175, "f1": 0.769}
+{"latent": 7374, "caption": "Numbers and mathematical operations, often in sequences or sets.", "trigger": "\u00b7", "specificity": 1}
+{"latent": 3518, "f1": 0.857}
+{"latent": 3418, "f1": 0.842}
+{"latent": 2911, "f1": 0.462}
+{"latent": 3475, "f1": 0.0}
+{"latent": 7344, "caption": "Detects 'sorry' or 'apologies' used to express regret or make excuses.", "trigger": "sorry | apologies", "specificity": 4}
+{"latent": 3563, "f1": 1.0}
+{"latent": 3602, "f1": 0.267}
+{"latent": 7382, "caption": "Code snippets involving imports, function definitions, and variable assignments.", "trigger": "import", "specificity": 3}
+{"latent": 3576, "f1": 0.0}
+{"latent": 3673, "f1": 0.667}
+{"latent": 3543, "f1": 0.364}
+{"latent": 3600, "f1": 0.462}
+{"latent": 3369, "f1": 0.0}
+{"latent": 3708, "f1": 0.4}
+{"latent": 7380, "caption": "Detects the concept of 'hard' and 'soft' as opposing qualities or states.", "trigger": "\u00absoft\u00bb | \u00abHard\u00bb | \u00abhard\u00bb", "specificity": 4}
+{"latent": 3250, "f1": 0.545}
+{"latent": 3481, "f1": 0.4}
+{"latent": 7373, "caption": "Detects the concept of 'form' in various contexts, often with 'ally' or 'of'.", "trigger": "form", "specificity": 3}
+{"latent": 3332, "f1": 0.222}
+{"latent": 3622, "f1": 0.857}
+{"latent": 7353, "caption": "Tokens used to name or refer to something.", "trigger": "called, name, known, famously, aka, titled, point, alpha, room, ies, wagon, run, flop, hard, in, a", "specificity": 3}
+{"latent": 7395, "caption": "The concept of speed, often associated with fast movement, quickness, or rapid progress.", "trigger": "speed", "specificity": 4}
+{"latent": 3595, "f1": 0.714}
+{"latent": 3749, "f1": 0.2}
+{"latent": 3488, "f1": 0.889}
+{"latent": 3646, "f1": 0.154}
+{"latent": 3443, "f1": 0.714}
+{"latent": 3712, "f1": 0.182}
+{"latent": 7399, "caption": "The latent detects phrases related to 'time' and its passage or state.", "trigger": "time", "specificity": 4}
+{"latent": 3678, "f1": 0.571}
+{"latent": 3233, "f1": 0.545}
+{"latent": 3660, "f1": 0.588}
+{"latent": 3757, "f1": 0.5}
+{"latent": 3713, "f1": 0.769}
+{"latent": 3750, "f1": 0.353}
+{"latent": 3527, "f1": 0.667}
+{"latent": 3610, "f1": 0.5}
+{"latent": 3763, "f1": 0.667}
+{"latent": 3505, "f1": 0.667}
+{"latent": 3547, "f1": 0.667}
+{"latent": 7396, "caption": "Detects phrases indicating a starting point or origin, often involving movement or progression.", "trigger": "from", "specificity": 3}
+{"latent": 3837, "f1": 0.545}
+{"latent": 3734, "f1": 0.625}
+{"latent": 3748, "f1": 0.5}
+{"latent": 7405, "caption": "Detects numbered lists, often with parenthetical or symbolic enumeration.", "trigger": "\u00ab", "specificity": 4}
+{"latent": 3792, "f1": 0.667}
+{"latent": 7403, "caption": "Tokens indicating a consequence or result, often following a condition.", "trigger": "\u00abthen\u00bb", "specificity": 3}
+{"latent": 3700, "f1": 0.0}
+{"latent": 3795, "f1": 0.308}
+{"latent": 3823, "f1": 0.667}
+{"latent": 3828, "f1": 0.75}
+{"latent": 3855, "f1": 0.364}
+{"latent": 3888, "f1": 0.857}
+{"latent": 7391, "caption": "This latent detects numerical values, particularly those that are part of mathematical expressions or code.", "trigger": "8", "specificity": 3}
+{"latent": 3914, "f1": 0.933}
+{"latent": 3809, "f1": 0.667}
+{"latent": 3667, "f1": 0.571}
+{"latent": 3830, "f1": 0.375}
+{"latent": 3857, "f1": 0.4}
+{"latent": 3798, "f1": 0.2}
+{"latent": 3581, "f1": 0.2}
+{"latent": 7418, "caption": "References to information or content presented 'below' in a document or on a webpage.", "trigger": "below", "specificity": 4}
+{"latent": 7424, "caption": "Tokens indicating movement into, out of, or within a location or group.", "trigger": "preposition", "specificity": 2}
+{"latent": 3953, "f1": 0.706}
+{"latent": 3759, "f1": 0.933}
+{"latent": 2466, "f1": 0.364}
+{"latent": 3915, "f1": 0.545}
+{"latent": 3633, "f1": 0.545}
+{"latent": 3865, "f1": 0.462}
+{"latent": 3904, "f1": 0.625}
+{"latent": 3820, "f1": 0.769}
+{"latent": 7434, "caption": "Code constructs related to data structures, models, and file operations.", "trigger": "\u00abContent\u00bb Type", "specificity": 3}
+{"latent": 4009, "f1": 0.4}
+{"latent": 7413, "caption": "Detects tokens related to positive qualities, skills, and desirable states.", "trigger": "\u00abloving\u00bb \u00abtorn\u00bb \u00abhungry\u00bb \u00abReady\u00bb \u00abproficient\u00bb \u00abfunctioning\u00bb \u00abtive\u00bb \u00abdeveloping\u00bb \u00abdry\u00bb \u00abmes\u00bb \u00abshining\u00bb \u00abistic\u00bb \u00abrous\u00bb \u00abwealthy\u00bb \u00absavvy\u00bb \u00ablucky\u00bb \u00abpredictable\u00bb \u00abcorrect\u00bb \u00abatheist\u00bb \u00abflabby\u00bb \u00abunsuspecting\u00bb \u00abcorrupt\u00bb \u00abcurious\u00bb \u00abbroken\u00bb \u00abgullible\u00bb", "specificity": 4}
+{"latent": 7437, "caption": "This latent detects the word 'Otherwise' when it introduces a conditional branch in code or text.", "trigger": "Otherwise", "specificity": 4}
+{"latent": 3872, "f1": 0.333}
+{"latent": 7398, "caption": "This latent detects phrases indicating the start of a problem-solving or task-oriented discussion.", "trigger": "Okay , let ' s tackle this problem", "specificity": 4}
+{"latent": 3271, "f1": 0.615}
+{"latent": 4042, "f1": 0.333}
+{"latent": 3766, "f1": 0.222}
+{"latent": 4045, "f1": 0.875}
+{"latent": 4082, "f1": 0.364}
+{"latent": 4056, "f1": 0.4}
+{"latent": 4018, "f1": 0.615}
+{"latent": 3909, "f1": 0.75}
+{"latent": 4070, "f1": 0.222}
+{"latent": 4113, "f1": 0.632}
+{"latent": 3897, "f1": 0.571}
+{"latent": 3108, "f1": 0.571}
+{"latent": 3967, "f1": 0.75}
+{"latent": 4099, "f1": 0.429}
+{"latent": 7439, "caption": "This latent detects tokens related to mathematical sequences and series, often involving indices and recursive definitions.", "trigger": "a_n", "specificity": 4}
+{"latent": 3753, "f1": 0.222}
+{"latent": 4088, "f1": 0.625}
+{"latent": 4171, "f1": 0.545}
+{"latent": 3957, "f1": 0.5}
+{"latent": 4234, "f1": 0.769}
+{"latent": 4139, "f1": 0.167}
+{"latent": 4101, "f1": 0.222}
+{"latent": 7462, "caption": "The latent detects phrases indicating collective action or shared states, often starting with 'we'.", "trigger": "we \u00abare\u00bb", "specificity": 4}
+{"latent": 4109, "f1": 0.2}
+{"latent": 4195, "f1": 0.5}
+{"latent": 7466, "caption": "Detects code related to file paths, directory operations, and resource management.", "trigger": "dwarf _ base", "specificity": 4}
+{"latent": 4243, "f1": 0.533}
+{"latent": 7453, "caption": "Python code for parsing command-line arguments using argparse.", "trigger": "argparse . ArgumentParser ()", "specificity": 4}
+{"latent": 3891, "f1": 0.737}
+{"latent": 7471, "caption": "Python code, specifically function definitions and imports, often within test suites.", "trigger": "def", "specificity": 4}
+{"latent": 4052, "f1": 0.4}
+{"latent": 3838, "f1": 0.5}
+{"latent": 4208, "f1": 0.429}
+{"latent": 4049, "f1": 0.714}
+{"latent": 4159, "f1": 0.588}
+{"latent": 4104, "f1": 0.5}
+{"latent": 4238, "f1": 0.2}
+{"latent": 4074, "f1": 0.545}
+{"latent": 7465, "caption": "Tokens related to 'pu', 'du', 'ru', 'hu', 'bu', 'nu', 'tu', 'gu', 'lu', 'uk', 'fu', 'au' often appear in proper nouns and technical terms.", "trigger": "\u00abpu\u00bb|\u00abdu\u00bb|\u00abru\u00bb|\u00abhu\u00bb|\u00abbu\u00bb|\u00abnu\u00bb|\u00abtu\u00bb|\u00abgu\u00bb|\u00ablu\u00bb|\u00abuk\u00bb|\u00abfu\u00bb|\u00abau\u00bb", "specificity": 3}
+{"latent": 4312, "f1": 0.778}
+{"latent": 4274, "f1": 0.933}
+{"latent": 3839, "f1": 0.462}
+{"latent": 4014, "f1": 0.6}
+{"latent": 4242, "f1": 0.556}
+{"latent": 7446, "caption": "Contact information, often including phone numbers and email addresses.", "trigger": "\u00abContact\u00bb \u00b7", "specificity": 4}
+{"latent": 4297, "f1": 0.7}
+{"latent": 7442, "caption": "Names of people, often first names or full names.", "trigger": "\u00abSteve\u00bb", "specificity": 4}
+{"latent": 4228, "f1": 0.364}
+{"latent": 4290, "f1": 0.0}
+{"latent": 4175, "f1": 0.429}
+{"latent": 4270, "f1": 0.364}
+{"latent": 3532, "f1": 0.222}
+{"latent": 4377, "f1": 0.0}
+{"latent": 4305, "f1": 0.941}
+{"latent": 4146, "f1": 0.5}
+{"latent": 4361, "f1": 0.545}
+{"latent": 4232, "f1": 0.0}
+{"latent": 4387, "f1": 0.5}
+{"latent": 7484, "caption": "Tokens related to scientific and technical prefixes, often in compound words.", "trigger": "\u00abMICRO\u00bb|\u00absocio\u00bb|\u00abneuro\u00bb|\u00abphyto\u00bb|\u00abpsych\u00bb|\u00abop\u00bb|\u00abHydro\u00bb|\u00abnit\u00bb|\u00abros\u00bb|\u00abnit\u00bb|\u00abge\u00bb|\u00abGeo\u00bb|\u00aboste\u00bb|\u00abElectro\u00bb|\u00abhydra\u00bb|\u00abGastro\u00bb|\u00abUltra\u00bb|\u00abMikro\u00bb|\u00abauto\u00bb", "specificity": 4}
+{"latent": 4394, "f1": 0.429}
+{"latent": 4389, "f1": 0.421}
+{"latent": 4322, "f1": 0.364}
+{"latent": 4489, "f1": 0.4}
+{"latent": 7504, "caption": "This latent detects mentions of cameras, including CCTV and video cameras, often in contexts of security or filming.", "trigger": "camera", "specificity": 4}
+{"latent": 4230, "f1": 0.222}
+{"latent": 3085, "f1": 0.545}
+{"latent": 4482, "f1": 0.2}
+{"latent": 4404, "f1": 0.941}
+{"latent": 3811, "f1": 0.222}
+{"latent": 7499, "caption": "The latent detects the concept of 'volume', often in mathematical or technical contexts.", "trigger": "\u00abvolume\u00bb", "specificity": 4}
+{"latent": 4411, "f1": 0.333}
+{"latent": 7517, "caption": "This latent detects the concept of a 'recipe', especially in the context of food.", "trigger": "recipe", "specificity": 5}
+{"latent": 4194, "f1": 0.5}
+{"latent": 4388, "f1": 0.4}
+{"latent": 4357, "f1": 0.462}
+{"latent": 4530, "f1": 0.0}
+{"latent": 3606, "f1": 0.545}
+{"latent": 4553, "f1": 0.364}
+{"latent": 7551, "caption": "Detects the indefinite article 'an' preceding a vowel sound.", "trigger": "an", "specificity": 4}
+{"latent": 4549, "f1": 0.615}
+{"latent": 4514, "f1": 0.429}
+{"latent": 4546, "f1": 0.364}
+{"latent": 4301, "f1": 0.714}
+{"latent": 4407, "f1": 0.7}
+{"latent": 4596, "f1": 0.545}
+{"latent": 4552, "f1": 0.222}
+{"latent": 4343, "f1": 0.167}
+{"latent": 7581, "caption": "Tokens related to numbers, coordinates, and specific values.", "trigger": "number", "specificity": 3}
+{"latent": 4677, "f1": 0.625}
+{"latent": 4659, "f1": 0.167}
+{"latent": 4490, "f1": 0.462}
+{"latent": 7587, "caption": "Detects tokens related to programming, especially Python, and technical specifications.", "trigger": "\u00absys\u00bb \u00ab)\u00bb sys . setdefault encoding", "specificity": 4}
+{"latent": 4430, "f1": 0.5}
+{"latent": 4595, "f1": 1.0}
+{"latent": 4617, "f1": 0.143}
+{"latent": 4629, "f1": 0.364}
+{"latent": 4742, "f1": 0.308}
+{"latent": 4603, "f1": 0.545}
+{"latent": 4662, "f1": 0.615}
+{"latent": 7579, "caption": "This latent detects verbs related to creating, defining, or manipulating information and objects.", "trigger": "make, award, record, call, define, design, manage, oppose, affect, request, move, complete, provide, take, create, promote, preserve, try, list, force, give, produce, cause, use, inject, find, assign, take, store, track, generate, validate", "specificity": 3}
+{"latent": 7508, "caption": "Parenthetical abbreviations or acronyms, often following a full name or phrase.", "trigger": "\u00ab(\u00bb", "specificity": 4}
+{"latent": 4311, "f1": 0.429}
+{"latent": 4710, "f1": 0.182}
+{"latent": 4615, "f1": 0.2}
+{"latent": 4686, "f1": 0.0}
+{"latent": 4815, "f1": 0.714}
+{"latent": 4649, "f1": 0.5}
+{"latent": 7522, "caption": "This latent detects punctuation, specifically periods and commas, used at the end of sentences or clauses.", "trigger": "\u00ab.\u00bb or \u00ab,\u00bb", "specificity": 4}
+{"latent": 4570, "f1": 0.714}
+{"latent": 4679, "f1": 0.8}
+{"latent": 4100, "f1": 0.588}
+{"latent": 7519, "caption": "Detects mentions of 'two' items, often in pairs or comparisons.", "trigger": "two", "specificity": 4}
+{"latent": 4783, "f1": 0.588}
+{"latent": 4470, "f1": 0.375}
+{"latent": 4831, "f1": 0.824}
+{"latent": 4584, "f1": 0.364}
+{"latent": 4771, "f1": 0.824}
+{"latent": 3761, "f1": 0.8}
+{"latent": 4820, "f1": 0.5}
+{"latent": 4788, "f1": 0.5}
+{"latent": 4757, "f1": 0.857}
+{"latent": 4774, "f1": 0.2}
+{"latent": 4767, "f1": 0.615}
+{"latent": 4853, "f1": 0.769}
+{"latent": 4671, "f1": 0.364}
+{"latent": 4740, "f1": 0.588}
+{"latent": 7638, "caption": "Detects tokens related to graphics, grids, and geographical data.", "trigger": "graph | grid | geo", "specificity": 4}
+{"latent": 4833, "f1": 0.933}
+{"latent": 4907, "f1": 0.545}
+{"latent": 4818, "f1": 0.737}
+{"latent": 4535, "f1": 0.8}
+{"latent": 4369, "f1": 0.8}
+{"latent": 4862, "f1": 0.364}
+{"latent": 4903, "f1": 0.667}
+{"latent": 7650, "caption": "The latent detects the concept of 'mind' and its associated states, including mental illness and mindset.", "trigger": "mind", "specificity": 4}
+{"latent": 4932, "f1": 0.857}
+{"latent": 4841, "f1": 0.286}
+{"latent": 4918, "f1": 0.4}
+{"latent": 4892, "f1": 0.667}
+{"latent": 4745, "f1": 0.462}
+{"latent": 4921, "f1": 0.778}
+{"latent": 4859, "f1": 0.533}
+{"latent": 4955, "f1": 0.0}
+{"latent": 4034, "f1": 0.545}
+{"latent": 7633, "caption": "Detects the indefinite article 'a' followed by a noun, often in mathematical or technical contexts.", "trigger": "a \u00abnoun\u00bb", "specificity": 3}
+{"latent": 4827, "f1": 0.133}
+{"latent": 7616, "caption": "This latent detects phrases indicating definition, description, or specification.", "trigger": "the", "specificity": 2}
+{"latent": 7599, "caption": "Numbers, particularly within mathematical expressions and code, often appearing as part of sequences or calculations.", "trigger": "1\u00ab7\u00bb", "specificity": 3}
+{"latent": 5063, "f1": 0.0}
+{"latent": 4652, "f1": 0.714}
+{"latent": 5071, "f1": 0.364}
+{"latent": 4860, "f1": 0.364}
+{"latent": 4854, "f1": 0.714}
+{"latent": 4974, "f1": 0.5}
+{"latent": 5048, "f1": 0.5}
+{"latent": 5036, "f1": 0.4}
+{"latent": 4180, "f1": 0.615}
+{"latent": 4442, "f1": 0.462}
+{"latent": 5073, "f1": 0.154}
+{"latent": 4858, "f1": 0.154}
+{"latent": 5055, "f1": 0.933}
+{"latent": 4498, "f1": 0.545}
+{"latent": 5017, "f1": 0.714}
+{"latent": 7672, "caption": "Latent detects the start of a sentence with 'Sometimes', often introducing a conditional or hypothetical situation.", "trigger": "Sometimes", "specificity": 3}
+{"latent": 7532, "caption": "Detects mentions of 2D or 3D dimensions, often in technical contexts.", "trigger": "2D", "specificity": 4}
+{"latent": 5108, "f1": 0.615}
+{"latent": 4205, "f1": 0.533}
+{"latent": 4934, "f1": 0.667}
+{"latent": 7664, "caption": "Detects tokens related to programming code, especially within Python, and mathematical expressions.", "trigger": "code, math, cot", "specificity": 3}
+{"latent": 4950, "f1": 0.696}
+{"latent": 4990, "f1": 0.222}
+{"latent": 4741, "f1": 0.8}
+{"latent": 5227, "f1": 0.667}
+{"latent": 5014, "f1": 0.545}
+{"latent": 5067, "f1": 0.625}
+{"latent": 5188, "f1": 0.857}
+{"latent": 5061, "f1": 0.875}
+{"latent": 5095, "f1": 0.333}
+{"latent": 4953, "f1": 0.571}
+{"latent": 7689, "caption": "Detects tokens related to counting numbers, quantities, and sizes in various contexts.", "trigger": "number of", "specificity": 3}
+{"latent": 7693, "caption": "Detects the concept of a 'value' in various contexts, often as a placeholder or variable.", "trigger": "\u00abvalue\u00bb", "specificity": 3}
+{"latent": 5165, "f1": 0.8}
+{"latent": 4303, "f1": 0.75}
+{"latent": 5175, "f1": 1.0}
+{"latent": 7684, "caption": "The latent detects the concept of a 'name' attribute or variable, often associated with objects or entities.", "trigger": "\u00abname\u00bb", "specificity": 4}
+{"latent": 4856, "f1": 0.2}
+{"latent": 5286, "f1": 0.667}
+{"latent": 5007, "f1": 0.333}
+{"latent": 4890, "f1": 0.667}
+{"latent": 5053, "f1": 0.0}
+{"latent": 5148, "f1": 0.625}
+{"latent": 5319, "f1": 0.8}
+{"latent": 5245, "f1": 0.615}
+{"latent": 5209, "f1": 0.571}
+{"latent": 5172, "f1": 0.222}
+{"latent": 7720, "caption": "Contact information, often including phone numbers or email addresses.", "trigger": "Contact", "specificity": 4}
+{"latent": 5013, "f1": 0.769}
+{"latent": 5337, "f1": 0.286}
+{"latent": 5143, "f1": 0.8}
+{"latent": 7726, "caption": "Latent detects actions related to sending or writing data, such as publishing messages, sending emails, or writing to files.", "trigger": "send", "specificity": 3}
+{"latent": 5090, "f1": 0.333}
+{"latent": 5294, "f1": 0.545}
+{"latent": 5099, "f1": 0.714}
+{"latent": 5391, "f1": 0.2}
+{"latent": 5146, "f1": 0.429}
+{"latent": 5353, "f1": 0.556}
+{"latent": 7746, "caption": "The concept of 'simple' as easy, uncomplicated, or basic.", "trigger": "Simple", "specificity": 4}
+{"latent": 4916, "f1": 0.571}
+{"latent": 5327, "f1": 0.4}
+{"latent": 5202, "f1": 0.0}
+{"latent": 5347, "f1": 0.333}
+{"latent": 5421, "f1": 0.222}
+{"latent": 5320, "f1": 0.545}
+{"latent": 5400, "f1": 0.571}
+{"latent": 5276, "f1": 1.0}
+{"latent": 7722, "caption": "This latent detects mathematical expressions and code snippets involving variables and equations.", "trigger": "math", "specificity": 4}
+{"latent": 5261, "f1": 0.75}
+{"latent": 5408, "f1": 0.5}
+{"latent": 5411, "f1": 0.857}
+{"latent": 5124, "f1": 0.769}
+{"latent": 7663, "caption": "Live events, chat, and real estate services.", "trigger": "LIVE | chat | Real | Estate", "specificity": 3}
+{"latent": 5456, "f1": 0.571}
+{"latent": 5581, "f1": 0.222}
+{"latent": 7743, "caption": "Detects tokens related to code, web pages, and mathematical concepts.", "trigger": "code | web | math", "specificity": 2}
+{"latent": 5038, "f1": 0.222}
+{"latent": 5523, "f1": 0.462}
+{"latent": 5450, "f1": 0.364}
+{"latent": 5520, "f1": 0.75}
+{"latent": 5230, "f1": 0.625}
+{"latent": 5388, "f1": 0.4}
+{"latent": 7737, "caption": "Detects tokens related to asking questions or stating requirements.", "trigger": "asking", "specificity": 4}
+{"latent": 5451, "f1": 0.5}
+{"latent": 5420, "f1": 0.0}
+{"latent": 5618, "f1": 0.2}
+{"latent": 7624, "caption": "Detects specific entities like brands, job titles, and technical terms.", "trigger": "\u00abPRIVATE\u00bb | \u00abZou\u00bb \u00abTuber\u00bb | \u00abRandom\u00bb \u00abstrings\u00bb | \u00abstud\u00bb | \u00abblack\u00bb \u00ableather\u00bb | \u00abLatin\u00bb | \u00abMazda\u00bb | \u00abhop\u00bb | \u00abnatural\u00bb \u00abnumber\u00bb | \u00abEnglish\u00bb | \u00abPrivate\u00bb | \u00abcourse\u00bb \u00abmolecular\u00bb | \u00abrandom\u00bb _ \u00abstate\u00bb | \u00abpositive\u00bb | \u00abjunior\u00bb \u00abhigh\u00bb | \u00abprogramming\u00bb | \u00abraw\u00bb | \u00absoy\u00bb | \u00absupporting\u00bb | \u00abMinimum\u00bb", "specificity": 4}
+{"latent": 5479, "f1": 0.571}
+{"latent": 5301, "f1": 0.667}
+{"latent": 5484, "f1": 0.714}
+{"latent": 7752, "caption": "Python function definitions with keyword arguments and decorators", "trigger": "**kwargs", "specificity": 4}
+{"latent": 5531, "f1": 0.571}
+{"latent": 5668, "f1": 0.222}
+{"latent": 5691, "f1": 0.778}
+{"latent": 5672, "f1": 0.222}
+{"latent": 5679, "f1": 0.5}
+{"latent": 5767, "f1": 0.933}
+{"latent": 5593, "f1": 0.769}
+{"latent": 7750, "caption": "Detects tokens related to 'the', 'said', 'take', 'remaining', 'categories', 'from', 'vas', 'c', 'i', 'elevator', 'best', 'winner', 'psychology'.", "trigger": "the|said|take|remaining|from|vas|c|i|elevator|best|winner|psychology", "specificity": 2}
+{"latent": 5454, "f1": 0.364}
+{"latent": 5489, "f1": 0.4}
+{"latent": 7830, "caption": "Detects Python code related to libraries for data science, machine learning, and web development.", "trigger": "\u00abModel\u00bb \u00abL\u00bb \u00abda\u00bb", "specificity": 4}
+{"latent": 7804, "caption": "Detects mathematical expressions and code snippets, especially those involving fractions, roots, and specific keywords.", "trigger": "frac", "specificity": 4}
+{"latent": 5881, "f1": 0.222}
+{"latent": 5708, "f1": 0.615}
+{"latent": 5680, "f1": 0.588}
+{"latent": 5765, "f1": 0.429}
+{"latent": 5503, "f1": 0.714}
+{"latent": 7858, "caption": "Deciding to take action or make a change.", "trigger": "decided to improve", "specificity": 3}
+{"latent": 7843, "caption": "Detects code related to file paths, splitting, and renaming.", "trigger": "path.split", "specificity": 4}
+{"latent": 5633, "f1": 0.769}
+{"latent": 5452, "f1": 0.667}
+{"latent": 5762, "f1": 0.667}
+{"latent": 5556, "f1": 0.556}
+{"latent": 5766, "f1": 0.462}
+{"latent": 5863, "f1": 0.5}
+{"latent": 5903, "f1": 0.545}
+{"latent": 5670, "f1": 0.429}
+{"latent": 5437, "f1": 0.714}
+{"latent": 5819, "f1": 0.875}
+{"latent": 5574, "f1": 0.5}
+{"latent": 5761, "f1": 0.182}
+{"latent": 5653, "f1": 0.933}
+{"latent": 5854, "f1": 0.4}
+{"latent": 5928, "f1": 0.545}
+{"latent": 5967, "f1": 0.824}
+{"latent": 5787, "f1": 0.615}
+{"latent": 5526, "f1": 0.267}
+{"latent": 5931, "f1": 0.857}
+{"latent": 5941, "f1": 0.769}
+{"latent": 6089, "f1": 0.0}
+{"latent": 5879, "f1": 0.2}
+{"latent": 7872, "caption": "Detects \"\u672c\" (hon), a Japanese counter for long, cylindrical objects.", "trigger": "\u672c\u00bb \u00ab\"", "specificity": 4}
+{"latent": 5542, "f1": 0.571}
+{"latent": 7881, "caption": "Detects tokens related to splitting or dividing things, like arrays or numbers.", "trigger": "split", "specificity": 3}
+{"latent": 5916, "f1": 0.4}
+{"latent": 5869, "f1": 0.615}
+{"latent": 5880, "f1": 0.769}
+{"latent": 3954, "f1": 0.857}
+{"latent": 6101, "f1": 0.5}
+{"latent": 5221, "f1": 0.533}
+{"latent": 6084, "f1": 0.667}
+{"latent": 5882, "f1": 0.364}
+{"latent": 6129, "f1": 0.0}
+{"latent": 7877, "caption": "This latent detects code snippets, particularly those involving Python imports and file paths.", "trigger": "import os", "specificity": 4}
+{"latent": 6203, "f1": 0.8}
+{"latent": 7885, "caption": "Tokens related to foreign languages, including Japanese, French, and Chinese.", "trigger": "\u00abnu\u00bb \u00abshu\u00bb", "specificity": 4}
+{"latent": 7859, "caption": "The latent seems to detect the end of a sentence or thought, often marked by ellipses or punctuation.", "trigger": "\u00ab...\u00bb", "specificity": 2}
+{"latent": 6150, "f1": 0.375}
+{"latent": 6204, "f1": 0.571}
+{"latent": 5911, "f1": 0.4}
+{"latent": 6241, "f1": 0.222}
+{"latent": 6127, "f1": 0.429}
+{"latent": 6062, "f1": 0.267}
+{"latent": 5968, "f1": 0.571}
+{"latent": 7767, "caption": "Detects Python code related to network sockets, file operations, and database connections.", "trigger": "socket", "specificity": 4}
+{"latent": 7888, "caption": "Detects the use of 'self' as the first argument in method definitions.", "trigger": "\u00abself\u00bb", "specificity": 4}
+{"latent": 6133, "f1": 0.364}
+{"latent": 6194, "f1": 0.5}
+{"latent": 6325, "f1": 0.769}
+{"latent": 7886, "caption": "Detects the desire to perform an action, often with a specific intent.", "trigger": "want to", "specificity": 3}
+{"latent": 6182, "f1": 0.667}
+{"latent": 6013, "f1": 0.778}
+{"latent": 6242, "f1": 0.364}
+{"latent": 6138, "f1": 0.333}
+{"latent": 6106, "f1": 0.364}
+{"latent": 6223, "f1": 0.4}
+{"latent": 6214, "f1": 0.667}
+{"latent": 5989, "f1": 0.933}
+{"latent": 6191, "f1": 0.308}
+{"latent": 6091, "f1": 0.533}
+{"latent": 6298, "f1": 0.625}
+{"latent": 6105, "f1": 0.4}
+{"latent": 6264, "f1": 0.933}
+{"latent": 6295, "f1": 0.364}
+{"latent": 6382, "f1": 0.714}
+{"latent": 7921, "caption": "Tokens indicating the end of a string or sentence, often within code or dialogue.", "trigger": "\u00ab.'\u00bb", "specificity": 4}
+{"latent": 6137, "f1": 0.571}
+{"latent": 5634, "f1": 0.857}
+{"latent": 6296, "f1": 0.714}
+{"latent": 7924, "caption": "Detects SQL INSERT statements with dynamic table and column names.", "trigger": "insert into %( tableName ) s (", "specificity": 4}
+{"latent": 6163, "f1": 0.444}
+{"latent": 6431, "f1": 0.4}
+{"latent": 6430, "f1": 0.842}
+{"latent": 4287, "f1": 0.4}
+{"latent": 6173, "f1": 0.933}
+{"latent": 7934, "caption": "Numbers and mathematical expressions, especially involving variables and equations.", "trigger": "math", "specificity": 4}
+{"latent": 5438, "f1": 0.4}
+{"latent": 6362, "f1": 0.857}
+{"latent": 6417, "f1": 0.5}
+{"latent": 6444, "f1": 0.4}
+{"latent": 6310, "f1": 0.353}
+{"latent": 6344, "f1": 0.429}
+{"latent": 4547, "f1": 0.769}
+{"latent": 7936, "caption": "Accessing object attributes and methods, especially within code contexts.", "trigger": "self . \u00abenv\u00bb", "specificity": 4}
+{"latent": 6369, "f1": 0.5}
+{"latent": 7930, "caption": "This latent detects acronyms, often found in code or technical documentation.", "trigger": "\u00abD\u00bb", "specificity": 3}
+{"latent": 6427, "f1": 0.0}
+{"latent": 7869, "caption": "Tokens related to code redistribution and modification, often found in software licenses.", "trigger": "redistribute it", "specificity": 4}
+{"latent": 5689, "f1": 0.5}
+{"latent": 6469, "f1": 0.429}
+{"latent": 6472, "f1": 0.4}
+{"latent": 6440, "f1": 0.364}
+{"latent": 6348, "f1": 0.8}
+{"latent": 6502, "f1": 0.333}
+{"latent": 5938, "f1": 0.533}
+{"latent": 6481, "f1": 0.4}
+{"latent": 6308, "f1": 0.222}
+{"latent": 6410, "f1": 0.5}
+{"latent": 7942, "caption": "Tokens related to code, web content, and conversational language, often indicating actions, definitions, or specific entities.", "trigger": "\u00ab\u00bb", "specificity": 2}
+{"latent": 6468, "f1": 0.769}
+{"latent": 6259, "f1": 1.0}
+{"latent": 6595, "f1": 0.2}
+{"latent": 6466, "f1": 0.769}
+{"latent": 6528, "f1": 0.364}
+{"latent": 6556, "f1": 0.667}
+{"latent": 6526, "f1": 0.5}
+{"latent": 6422, "f1": 0.769}
+{"latent": 6438, "f1": 0.2}
+{"latent": 6497, "f1": 0.571}
+{"latent": 7972, "caption": "Tokens indicating intensity, degree, or manner of an action or quality.", "trigger": "more, quite, very, tremendously, superbly, seamlessly, rigorously, carefully, well, cyclically, similarly, much, great, with, then, too, a", "specificity": 4}
+{"latent": 6484, "f1": 0.625}
+{"latent": 7984, "caption": "Quantifies duration in years, days, or hours.", "trigger": "\u00abyears\u00bb", "specificity": 4}
+{"latent": 6701, "f1": 0.286}
+{"latent": 6511, "f1": 0.222}
+{"latent": 6574, "f1": 0.75}
+{"latent": 6544, "f1": 0.556}
+{"latent": 6563, "f1": 0.308}
+{"latent": 6615, "f1": 0.0}
+{"latent": 7992, "caption": "Detects code snippets related to file paths, directory operations, and string manipulation.", "trigger": "\u00abdir\u00bb to \u00abdir\u00bb", "specificity": 4}
+{"latent": 7938, "caption": "Tokens related to negotiation, agreement, or what is believed to be true.", "trigger": "negotiated, ventures, answered, granted, thinks, knows, believes, produces, sends, thinks, have, talked, police, believe, needs, bomb, needs, attempts, requested, say, wants, have", "specificity": 3}
+{"latent": 6547, "f1": 0.667}
+{"latent": 6640, "f1": 0.857}
+{"latent": 6709, "f1": 0.222}
+{"latent": 6677, "f1": 0.222}
+{"latent": 8000, "caption": "Tokens indicating a part of a larger whole, or a member of a group.", "trigger": "of", "specificity": 1}
+{"latent": 6495, "f1": 0.2}
+{"latent": 6575, "f1": 0.429}
+{"latent": 6601, "f1": 0.842}
+{"latent": 6679, "f1": 0.2}
+{"latent": 6707, "f1": 0.714}
+{"latent": 6115, "f1": 0.615}
+{"latent": 6637, "f1": 0.857}
+{"latent": 6772, "f1": 0.933}
+{"latent": 6559, "f1": 0.75}
+{"latent": 6690, "f1": 0.222}
+{"latent": 8006, "caption": "Actions involving illicit or questionable activities like stealing, tricking, or operating illegally.", "trigger": "steal, operate, trick, cook", "specificity": 4}
+{"latent": 6573, "f1": 0.714}
+{"latent": 6624, "f1": 0.545}
+{"latent": 6708, "f1": 0.0}
+{"latent": 6740, "f1": 0.667}
+{"latent": 6811, "f1": 0.222}
+{"latent": 5440, "f1": 0.545}
+{"latent": 6897, "f1": 0.4}
+{"latent": 5636, "f1": 0.5}
+{"latent": 6727, "f1": 0.933}
+{"latent": 6810, "f1": 0.308}
+{"latent": 7985, "caption": "This latent detects mathematical expressions and code snippets, particularly those involving fractions, sums, and variable assignments.", "trigger": "\u00ab\u00b7\u00bb", "specificity": 3}
+{"latent": 6871, "f1": 0.4}
+{"latent": 6869, "f1": 0.429}
+{"latent": 6368, "f1": 0.556}
+{"latent": 6821, "f1": 0.0}
+{"latent": 6766, "f1": 0.778}
+{"latent": 6236, "f1": 0.444}
+{"latent": 8018, "caption": "The latent detects prepositions and articles used to describe relationships between entities, especially in mathematical and technical contexts.", "trigger": "of the", "specificity": 3}
+{"latent": 6785, "f1": 0.706}
+{"latent": 6872, "f1": 0.706}
+{"latent": 6947, "f1": 0.222}
+{"latent": 6347, "f1": 0.667}
+{"latent": 6888, "f1": 0.588}
+{"latent": 6930, "f1": 0.429}
+{"latent": 6671, "f1": 0.857}
+{"latent": 6995, "f1": 0.615}
+{"latent": 6704, "f1": 0.4}
+{"latent": 8038, "caption": "Quotes expressing personal reflections, opinions, or statements of fact.", "trigger": "\u00ab.\u201d\u00bb", "specificity": 4}
+{"latent": 6793, "f1": 0.857}
+{"latent": 8009, "caption": "Detects code related to database operations, file handling, and object manipulation.", "trigger": "db . alter _ column ( u ' order _ order ', ' billing _ address _ id ', self . gf (' django . db . models . fields . related . ForeignKey ')( to = orm [' order . \u00abBilling\u00bb Address '], null = True , on _ delete = models . \u00abSET\u00bb _ \u00abNULL\u00bb ))", "specificity": 4}
+{"latent": 7119, "f1": 0.571}
+{"latent": 8049, "caption": "This latent detects examples of comparisons using 'like' to illustrate a point or provide an analogy.", "trigger": "like", "specificity": 3}
+{"latent": 6880, "f1": 0.462}
+{"latent": 7042, "f1": 0.4}
+{"latent": 6934, "f1": 0.4}
+{"latent": 7014, "f1": 0.545}
+{"latent": 6847, "f1": 0.6}
+{"latent": 6953, "f1": 0.429}
+{"latent": 6936, "f1": 0.632}
+{"latent": 7105, "f1": 0.429}
+{"latent": 7005, "f1": 0.462}
+{"latent": 6978, "f1": 0.667}
+{"latent": 7101, "f1": 0.737}
+{"latent": 8042, "caption": "Underscores used as separators in file paths, URLs, and code identifiers.", "trigger": "_", "specificity": 3}
+{"latent": 7056, "f1": 0.8}
+{"latent": 6656, "f1": 0.5}
+{"latent": 7029, "f1": 0.667}
+{"latent": 7024, "f1": 0.857}
+{"latent": 6244, "f1": 0.667}
+{"latent": 8063, "caption": "The concept of 'law' and its various applications, including legal restrictions and enforcement.", "trigger": "law", "specificity": 4}
+{"latent": 8057, "caption": "The word 'but' often introduces a contrast or exception.", "trigger": "but", "specificity": 3}
+{"latent": 7048, "f1": 0.667}
+{"latent": 7090, "f1": 0.615}
+{"latent": 7128, "f1": 0.714}
+{"latent": 6386, "f1": 0.545}
+{"latent": 7073, "f1": 0.737}
+{"latent": 7038, "f1": 0.0}
+{"latent": 7361, "f1": 0.222}
+{"latent": 7127, "f1": 0.667}
+{"latent": 8064, "caption": "This latent detects mathematical expressions involving fractions and variables.", "trigger": "\u00ab}{\u00bb", "specificity": 4}
+{"latent": 7164, "f1": 0.714}
+{"latent": 7173, "f1": 0.857}
+{"latent": 7313, "f1": 0.4}
+{"latent": 7171, "f1": 0.941}
+{"latent": 7248, "f1": 0.769}
+{"latent": 8073, "caption": "Detects import statements, especially for common libraries like os, re, and collections.", "trigger": "import", "specificity": 3}
+{"latent": 7368, "f1": 0.471}
+{"latent": 8075, "caption": "This latent detects the literal string '.' often used as a path separator or in file extensions.", "trigger": "'.'", "specificity": 4}
+{"latent": 7344, "f1": 0.0}
+{"latent": 7251, "f1": 0.632}
+{"latent": 7276, "f1": 0.222}
+{"latent": 7030, "f1": 0.769}
+{"latent": 6994, "f1": 0.667}
+{"latent": 7300, "f1": 0.4}
+{"latent": 7391, "f1": 0.8}
+{"latent": 7403, "f1": 0.333}
+{"latent": 7413, "f1": 0.429}
+{"latent": 7094, "f1": 0.308}
+{"latent": 7373, "f1": 0.545}
+{"latent": 7321, "f1": 0.167}
+{"latent": 6845, "f1": 0.545}
+{"latent": 7399, "f1": 0.667}
+{"latent": 8093, "caption": "Conditional statements expressing hypothetical situations or possibilities.", "trigger": "if", "specificity": 4}
+{"latent": 7288, "f1": 0.769}
+{"latent": 7396, "f1": 0.615}
+{"latent": 8088, "caption": "This latent detects mathematical and code expressions involving arithmetic operations and list manipulation.", "trigger": "\u00ab+\u00bb", "specificity": 3}
+{"latent": 7424, "f1": 0.2}
+{"latent": 7178, "f1": 0.462}
+{"latent": 7405, "f1": 0.462}
+{"latent": 8091, "caption": "The preposition 'with' used to indicate accompaniment or means.", "trigger": "with", "specificity": 3}
+{"latent": 7380, "f1": 0.5}
+{"latent": 7187, "f1": 0.571}
+{"latent": 7382, "f1": 0.571}
+{"latent": 7398, "f1": 0.615}
+{"latent": 7279, "f1": 0.5}
+{"latent": 6770, "f1": 0.571}
+{"latent": 7395, "f1": 0.769}
+{"latent": 7328, "f1": 0.4}
+{"latent": 7434, "f1": 0.533}
+{"latent": 7374, "f1": 0.5}
+{"latent": 7016, "f1": 0.5}
+{"latent": 7466, "f1": 0.4}
+{"latent": 8100, "caption": "Dates, often including month, day, and year, sometimes with times.", "trigger": "\u00b7 2 0", "specificity": 3}
+{"latent": 7442, "f1": 0.667}
+{"latent": 7499, "f1": 0.308}
+{"latent": 7453, "f1": 0.889}
+{"latent": 7551, "f1": 0.933}
+{"latent": 7532, "f1": 0.364}
+{"latent": 6915, "f1": 0.632}
+{"latent": 7517, "f1": 0.222}
+{"latent": 7663, "f1": 0.4}
+{"latent": 7581, "f1": 0.667}
+{"latent": 7579, "f1": 0.471}
+{"latent": 5118, "f1": 0.609}
+{"latent": 7462, "f1": 1.0}
+{"latent": 6558, "f1": 0.571}
+{"latent": 7650, "f1": 0.364}
+{"latent": 8114, "caption": "This latent detects tokens related to optimization, specifically minimizing or maximizing values.", "trigger": "minimize, maximize, minimizing, maximizing", "specificity": 4}
+{"latent": 8117, "caption": "Detects mathematical expressions involving fractions, inequalities, and algebraic manipulation.", "trigger": "frac", "specificity": 4}
+{"latent": 7684, "f1": 0.545}
+{"latent": 7471, "f1": 0.857}
+{"latent": 7439, "f1": 0.667}
+{"latent": 7689, "f1": 0.533}
+{"latent": 7504, "f1": 0.222}
+{"latent": 7465, "f1": 0.526}
+{"latent": 7484, "f1": 0.4}
+{"latent": 7638, "f1": 0.2}
+{"latent": 7238, "f1": 0.462}
+{"latent": 7599, "f1": 0.842}
+{"latent": 7767, "f1": 0.222}
+{"latent": 7720, "f1": 0.0}
+{"latent": 7587, "f1": 0.706}
+{"latent": 7522, "f1": 0.7}
+{"latent": 8122, "caption": "Bitwise operations like OR and AND, often found in programming.", "trigger": "bitwise \u00abOR\u00bb operation", "specificity": 4}
+{"latent": 7446, "f1": 0.667}
+{"latent": 7859, "f1": 0.333}
+{"latent": 6335, "f1": 0.615}
+{"latent": 7693, "f1": 0.8}
+{"latent": 7737, "f1": 0.154}
+{"latent": 7519, "f1": 0.941}
+{"latent": 7804, "f1": 0.545}
+{"latent": 7888, "f1": 0.545}
+{"latent": 7052, "f1": 0.286}
+{"latent": 7418, "f1": 0.364}
+{"latent": 7633, "f1": 0.737}
+{"latent": 7624, "f1": 0.462}
+{"latent": 7843, "f1": 0.308}
+{"latent": 7664, "f1": 0.533}
+{"latent": 7930, "f1": 0.667}
+{"latent": 7872, "f1": 0.727}
+{"latent": 8130, "caption": "Tokens related to councils, committees, boards, and commissions.", "trigger": "council, committee, board, commission", "specificity": 4}
+{"latent": 7830, "f1": 0.769}
+{"latent": 7885, "f1": 0.714}
+{"latent": 7672, "f1": 0.5}
+{"latent": 7858, "f1": 0.615}
+{"latent": 7881, "f1": 0.462}
+{"latent": 7722, "f1": 0.625}
+{"latent": 7886, "f1": 0.778}
+{"latent": 7942, "f1": 0.375}
+{"latent": 7934, "f1": 0.375}
+{"latent": 8079, "caption": "Adverbs ending in '-ly' that modify adjectives or verbs, often describing manner or degree.", "trigger": "\u00ably\u00bb", "specificity": 4}
+{"latent": 8144, "caption": "Breaking down a problem or task into smaller, manageable steps.", "trigger": "step by step", "specificity": 4}
+{"latent": 8000, "f1": 0.0}
+{"latent": 7743, "f1": 0.75}
+{"latent": 7874, "f1": 0.556}
+{"latent": 7972, "f1": 0.933}
+{"latent": 8018, "f1": 0.154}
+{"latent": 7291, "f1": 0.545}
+{"latent": 7750, "f1": 0.5}
+{"latent": 8073, "f1": 0.0}
+{"latent": 8149, "caption": "Mathematical expressions involving limits, fractions, and integrals, often with specific values like pi or 6.", "trigger": "math", "specificity": 4}
+{"latent": 8064, "f1": 1.0}
+{"latent": 7869, "f1": 0.462}
+{"latent": 8093, "f1": 0.875}
+{"latent": 7726, "f1": 1.0}
+{"latent": 7936, "f1": 0.8}
+{"latent": 7938, "f1": 0.2}
+{"latent": 7992, "f1": 0.462}
+{"latent": 8100, "f1": 0.5}
+{"latent": 7746, "f1": 0.714}
+{"latent": 8112, "f1": 0.8}
+{"latent": 8006, "f1": 0.8}
+{"latent": 8049, "f1": 0.769}
+{"latent": 8075, "f1": 0.429}
+{"latent": 8239, "f1": 0.0}
+{"latent": 7616, "f1": 0.6}
+{"latent": 7919, "f1": 0.8}
+{"latent": 8038, "f1": 0.769}
+{"latent": 7752, "f1": 0.2}
+{"latent": 7874, "caption": "This latent detects tokens that express subjective evaluations of ideas, actions, or concepts.", "trigger": "good, bad, right, funny, tricky, important, exhausting, corrosive, appropriate, dominant, only, normal, destructive, helpful, better, temporary, beautiful, worthwhile", "specificity": 4}
+{"latent": 8088, "f1": 0.571}
+{"latent": 8091, "f1": 0.8}
+{"latent": 7353, "f1": 0.667}
+{"latent": 8063, "f1": 0.4}
+{"latent": 8144, "f1": 0.143}
+{"latent": 8133, "caption": "Detects phrases related to conditions, opinions, and specific details.", "trigger": "\u00absort\u00bb of \u201c mob \u201d", "specificity": 2}
+{"latent": 8042, "f1": 0.8}
+{"latent": 7437, "f1": 0.0}
+{"latent": 8112, "caption": "Python code related to programming, data structures, and libraries.", "trigger": "_", "specificity": 3}
+{"latent": 8154, "caption": "This latent detects the token 'Integer' when used to denote a numerical data type or count.", "trigger": "\u00abInteger\u00bb", "specificity": 4}
+{"latent": 8159, "caption": "This latent detects fractions, especially those involving division by powers of 2 or simple integers.", "trigger": "1 \u00ab/\u00bb", "specificity": 4}
+{"latent": 8149, "f1": 0.667}
+{"latent": 8226, "f1": 0.762}
+{"latent": 8178, "f1": 0.769}
+{"latent": 8079, "f1": 0.8}
+{"latent": 8282, "f1": 0.222}
+{"latent": 8152, "caption": "Tokens that indicate existence, creation, or possession of something.", "trigger": "exist, created, are, achieve, mean, should, appear, denoted, available, protect, link, impair, being, improve, get, have", "specificity": 3}
+{"latent": 8203, "f1": 0.769}
+{"latent": 8218, "f1": 0.0}
+{"latent": 8152, "f1": 0.182}
+{"latent": 8130, "f1": 0.857}
+{"latent": 8114, "f1": 0.333}
+{"latent": 8161, "caption": "Tokens related to code definitions and programming constructs.", "trigger": "code", "specificity": 3}
+{"latent": 8122, "f1": 0.267}
+{"latent": 8289, "f1": 0.824}
+{"latent": 8309, "f1": 0.667}
+{"latent": 8252, "f1": 0.2}
+{"latent": 8335, "f1": 0.615}
+{"latent": 8133, "f1": 0.762}
+{"latent": 8203, "caption": "Understanding things from a particular viewpoint or perspective.", "trigger": "perspective", "specificity": 4}
+{"latent": 7919, "caption": "The latent detects commas used as separators in lists or clauses.", "trigger": "\u00ab,\u00bb", "specificity": 3}
+{"latent": 8235, "f1": 0.533}
+{"latent": 8242, "f1": 0.5}
+{"latent": 8159, "f1": 0.5}
+{"latent": 8453, "f1": 0.75}
+{"latent": 8226, "caption": "Counts of discrete units, often in mathematical or computational contexts.", "trigger": "\u00abparts\u00bb", "specificity": 4}
+{"latent": 8402, "f1": 0.571}
+{"latent": 8321, "f1": 0.2}
+{"latent": 8178, "caption": "Detects words related to negation, exclusivity, or parts of a whole.", "trigger": "non-", "specificity": 4}
+{"latent": 8374, "f1": 0.7}
+{"latent": 8009, "f1": 0.533}
+{"latent": 8161, "f1": 0.667}
+{"latent": 8275, "f1": 0.571}
+{"latent": 8523, "f1": 0.667}
+{"latent": 8433, "f1": 0.667}
+{"latent": 8154, "f1": 0.615}
+{"latent": 8218, "caption": "This latent detects tokens related to scoring, points, and rewards.", "trigger": "points|Rewards|credits|prizes|medals|stones|ones", "specificity": 4}
+{"latent": 8504, "f1": 0.4}
+{"latent": 8296, "f1": 0.667}
+{"latent": 8376, "f1": 0.769}
+{"latent": 8494, "f1": 0.588}
+{"latent": 8348, "f1": 0.714}
+{"latent": 8432, "f1": 0.0}
+{"latent": 8184, "f1": 0.545}
+{"latent": 8339, "f1": 1.0}
+{"latent": 8328, "f1": 0.632}
+{"latent": 8471, "f1": 0.75}
+{"latent": 8501, "f1": 0.286}
+{"latent": 8587, "f1": 0.5}
+{"latent": 8531, "f1": 0.333}
+{"latent": 7985, "f1": 0.364}
+{"latent": 7924, "f1": 0.4}
+{"latent": 8486, "f1": 0.714}
+{"latent": 7508, "f1": 0.615}
+{"latent": 8551, "f1": 0.615}
+{"latent": 8117, "f1": 0.615}
+{"latent": 8559, "f1": 0.545}
+{"latent": 8057, "f1": 0.769}
+{"latent": 8242, "caption": "Detects tokens related to the concept of 'containing' or 'including' specific elements or information.", "trigger": "contains", "specificity": 3}
+{"latent": 8535, "f1": 0.2}
+{"latent": 8282, "caption": "Mentions of software licenses, particularly GNU GPL versions.", "trigger": "License", "specificity": 4}
+{"latent": 8252, "caption": "Names and words that sound like 'an' or 'ian'", "trigger": "\u00aban\u00bb", "specificity": 3}
+{"latent": 8574, "f1": 0.615}
+{"latent": 8558, "f1": 0.2}
+{"latent": 8572, "f1": 0.5}
+{"latent": 7984, "f1": 0.769}
+{"latent": 8326, "f1": 0.667}
+{"latent": 8582, "f1": 0.5}
+{"latent": 8661, "f1": 1.0}
+{"latent": 8289, "caption": "This latent detects mathematical expressions involving variables and operations, particularly powers and fractions.", "trigger": "n", "specificity": 3}
+{"latent": 8601, "f1": 0.4}
+{"latent": 8352, "f1": 0.571}
+{"latent": 8608, "f1": 0.824}
+{"latent": 8275, "caption": "The latent detects lists of items, often separated by commas and the word 'and'.", "trigger": "\u00aband\u00bb", "specificity": 3}
+{"latent": 8554, "f1": 0.615}
+{"latent": 8633, "f1": 0.533}
+{"latent": 8789, "f1": 0.0}
+{"latent": 8736, "f1": 0.5}
+{"latent": 8832, "f1": 0.2}
+{"latent": 8671, "f1": 0.533}
+{"latent": 8703, "f1": 0.824}
+{"latent": 7921, "f1": 0.667}
+{"latent": 8762, "f1": 0.588}
+{"latent": 8309, "caption": "Indicates movement or progression upwards, or reaching a certain point.", "trigger": "up", "specificity": 3}
+{"latent": 8602, "f1": 0.0}
+{"latent": 8600, "f1": 1.0}
+{"latent": 8688, "f1": 0.6}
+{"latent": 8696, "f1": 0.737}
+{"latent": 8569, "f1": 0.857}
+{"latent": 8774, "f1": 0.706}
+{"latent": 8296, "caption": "Detects tokens indicating origin or source, like 'from which' or 'from where'.", "trigger": "from \u00abwhich\u00bb", "specificity": 4}
+{"latent": 8623, "f1": 0.571}
+{"latent": 8795, "f1": 0.545}
+{"latent": 8766, "f1": 0.571}
+{"latent": 8321, "caption": "Tokens related to people, their roles, and social groups.", "trigger": "people, doctors, family, friends, members, teacher, kids, cat, plant, city, church, team, government, tax, professional, congre, gants, students, dad, people, town, had", "specificity": 4}
+{"latent": 8819, "f1": 0.364}
+{"latent": 8683, "f1": 0.737}
+{"latent": 8877, "f1": 0.308}
+{"latent": 8857, "f1": 0.769}
+{"latent": 8655, "f1": 0.222}
+{"latent": 8837, "f1": 0.0}
+{"latent": 8668, "f1": 0.636}
+{"latent": 8815, "f1": 0.2}
+{"latent": 8502, "f1": 0.769}
+{"latent": 8822, "f1": 0.556}
+{"latent": 8878, "f1": 0.8}
+{"latent": 8328, "caption": "This latent detects punctuation, especially periods and commas, often used to end sentences or separate clauses.", "trigger": "\u00ab.\u00bb|\u00ab,\u00bb", "specificity": 3}
+{"latent": 8653, "f1": 0.5}
+{"latent": 8667, "f1": 0.375}
+{"latent": 8873, "f1": 0.353}
+{"latent": 8326, "caption": "Tokens related to hosting, offering, and making things available.", "trigger": "hosting, offers, make, deal, coins, that, were", "specificity": 3}
+{"latent": 8589, "f1": 0.5}
+{"latent": 8874, "f1": 0.353}
+{"latent": 9011, "f1": 0.889}
+{"latent": 8962, "f1": 0.4}
+{"latent": 8895, "f1": 0.933}
+{"latent": 8797, "f1": 0.182}
+{"latent": 8967, "f1": 0.4}
+{"latent": 8932, "f1": 0.824}
+{"latent": 8381, "f1": 1.0}
+{"latent": 8864, "f1": 0.5}
+{"latent": 8951, "f1": 0.667}
+{"latent": 8956, "f1": 0.4}
+{"latent": 8348, "caption": "Detects expressions of personal beliefs, viewpoints, and judgments.", "trigger": "opinion", "specificity": 4}
+{"latent": 8239, "caption": "The latent detects mathematical expressions involving roots and fractions.", "trigger": "sqrt", "specificity": 4}
+{"latent": 8888, "f1": 0.667}
+{"latent": 8884, "f1": 0.667}
+{"latent": 8898, "f1": 0.0}
+{"latent": 8339, "caption": "Detects mathematical expressions involving algebraic manipulation, particularly factoring and simplification.", "trigger": "\u00ab+\u00bb \u00ab-\u00bb", "specificity": 4}
+{"latent": 9022, "f1": 0.0}
+{"latent": 9026, "f1": 0.0}
+{"latent": 8959, "f1": 0.625}
+{"latent": 8335, "caption": "This latent detects questions, especially those ending with a question mark.", "trigger": "?", "specificity": 4}
+{"latent": 9023, "f1": 0.625}
+{"latent": 9048, "f1": 0.5}
+{"latent": 9034, "f1": 0.769}
+{"latent": 9038, "f1": 0.667}
+{"latent": 8544, "f1": 0.182}
+{"latent": 8867, "f1": 0.545}
+{"latent": 9177, "f1": 0.625}
+{"latent": 9051, "f1": 0.857}
+{"latent": 9059, "f1": 0.308}
+{"latent": 8530, "f1": 0.875}
+{"latent": 9160, "f1": 0.7}
+{"latent": 8376, "caption": "The concept of 'half' or a division into two equal parts.", "trigger": "half", "specificity": 4}
+{"latent": 9035, "f1": 0.533}
+{"latent": 9024, "f1": 0.875}
+{"latent": 8402, "caption": "Detects concepts related to data storage, backup, and file management.", "trigger": "storage, backup, drive, disk, vault, locker, dropbox, sharepoint, folder, blob, trash, volume, gcs, tap, netapp", "specificity": 4}
+{"latent": 9223, "f1": 0.769}
+{"latent": 8381, "caption": "This latent detects mathematical expressions involving trigonometric functions, roots, and algebraic manipulations.", "trigger": "sqrt", "specificity": 4}
+{"latent": 9030, "f1": 0.615}
+{"latent": 8603, "f1": 0.667}
+{"latent": 8752, "f1": 0.714}
+{"latent": 9061, "f1": 0.364}
+{"latent": 9039, "f1": 0.875}
+{"latent": 8949, "f1": 0.667}
+{"latent": 9062, "f1": 1.0}
+{"latent": 8374, "caption": "This latent detects sequences of numbers separated by commas, often in mathematical or code contexts.", "trigger": "\u00ab,\u00bb", "specificity": 4}
+{"latent": 9103, "f1": 0.667}
+{"latent": 8989, "f1": 0.462}
+{"latent": 9230, "f1": 0.75}
+{"latent": 9131, "f1": 0.222}
+{"latent": 9245, "f1": 0.545}
+{"latent": 9079, "f1": 0.75}
+{"latent": 8783, "f1": 0.333}
+{"latent": 8848, "f1": 0.462}
+{"latent": 9260, "f1": 0.667}
+{"latent": 9318, "f1": 0.889}
+{"latent": 9293, "f1": 0.545}
+{"latent": 8453, "caption": "Detects negative sentiment, bad ideas, and undesirable outcomes.", "trigger": "bad", "specificity": 4}
+{"latent": 9274, "f1": 0.571}
+{"latent": 9198, "f1": 0.471}
+{"latent": 9229, "f1": 0.667}
+{"latent": 9340, "f1": 0.8}
+{"latent": 8471, "caption": "Identifying and measuring quantities, forming arrangements, and determining properties.", "trigger": "\u00abdisplaying\u00bb said data in visual form, and data collection means for \u00abreceiving\u00bb said display signals and selecting from said sig", "specificity": 3}
+{"latent": 9142, "f1": 0.75}
+{"latent": 9364, "f1": 0.706}
+{"latent": 9270, "f1": 0.545}
+{"latent": 8852, "f1": 0.167}
+{"latent": 8618, "f1": 0.0}
+{"latent": 9321, "f1": 0.429}
+{"latent": 9380, "f1": 0.769}
+{"latent": 9383, "f1": 0.769}
+{"latent": 8433, "caption": "Detects simultaneous actions or occurrences, often with \"simultaneously\" or \"at the same time\".", "trigger": "simultaneously", "specificity": 4}
+{"latent": 9292, "f1": 0.545}
+{"latent": 9176, "f1": 0.706}
+{"latent": 9407, "f1": 0.706}
+{"latent": 9082, "f1": 0.571}
+{"latent": 9337, "f1": 0.364}
+{"latent": 9391, "f1": 0.5}
+{"latent": 9209, "f1": 0.0}
+{"latent": 8800, "f1": 0.667}
+{"latent": 9068, "f1": 0.4}
+{"latent": 9392, "f1": 0.727}
+{"latent": 8494, "caption": "This latent detects specific numerical values and code constructs related to them.", "trigger": "2008", "specificity": 3}
+{"latent": 9173, "f1": 0.2}
+{"latent": 9304, "f1": 0.0}
+{"latent": 8235, "caption": "Detects numerical values, especially when used in mathematical contexts or as specific coordinates.", "trigger": "\u00b7", "specificity": 2}
+{"latent": 9402, "f1": 0.0}
+{"latent": 8352, "caption": "Detects code related to file system operations, directory manipulation, and file types.", "trigger": "files = [] \u00b7 self . include \u00ab_\u00bb \u00abfiles\u00bb \u00ab=\u00bb [] \u00b7 self . include _ dirs = []", "specificity": 4}
+{"latent": 9350, "f1": 0.286}
+{"latent": 8502, "caption": "Tokens related to protecting people, property, or abstract concepts from harm or threats.", "trigger": "protect \u00abminors\u00bb \u00abfrom\u00bb", "specificity": 4}
+{"latent": 9335, "f1": 0.462}
+{"latent": 9016, "f1": 0.667}
+{"latent": 9553, "f1": 0.5}
+{"latent": 9474, "f1": 0.533}
+{"latent": 9446, "f1": 0.364}
+{"latent": 9457, "f1": 0.615}
+{"latent": 9150, "f1": 0.2}
+{"latent": 9526, "f1": 0.0}
+{"latent": 9231, "f1": 0.0}
+{"latent": 9636, "f1": 0.2}
+{"latent": 9470, "f1": 0.0}
+{"latent": 9555, "f1": 0.875}
+{"latent": 8432, "caption": "Detects phrases related to software licensing and redistribution, often found in code.", "trigger": "free software : you can redistribute it and / or modify", "specificity": 4}
+{"latent": 9576, "f1": 0.222}
+{"latent": 9339, "f1": 0.222}
+{"latent": 9250, "f1": 0.706}
+{"latent": 9428, "f1": 0.769}
+{"latent": 9284, "f1": 0.588}
+{"latent": 9591, "f1": 0.5}
+{"latent": 9608, "f1": 0.615}
+{"latent": 8530, "caption": "Tokens starting with 'sp', often related to speech, sports, or specific entities.", "trigger": "sp", "specificity": 3}
+{"latent": 8504, "caption": "Names of people, places, or things, often with numbers or identifiers.", "trigger": "\u00ab[A-Za-z]+\u00bb", "specificity": 3}
+{"latent": 9530, "f1": 0.364}
+{"latent": 9688, "f1": 0.588}
+{"latent": 8523, "caption": "Numbers that are powers of 2, or multiples of powers of 2, often used in data representations.", "trigger": "255", "specificity": 4}
+{"latent": 8486, "caption": "Detects the concept of a sequence, often in mathematical or programming contexts.", "trigger": "sequence", "specificity": 4}
+{"latent": 9602, "f1": 0.2}
+{"latent": 9537, "f1": 0.333}
+{"latent": 9263, "f1": 0.636}
+{"latent": 9609, "f1": 0.615}
+{"latent": 9634, "f1": 0.7}
+{"latent": 9279, "f1": 0.0}
+{"latent": 9147, "f1": 0.615}
+{"latent": 9640, "f1": 0.333}
+{"latent": 9507, "f1": 0.222}
+{"latent": 9477, "f1": 0.824}
+{"latent": 9737, "f1": 0.667}
+{"latent": 9679, "f1": 0.533}
+{"latent": 9415, "f1": 0.667}
+{"latent": 8501, "caption": "Tokens related to specific items, people, or concepts like 'seat', 'matter', 'Brandon', 'colleague', 'Run'.", "trigger": "seat|matter|Brandon|colleague|Run", "specificity": 3}
+{"latent": 9686, "f1": 0.778}
+{"latent": 9825, "f1": 0.5}
+{"latent": 9880, "f1": 0.364}
+{"latent": 8535, "caption": "Mathematical and programming concepts involving lines, points, and sequences.", "trigger": "line,point,triangle,digit,array,minimal,array,number,element,element,spacecraft,crew,voyaging,vectors,Adjustable,point,colors,camera,triple,property,payment,type,colonies,response", "specificity": 3}
+{"latent": 9775, "f1": 0.364}
+{"latent": 9745, "f1": 0.462}
+{"latent": 9352, "f1": 0.5}
+{"latent": 9854, "f1": 0.333}
+{"latent": 9907, "f1": 0.222}
+{"latent": 8551, "caption": "Python code related to threads, queues, and workers.", "trigger": "threads", "specificity": 4}
+{"latent": 9861, "f1": 0.588}
+{"latent": 9747, "f1": 0.222}
+{"latent": 9901, "f1": 0.8}
+{"latent": 9863, "f1": 0.667}
+{"latent": 9803, "f1": 0.933}
+{"latent": 8558, "caption": "Detects copyright notices and license information in code and web content.", "trigger": "Copyright", "specificity": 4}
+{"latent": 9607, "f1": 0.5}
+{"latent": 9799, "f1": 0.2}
+{"latent": 9897, "f1": 0.625}
+{"latent": 9932, "f1": 0.615}
+{"latent": 9651, "f1": 0.333}
+{"latent": 9955, "f1": 0.2}
+{"latent": 9909, "f1": 0.667}
+{"latent": 8184, "caption": "Detects temporal units like quarters, halves, months, and years, often in financial or reporting contexts.", "trigger": "quarter, half, year, December, January, August, September, week, Friday, Saison, February", "specificity": 4}
+{"latent": 9940, "f1": 0.364}
+{"latent": 8565, "caption": "Detects concepts related to teams, groups, or organizations, often in sports or professional contexts.", "trigger": "team|teams|squad|Nation|clients|members|UEFA|European Championship|Program Visitor|l ooper _ iter|JO IO I Tower", "specificity": 4}
+{"latent": 10042, "f1": 0.333}
+{"latent": 9973, "f1": 0.545}
+{"latent": 9874, "f1": 0.769}
+{"latent": 10061, "f1": 0.571}
+{"latent": 9806, "f1": 0.889}
+{"latent": 10031, "f1": 0.875}
+{"latent": 8569, "caption": "The latent detects the act of discovering or locating something, often information or an object.", "trigger": "find \u00abit\u00bb", "specificity": 4}
+{"latent": 9681, "f1": 0.857}
+{"latent": 10083, "f1": 0.2}
+{"latent": 8565, "f1": 0.222}
+{"latent": 8574, "caption": "This latent detects mathematical equations and expressions, particularly those involving arrays and algebraic manipulation.", "trigger": "array", "specificity": 4}
+{"latent": 10089, "f1": 0.333}
+{"latent": 10102, "f1": 0.706}
+{"latent": 9371, "f1": 1.0}
+{"latent": 8582, "caption": "Tokens related to descriptions of objects, places, and concepts.", "trigger": "\u00abshown\u00bb in the following \u00abfigure\u00bb", "specificity": 3}
+{"latent": 9807, "f1": 0.778}
+{"latent": 10128, "f1": 0.545}
+{"latent": 10113, "f1": 0.5}
+{"latent": 10079, "f1": 0.769}
+{"latent": 9928, "f1": 0.4}
+{"latent": 8589, "caption": "Detects code snippets involving string formatting, especially with newline characters.", "trigger": "\u00ab\\n\u00bb", "specificity": 3}
+{"latent": 10150, "f1": 0.8}
+{"latent": 9821, "f1": 0.0}
+{"latent": 8587, "caption": "Detects tokens related to reactions, responses, and the entity 'reactor'.", "trigger": "react", "specificity": 4}
+{"latent": 10141, "f1": 0.714}
+{"latent": 2064, "f1": 0.182}
+{"latent": 10060, "f1": 0.421}
+{"latent": 8600, "caption": "The latent detects the concept of seeing or observing something.", "trigger": "see", "specificity": 3}
+{"latent": 9658, "f1": 0.588}
+{"latent": 10182, "f1": 0.588}
+{"latent": 10186, "f1": 0.667}
+{"latent": 10073, "f1": 0.556}
+{"latent": 10080, "f1": 0.588}
+{"latent": 9341, "f1": 0.615}
+{"latent": 10162, "f1": 0.462}
+{"latent": 8601, "caption": "Numbers and mathematical expressions, often involving sequences, equations, or ranges.", "trigger": "numbers and mathematical symbols", "specificity": 3}
+{"latent": 10127, "f1": 0.824}
+{"latent": 10112, "f1": 0.778}
+{"latent": 10183, "f1": 0.714}
+{"latent": 9769, "f1": 0.545}
+{"latent": 8603, "caption": "Detects mentions of serious illnesses and health conditions.", "trigger": "\u00absuicide\u00bb \u00abstruggling\u00bb \u00abdepression\u00bb", "specificity": 4}
+{"latent": 10242, "f1": 0.941}
+{"latent": 10207, "f1": 0.364}
+{"latent": 10199, "f1": 0.933}
+{"latent": 10130, "f1": 0.533}
+{"latent": 10288, "f1": 0.667}
+{"latent": 10212, "f1": 0.875}
+{"latent": 10208, "f1": 0.706}
+{"latent": 10216, "f1": 0.5}
+{"latent": 10195, "f1": 0.2}
+{"latent": 10318, "f1": 0.364}
+{"latent": 8608, "caption": "The latent detects phrases indicating an action is performed 'by' something or someone.", "trigger": "by", "specificity": 2}
+{"latent": 10062, "f1": 0.615}
+{"latent": 10237, "f1": 0.5}
+{"latent": 10283, "f1": 0.706}
+{"latent": 10254, "f1": 0.615}
+{"latent": 10334, "f1": 0.6}
+{"latent": 10330, "f1": 0.0}
+{"latent": 10274, "f1": 0.889}
+{"latent": 10299, "f1": 0.5}
+{"latent": 8623, "caption": "Mathematical expressions involving fractions, roots, and exponents.", "trigger": "\u00abcdot\u00bb", "specificity": 3}
+{"latent": 10327, "f1": 0.364}
+{"latent": 10352, "f1": 0.4}
+{"latent": 10227, "f1": 0.875}
+{"latent": 10342, "f1": 0.222}
+{"latent": 10246, "f1": 0.933}
+{"latent": 9027, "f1": 0.4}
+{"latent": 10372, "f1": 0.933}
+{"latent": 10399, "f1": 0.667}
+{"latent": 8602, "caption": "Tokens that are part of common English words or abbreviations.", "trigger": "ya, ' , r, sum, Ark, n, the, nd, de, target, destination, case, ya, that, isn, ot, n, at, ye, THE, IR, y, uo, fore, XX, stat, ad", "specificity": 2}
+{"latent": 10321, "f1": 0.0}
+{"latent": 10366, "f1": 0.857}
+{"latent": 10414, "f1": 0.2}
+{"latent": 10423, "f1": 0.471}
+{"latent": 10485, "f1": 0.308}
+{"latent": 8633, "caption": "Detects tokens related to numerical quantities and their properties.", "trigger": "numbers", "specificity": 3}
+{"latent": 9436, "f1": 0.667}
+{"latent": 9633, "f1": 0.706}
+{"latent": 10303, "f1": 0.364}
+{"latent": 9968, "f1": 0.25}
+{"latent": 10322, "f1": 0.267}
+{"latent": 10416, "f1": 0.308}
+{"latent": 10393, "f1": 0.364}
+{"latent": 10316, "f1": 0.769}
+{"latent": 10499, "f1": 0.933}
+{"latent": 10448, "f1": 0.462}
+{"latent": 8531, "caption": "Detects tokens related to file names, data types, and object properties in code.", "trigger": "\u00abfileName\u00bb", "specificity": 3}
+{"latent": 10455, "f1": 0.667}
+{"latent": 10420, "f1": 0.667}
+{"latent": 10409, "f1": 0.429}
+{"latent": 10476, "f1": 0.2}
+{"latent": 10376, "f1": 0.933}
+{"latent": 10498, "f1": 0.571}
+{"latent": 8653, "caption": "Detects programming constructs like 'vpc', 'django', 'ascii', 'UI', 'floats', 'tf', and 'aux'.", "trigger": "vpc, django, ascii, UI, floats, tf, aux", "specificity": 4}
+{"latent": 8655, "caption": "Detects code related to 'frappe' framework, 'db' operations, and 'rollback'.", "trigger": "frappe . db . rollback ()", "specificity": 4}
+{"latent": 10574, "f1": 0.667}
+{"latent": 10505, "f1": 0.4}
+{"latent": 10502, "f1": 0.625}
+{"latent": 8544, "caption": "Detects tokens related to creation, forms, and setup processes.", "trigger": "\u00abCreation\u00bb \u00abForm\u00bb", "specificity": 4}
+{"latent": 8618, "caption": "Religious and spiritual phrases, often invoking divine presence or guidance.", "trigger": "\u00abus\u00bb \u00abfrom\u00bb \u00abevil\u00bb", "specificity": 4}
+{"latent": 9728, "f1": 0.364}
+{"latent": 9872, "f1": 0.222}
+{"latent": 10557, "f1": 0.556}
+{"latent": 8554, "caption": "Tokens related to physical objects, body parts, and abstract concepts like weather or crime.", "trigger": "object|body_part|abstract_concept", "specificity": 3}
+{"latent": 10602, "f1": 0.615}
+{"latent": 10561, "f1": 0.571}
+{"latent": 10549, "f1": 0.8}
+{"latent": 9475, "f1": 0.2}
+{"latent": 10588, "f1": 0.0}
+{"latent": 8661, "caption": "The word 'so' used to introduce a consequence or explanation.", "trigger": "so", "specificity": 3}
+{"latent": 9757, "f1": 0.5}
+{"latent": 8667, "caption": "This latent detects tokens related to numbers, mathematical operations, and code structures.", "trigger": "\u00ab0\u00bb \u00ab,\u00bb \u00b7 \u00ab0\u00bb", "specificity": 3}
+{"latent": 10554, "f1": 0.0}
+{"latent": 10609, "f1": 0.429}
+{"latent": 9700, "f1": 0.545}
+{"latent": 10532, "f1": 0.364}
+{"latent": 10392, "f1": 0.154}
+{"latent": 10663, "f1": 0.933}
+{"latent": 10582, "f1": 0.667}
+{"latent": 8668, "caption": "Concepts related to identity, groups, and abstract systems.", "trigger": "\u00abCorporation\u00bb | \u00abtherners\u00bb | \u00abracism\u00bb | \u00abeconomy\u00bb | \u00abenvironment\u00bb | \u00abrecreation\u00bb | \u00abPeanuts\u00bb | \u00abkidneys\u00bb | \u00abters\u00bb | \u00aburethra\u00bb | \u00abarchaeology\u00bb | \u00abethnicity\u00bb | \u00abreligion\u00bb | \u00abFrenchman\u00bb | \u00abhumans\u00bb | \u00abwhites\u00bb | \u00abism\u00bb | \u00abIslam\u00bb | \u00abBuddhism\u00bb | \u00abJudaism\u00bb | \u00abdecimals\u00bb | \u00abdiameter\u00bb | \u00abtropics\u00bb | \u00abbola\u00bb | \u00aboxia\u00bb | \u00abmod\u00bb | \u00abality\u00bb | \u00abkas\u00bb | \u00abings\u00bb", "specificity": 3}
+{"latent": 10647, "f1": 0.4}
+{"latent": 9722, "f1": 1.0}
+{"latent": 9611, "f1": 0.364}
+{"latent": 10665, "f1": 0.5}
+{"latent": 9696, "f1": 0.222}
+{"latent": 10170, "f1": 0.429}
+{"latent": 10587, "f1": 0.714}
+{"latent": 10631, "f1": 0.5}
+{"latent": 10612, "f1": 1.0}
+{"latent": 10635, "f1": 0.526}
+{"latent": 9702, "f1": 0.4}
+{"latent": 9755, "f1": 0.2}
+{"latent": 10610, "f1": 0.667}
+{"latent": 8559, "caption": "Detects the presence of the token 'is' or 'is_' often used in boolean checks or property names.", "trigger": "is", "specificity": 2}
+{"latent": 8696, "caption": "Tokens related to punctuation, especially colons and periods, often appearing at the end of sentences or clauses.", "trigger": "\u00ab:\u00bb", "specificity": 3}
+{"latent": 9844, "f1": 0.667}
+{"latent": 10474, "f1": 0.667}
+{"latent": 10760, "f1": 0.0}
+{"latent": 9546, "f1": 1.0}
+{"latent": 10714, "f1": 0.778}
+{"latent": 8703, "caption": "Python code related to data structures and object-oriented programming.", "trigger": "self .", "specificity": 3}
+{"latent": 10686, "f1": 0.714}
+{"latent": 10726, "f1": 0.8}
+{"latent": 10693, "f1": 0.545}
+{"latent": 10224, "f1": 0.933}
+{"latent": 10706, "f1": 0.588}
+{"latent": 10753, "f1": 0.933}
+{"latent": 10740, "f1": 0.2}
+{"latent": 10721, "f1": 0.667}
+{"latent": 10432, "f1": 0.571}
+{"latent": 9947, "f1": 0.571}
+{"latent": 10782, "f1": 0.308}
+{"latent": 9836, "f1": 0.588}
+{"latent": 10614, "f1": 0.875}
+{"latent": 10875, "f1": 0.533}
+{"latent": 10756, "f1": 0.5}
+{"latent": 8752, "caption": "Detects tokens related to 'corrosion', 'corticosteroids', and 'corrupting'.", "trigger": "cor", "specificity": 4}
+{"latent": 10315, "f1": 0.769}
+{"latent": 10807, "f1": 0.4}
+{"latent": 10860, "f1": 0.533}
+{"latent": 10773, "f1": 0.2}
+{"latent": 10867, "f1": 0.706}
+{"latent": 10813, "f1": 0.364}
+{"latent": 10964, "f1": 0.625}
+{"latent": 9862, "f1": 0.714}
+{"latent": 10882, "f1": 0.545}
+{"latent": 10720, "f1": 0.875}
+{"latent": 8766, "caption": "Detects phrases indicating the existence or formation of something, like 'sort of victory' or 'some points to make'.", "trigger": "some", "specificity": 2}
+{"latent": 10727, "f1": 0.462}
+{"latent": 10153, "f1": 0.7}
+{"latent": 8688, "caption": "Tokens related to calculation, analysis, and mathematical operations.", "trigger": "calcul|analys|optim|evalu|differenti|gramm|natur|convers|innov|lingu|crimin|elabor|vibr|anim|initi|pag|pagi|repr|integr|kund|power", "specificity": 4}
+{"latent": 10822, "f1": 0.182}
+{"latent": 8736, "caption": "Describes people, their roles, and their qualities.", "trigger": "people", "specificity": 2}
+{"latent": 10809, "f1": 0.462}
+{"latent": 10966, "f1": 0.615}
+{"latent": 10940, "f1": 0.364}
+{"latent": 10904, "f1": 0.462}
+{"latent": 10895, "f1": 0.4}
+{"latent": 10953, "f1": 0.75}
+{"latent": 10620, "f1": 0.0}
+{"latent": 10982, "f1": 0.625}
+{"latent": 9977, "f1": 0.933}
+{"latent": 10951, "f1": 0.667}
+{"latent": 10247, "f1": 0.667}
+{"latent": 10783, "f1": 0.5}
+{"latent": 8762, "caption": "Detects tokens related to mathematical formulas, code, and web content, often involving specific keywords like 'and', 'cos', 'sqrt', 'mod', 'numpy', 'Mock', 'triangle', 'sentence', 'reform', 'contaminated', 'violation', 'encryption', 'calculated', 'by', 'Daniel'.", "trigger": "and, cos, sqrt, mod, numpy, Mock, triangle, sentence, reform, contaminated, violation, encryption, calculated, by, Daniel", "specificity": 3}
+{"latent": 10468, "f1": 0.8}
+{"latent": 10787, "f1": 0.471}
+{"latent": 10974, "f1": 0.5}
+{"latent": 10988, "f1": 0.933}
+{"latent": 10994, "f1": 0.545}
+{"latent": 8774, "caption": "This latent detects mentions of specific entities, often proper nouns or technical terms, in various contexts.", "trigger": "\u00abbreast\u00bb \u00abstroke\u00bb", "specificity": 3}
+{"latent": 11011, "f1": 0.545}
+{"latent": 10959, "f1": 0.545}
+{"latent": 11004, "f1": 0.824}
+{"latent": 10837, "f1": 0.6}
+{"latent": 11002, "f1": 0.462}
+{"latent": 10956, "f1": 0.545}
+{"latent": 8789, "caption": "This latent detects concepts related to energy generation and electricity.", "trigger": "energy, electricity, power, electric, generate, watt, wh, generator", "specificity": 4}
+{"latent": 11015, "f1": 0.0}
+{"latent": 11064, "f1": 0.375}
+{"latent": 11186, "f1": 0.667}
+{"latent": 11021, "f1": 1.0}
+{"latent": 9715, "f1": 0.308}
+{"latent": 10808, "f1": 0.824}
+{"latent": 9995, "f1": 0.556}
+{"latent": 11178, "f1": 0.222}
+{"latent": 10788, "f1": 0.222}
+{"latent": 11088, "f1": 0.364}
+{"latent": 8783, "caption": "Latent detects discourse markers indicating the start of a new topic or explanation.", "trigger": "Anyway, Eventually, Somehow, Anyhow, Okay", "specificity": 3}
+{"latent": 8795, "caption": "Tokens expressing wonder, amazement, or discovery, often related to curiosity or impressive experiences.", "trigger": "wonder|amazed|amazing|discover|incredible|miracles|wonders", "specificity": 4}
+{"latent": 10851, "f1": 1.0}
+{"latent": 11139, "f1": 0.625}
+{"latent": 11118, "f1": 1.0}
+{"latent": 11150, "f1": 0.615}
+{"latent": 11165, "f1": 0.714}
+{"latent": 10699, "f1": 1.0}
+{"latent": 11162, "f1": 0.5}
+{"latent": 8671, "caption": "Tokens indicating future or ongoing states, actions, or existence.", "trigger": "will, continue, be, make, coming, contribute, development, sustain, had, was, is, being, had", "specificity": 3}
+{"latent": 11224, "f1": 0.0}
+{"latent": 11200, "f1": 0.2}
+{"latent": 11281, "f1": 0.769}
+{"latent": 11149, "f1": 0.4}
+{"latent": 8800, "caption": "Detects phrases related to counting, grouping, or partitioning items.", "trigger": "number of", "specificity": 2}
+{"latent": 11320, "f1": 0.182}
+{"latent": 10989, "f1": 0.824}
+{"latent": 11168, "f1": 0.5}
+{"latent": 11141, "f1": 0.769}
+{"latent": 11197, "f1": 0.429}
+{"latent": 11202, "f1": 0.4}
+{"latent": 11198, "f1": 0.667}
+{"latent": 11075, "f1": 0.588}
+{"latent": 11201, "f1": 0.875}
+{"latent": 11253, "f1": 0.933}
+{"latent": 11285, "f1": 0.364}
+{"latent": 11249, "f1": 0.182}
+{"latent": 11255, "f1": 0.333}
+{"latent": 11061, "f1": 0.353}
+{"latent": 11251, "f1": 0.364}
+{"latent": 11219, "f1": 0.2}
+{"latent": 11134, "f1": 0.364}
+{"latent": 11350, "f1": 0.667}
+{"latent": 10900, "f1": 0.545}
+{"latent": 11382, "f1": 0.364}
+{"latent": 11223, "f1": 0.75}
+{"latent": 11353, "f1": 0.545}
+{"latent": 11307, "f1": 0.769}
+{"latent": 8797, "caption": "Tokens related to events, ceremonies, and inductions.", "trigger": "\u00abInduction\u00bb \u00abCeremony\u00bb", "specificity": 4}
+{"latent": 11396, "f1": 0.533}
+{"latent": 11436, "f1": 0.0}
+{"latent": 11238, "f1": 0.4}
+{"latent": 10098, "f1": 0.526}
+{"latent": 11129, "f1": 0.4}
+{"latent": 11301, "f1": 0.714}
+{"latent": 11445, "f1": 0.941}
+{"latent": 8815, "caption": "Detects Python code related to database operations, including SQL queries and model definitions.", "trigger": "db . alter _ column ( u ' order _ order ', ' shipping _ address _ id ', self . gf (' django . db . models . fields . related . ForeignKey ')( to = orm [' order . Shipping Address '], null = \u00abTrue\u00bb \u00ab,\u00bb \u00abon\u00bb _ delete = models . SET _ NULL ))", "specificity": 4}
+{"latent": 11438, "f1": 0.0}
+{"latent": 11212, "f1": 0.769}
+{"latent": 8822, "caption": "Detects tokens related to actions, intentions, and understanding between entities.", "trigger": "\u00abis\u00bb \u00abdoing\u00bb \u00abit\u00bb", "specificity": 3}
+{"latent": 11407, "f1": 0.727}
+{"latent": 8837, "caption": "Welcoming someone, often with a greeting like 'Welcome' or 'Greetings'.", "trigger": "Welcome", "specificity": 4}
+{"latent": 11216, "f1": 0.308}
+{"latent": 11431, "f1": 1.0}
+{"latent": 11503, "f1": 0.667}
+{"latent": 11474, "f1": 0.2}
+{"latent": 11404, "f1": 0.667}
+{"latent": 11063, "f1": 0.5}
+{"latent": 11371, "f1": 0.588}
+{"latent": 8819, "caption": "Detects command-line arguments, specifically flags starting with '--'.", "trigger": "--", "specificity": 4}
+{"latent": 8832, "caption": "The latent detects phrases related to 'pulling' actions, often involving objects, people, or outcomes.", "trigger": "pull", "specificity": 3}
+{"latent": 11533, "f1": 0.375}
+{"latent": 11363, "f1": 0.5}
+{"latent": 11365, "f1": 0.778}
+{"latent": 10908, "f1": 0.706}
+{"latent": 11534, "f1": 0.0}
+{"latent": 11079, "f1": 0.0}
+{"latent": 10050, "f1": 0.182}
+{"latent": 11506, "f1": 0.714}
+{"latent": 8848, "caption": "Mentions of works or software published by an author or foundation.", "trigger": "published \u00abby\u00bb", "specificity": 3}
+{"latent": 11583, "f1": 0.933}
+{"latent": 11022, "f1": 0.364}
+{"latent": 11606, "f1": 0.462}
+{"latent": 11486, "f1": 0.0}
+{"latent": 11258, "f1": 0.769}
+{"latent": 11413, "f1": 0.333}
+{"latent": 11509, "f1": 0.588}
+{"latent": 11575, "f1": 0.75}
+{"latent": 8683, "caption": "Detects numerical sequences, often with punctuation or mathematical symbols.", "trigger": "numeric sequences with punctuation", "specificity": 4}
+{"latent": 11618, "f1": 0.286}
+{"latent": 8873, "caption": "Numbers containing zeros, especially in large quantities or as part of calculations.", "trigger": "0", "specificity": 3}
+{"latent": 11677, "f1": 0.667}
+{"latent": 11587, "f1": 0.5}
+{"latent": 11643, "f1": 0.364}
+{"latent": 11487, "f1": 0.545}
+{"latent": 10991, "f1": 0.0}
+{"latent": 11645, "f1": 0.615}
+{"latent": 8874, "caption": "Detects numerical ratios, fractions, and scaling factors.", "trigger": "\u00ab1\u00bb \u00ab/\u00bb \u00b7 \u00ab2\u00bb", "specificity": 4}
+{"latent": 11658, "f1": 0.429}
+{"latent": 11609, "f1": 0.933}
+{"latent": 11664, "f1": 0.471}
+{"latent": 8572, "caption": "Detects tokens related to 'stock ledger entry' and 'warehouse' in SQL queries.", "trigger": "\u00abStock\u00bb \u00abLedger\u00bb \u00abEntry\u00bb", "specificity": 4}
+{"latent": 11767, "f1": 0.533}
+{"latent": 8877, "caption": "Tokens related to actions, places, or objects being moved or acquired.", "trigger": "across the cities of", "specificity": 3}
+{"latent": 11221, "f1": 0.471}
+{"latent": 11709, "f1": 0.4}
+{"latent": 8878, "caption": "Detects sequences of numbers, often denoted with subscripts like a_1, a_2, ..., a_n.", "trigger": "a _", "specificity": 4}
+{"latent": 11764, "f1": 0.545}
+{"latent": 8884, "caption": "This latent detects mathematical expressions involving variables and operations.", "trigger": "math", "specificity": 4}
+{"latent": 11726, "f1": 1.0}
+{"latent": 11593, "f1": 0.769}
+{"latent": 11760, "f1": 0.625}
+{"latent": 11652, "f1": 0.4}
+{"latent": 11889, "f1": 0.167}
+{"latent": 11700, "f1": 0.667}
+{"latent": 11746, "f1": 0.667}
+{"latent": 11774, "f1": 0.545}
+{"latent": 11854, "f1": 0.364}
+{"latent": 11857, "f1": 0.333}
+{"latent": 8888, "caption": "The latent detects the presence of the verb 'to be' in various grammatical forms, often acting as a copula or auxiliary.", "trigger": "is", "specificity": 3}
+{"latent": 11884, "f1": 0.222}
+{"latent": 11923, "f1": 0.615}
+{"latent": 11772, "f1": 0.667}
+{"latent": 12012, "f1": 0.8}
+{"latent": 11734, "f1": 0.545}
+{"latent": 11930, "f1": 0.286}
+{"latent": 12009, "f1": 0.364}
+{"latent": 11965, "f1": 0.714}
+{"latent": 11612, "f1": 0.545}
+{"latent": 11976, "f1": 0.364}
+{"latent": 11955, "f1": 0.182}
+{"latent": 12054, "f1": 0.0}
+{"latent": 12032, "f1": 0.571}
+{"latent": 12029, "f1": 0.5}
+{"latent": 12006, "f1": 0.824}
+{"latent": 12034, "f1": 0.571}
+{"latent": 12018, "f1": 0.429}
+{"latent": 11978, "f1": 0.5}
+{"latent": 12057, "f1": 0.769}
+{"latent": 11641, "f1": 0.571}
+{"latent": 12141, "f1": 0.0}
+{"latent": 12115, "f1": 0.429}
+{"latent": 12091, "f1": 0.2}
+{"latent": 12107, "f1": 0.778}
+{"latent": 12094, "f1": 0.875}
+{"latent": 12174, "f1": 0.375}
+{"latent": 11610, "f1": 0.625}
+{"latent": 11589, "f1": 0.571}
+{"latent": 12113, "f1": 0.429}
+{"latent": 11597, "f1": 0.182}
+{"latent": 12078, "f1": 0.0}
+{"latent": 12198, "f1": 0.462}
+{"latent": 11675, "f1": 0.737}
+{"latent": 8852, "caption": "The word 'perhaps' is often used to express uncertainty or possibility.", "trigger": "perhaps", "specificity": 3}
+{"latent": 11655, "f1": 0.667}
+{"latent": 12079, "f1": 0.615}
+{"latent": 11611, "f1": 0.429}
+{"latent": 8867, "caption": "Mathematical expressions involving integrals, sums, and trigonometric functions.", "trigger": "int", "specificity": 4}
+{"latent": 11442, "f1": 0.308}
+{"latent": 12104, "f1": 0.667}
+{"latent": 11924, "f1": 0.353}
+{"latent": 11751, "f1": 0.667}
+{"latent": 11499, "f1": 0.545}
+{"latent": 12168, "f1": 0.842}
+{"latent": 11876, "f1": 0.545}
+{"latent": 8951, "caption": "Detects closing brackets and braces, often indicating the end of code blocks or mathematical expressions.", "trigger": "\u00ab]\u00bb", "specificity": 3}
+{"latent": 12292, "f1": 0.5}
+{"latent": 12281, "f1": 0.714}
+{"latent": 8864, "caption": "This latent detects copyright notices, company names, and licensing information.", "trigger": "IBM Corp", "specificity": 4}
+{"latent": 11183, "f1": 0.222}
+{"latent": 12334, "f1": 0.462}
+{"latent": 11536, "f1": 0.533}
+{"latent": 12271, "f1": 0.545}
+{"latent": 12316, "f1": 0.533}
+{"latent": 11584, "f1": 0.714}
+{"latent": 12236, "f1": 0.824}
+{"latent": 11812, "f1": 1.0}
+{"latent": 12200, "f1": 0.364}
+{"latent": 8857, "caption": "This latent detects fractions, particularly those involving division and ratios.", "trigger": "fraction", "specificity": 4}
+{"latent": 12110, "f1": 0.182}
+{"latent": 12302, "f1": 0.769}
+{"latent": 12205, "f1": 0.933}
+{"latent": 8962, "caption": "Locations, often cities or states, mentioned in addresses or formal contexts.", "trigger": "\u00abNaples\u00bb , \u00abFla\u00bb .", "specificity": 3}
+{"latent": 11578, "f1": 0.5}
+{"latent": 12249, "f1": 0.714}
+{"latent": 11891, "f1": 0.4}
+{"latent": 12232, "f1": 0.533}
+{"latent": 12227, "f1": 0.364}
+{"latent": 12337, "f1": 0.933}
+{"latent": 8959, "caption": "This latent detects underscores, often used in variable names or as separators.", "trigger": "_", "specificity": 2}
+{"latent": 11898, "f1": 0.167}
+{"latent": 12237, "f1": 0.222}
+{"latent": 12342, "f1": 0.444}
+{"latent": 8956, "caption": "Tokens related to specific names, brands, and technical terms.", "trigger": "\u00abKam\u00bb \u00abTad\u00bb \u00abaja\u00bb \u00abTap\u00bb \u00abamp\u00bb \u00abTac\u00bb \u00abraz\u00bb \u00ababa\u00bb \u00abbab\u00bb \u00abamat\u00bb \u00abab\u00bb \u00abLapat\u00bb \u00abRast\u00bb \u00abaf\u00bb \u00abarian\u00bb \u00abSas\u00bb \u00abSzab\u00bb \u00abdak\u00bb \u00abpas\u00bb \u00abjava\u00bb \u00abjavas\u00bb \u00abkafka\u00bb \u00abtap\u00bb", "specificity": 4}
+{"latent": 12473, "f1": 0.333}
+{"latent": 12402, "f1": 0.571}
+{"latent": 12294, "f1": 0.333}
+{"latent": 12392, "f1": 0.4}
+{"latent": 12304, "f1": 0.545}
+{"latent": 9249, "f1": 0.222}
+{"latent": 12395, "f1": 0.714}
+{"latent": 12474, "f1": 0.615}
+{"latent": 11576, "f1": 0.8}
+{"latent": 12344, "f1": 0.615}
+{"latent": 8967, "caption": "This latent detects code related to file operations, path joining, and opening files in Python.", "trigger": "os.path.join", "specificity": 4}
+{"latent": 12389, "f1": 0.0}
+{"latent": 12382, "f1": 0.615}
+{"latent": 11912, "f1": 0.364}
+{"latent": 11860, "f1": 0.762}
+{"latent": 12176, "f1": 0.222}
+{"latent": 12563, "f1": 0.5}
+{"latent": 12512, "f1": 0.875}
+{"latent": 8949, "caption": "Detects tokens related to code, math, and specific phrases like 'any later version'.", "trigger": "any later version", "specificity": 3}
+{"latent": 12568, "f1": 0.941}
+{"latent": 9016, "caption": "Detects tokens related to 'O' as a letter, symbol, or part of abbreviations.", "trigger": "O", "specificity": 3}
+{"latent": 11803, "f1": 0.545}
+{"latent": 12415, "f1": 0.545}
+{"latent": 12491, "f1": 0.533}
+{"latent": 12625, "f1": 0.857}
+{"latent": 12405, "f1": 0.222}
+{"latent": 12597, "f1": 0.167}
+{"latent": 12570, "f1": 0.857}
+{"latent": 12565, "f1": 0.706}
+{"latent": 12567, "f1": 0.286}
+{"latent": 8989, "caption": "This latent detects powers of 2, often seen in mathematical fractions and code.", "trigger": "16", "specificity": 4}
+{"latent": 12522, "f1": 0.5}
+{"latent": 12706, "f1": 0.667}
+{"latent": 12627, "f1": 0.941}
+{"latent": 12606, "f1": 0.778}
+{"latent": 12632, "f1": 0.857}
+{"latent": 12639, "f1": 0.6}
+{"latent": 12524, "f1": 0.333}
+{"latent": 11750, "f1": 0.4}
+{"latent": 12329, "f1": 0.0}
+{"latent": 12513, "f1": 0.545}
+{"latent": 12721, "f1": 0.769}
+{"latent": 12533, "f1": 0.545}
+{"latent": 8898, "caption": "Detects specific tokens like 'Ridley', 'Assistant', 'Baltimore', 'GPU', 'NY', 'CC', and punctuation.", "trigger": "\u00abRidley\u00bb \u00abAssistant\u00bb \u00abBaltimore\u00bb \u00abGPU\u00bb \u00abNY\u00bb \u00abCC\u00bb \u00ab.\u00bb \u00ab,\u00bb \u00ab!\u00bb \u00ab:\u00bb \u00ab\u00b7\u00bb \u00ab'\u00bb", "specificity": 3}
+{"latent": 12656, "f1": 0.714}
+{"latent": 11476, "f1": 0.308}
+{"latent": 11992, "f1": 0.667}
+{"latent": 8932, "caption": "This latent detects concepts related to academic disciplines, societal structures, and abstract qualities.", "trigger": "academic disciplines, societal structures, abstract qualities", "specificity": 3}
+{"latent": 9026, "caption": "Detects the `__init__` method in Python code, often within class definitions.", "trigger": "__init__", "specificity": 4}
+{"latent": 12587, "f1": 0.737}
+{"latent": 11948, "f1": 0.462}
+{"latent": 12263, "f1": 0.667}
+{"latent": 12732, "f1": 0.308}
+{"latent": 12475, "f1": 0.615}
+{"latent": 12393, "f1": 0.615}
+{"latent": 12835, "f1": 1.0}
+{"latent": 12774, "f1": 0.769}
+{"latent": 9023, "caption": "Tokens related to lists, sequences, and indexing.", "trigger": "[code] \u00ab[\u00bb \u00ab1\u00bb ]", "specificity": 4}
+{"latent": 12691, "f1": 0.545}
+{"latent": 12807, "f1": 0.636}
+{"latent": 12884, "f1": 0.545}
+{"latent": 12825, "f1": 0.769}
+{"latent": 12894, "f1": 1.0}
+{"latent": 10798, "f1": 0.0}
+{"latent": 12874, "f1": 0.667}
+{"latent": 9024, "caption": "This latent detects past tense verbs, particularly 'was' and 'were', often indicating a past state or action.", "trigger": "was|were", "specificity": 3}
+{"latent": 12775, "f1": 0.143}
+{"latent": 12704, "f1": 0.4}
+{"latent": 13002, "f1": 0.222}
+{"latent": 12538, "f1": 0.545}
+{"latent": 12729, "f1": 0.824}
+{"latent": 9030, "caption": "Tokens related to names, often with unusual spellings or phonetic representations.", "trigger": "\u00aboman\u00bb di \u00abbular\u00bb", "specificity": 3}
+{"latent": 12930, "f1": 0.667}
+{"latent": 12672, "f1": 0.824}
+{"latent": 12941, "f1": 1.0}
+{"latent": 12613, "f1": 0.222}
+{"latent": 12521, "f1": 0.333}
+{"latent": 12786, "f1": 1.0}
+{"latent": 12849, "f1": 0.0}
+{"latent": 12905, "f1": 0.667}
+{"latent": 12351, "f1": 0.857}
+{"latent": 9034, "caption": "Python code related to file handling, configuration, and logging.", "trigger": "\u00abfile\u00bb", "specificity": 3}
+{"latent": 12668, "f1": 0.375}
+{"latent": 12679, "f1": 0.5}
+{"latent": 12920, "f1": 0.5}
+{"latent": 12875, "f1": 0.0}
+{"latent": 12758, "f1": 0.588}
+{"latent": 12737, "f1": 0.8}
+{"latent": 12493, "f1": 0.286}
+{"latent": 13006, "f1": 0.4}
+{"latent": 12759, "f1": 0.222}
+{"latent": 12977, "f1": 0.545}
+{"latent": 13030, "f1": 0.769}
+{"latent": 12962, "f1": 0.182}
+{"latent": 13089, "f1": 0.75}
+{"latent": 12971, "f1": 0.632}
+{"latent": 9022, "caption": "Mathematical expressions involving trigonometric functions and powers.", "trigger": "\u00ab2\u00bb", "specificity": 4}
+{"latent": 12974, "f1": 0.167}
+{"latent": 12065, "f1": 0.0}
+{"latent": 9035, "caption": "This latent detects references to sports teams and leagues, and musical groups.", "trigger": "\u00abStripes\u00bb \u00ab'\u00bb \"Seven Nation \u00abArmy\u00bb \"", "specificity": 3}
+{"latent": 12987, "f1": 0.778}
+{"latent": 12986, "f1": 0.4}
+{"latent": 12899, "f1": 0.545}
+{"latent": 13075, "f1": 0.842}
+{"latent": 9039, "caption": "Indicates a large quantity or extent, often associated with 'lot of' or 'deal of'.", "trigger": "lot of", "specificity": 4}
+{"latent": 9038, "caption": "This latent detects tokens related to engineering, technical specifications, and related academic fields.", "trigger": "engineering, technical, engineers, electrical, assembly, graduates, education, IE, ETO, Waterloo, W, engineered", "specificity": 4}
+{"latent": 12215, "f1": 0.824}
+{"latent": 13051, "f1": 0.545}
+{"latent": 13034, "f1": 0.667}
+{"latent": 13140, "f1": 0.667}
+{"latent": 13132, "f1": 0.222}
+{"latent": 11761, "f1": 0.5}
+{"latent": 8895, "caption": "Python code defining classes, methods, and URL patterns, often involving Django or database operations.", "trigger": "class", "specificity": 3}
+{"latent": 13129, "f1": 0.889}
+{"latent": 12975, "f1": 0.667}
+{"latent": 13169, "f1": 0.0}
+{"latent": 13244, "f1": 0.333}
+{"latent": 12965, "f1": 0.615}
+{"latent": 9048, "caption": "Punctuation and symbols like colons, periods, and parentheses.", "trigger": ":", "specificity": 2}
+{"latent": 13074, "f1": 0.933}
+{"latent": 13284, "f1": 0.333}
+{"latent": 13267, "f1": 0.857}
+{"latent": 13333, "f1": 0.364}
+{"latent": 13423, "f1": 0.0}
+{"latent": 13376, "f1": 0.889}
+{"latent": 13413, "f1": 0.824}
+{"latent": 13374, "f1": 0.667}
+{"latent": 11815, "f1": 0.824}
+{"latent": 9011, "caption": "Tokens related to mathematical variables, symbols, and numerical values.", "trigger": "variable names like 'a', 'b', 'c', 'k', 'n', 'x', 'y', 'u', 't', and numerical digits.", "specificity": 4}
+{"latent": 13315, "f1": 0.5}
+{"latent": 13335, "f1": 0.737}
+{"latent": 13305, "f1": 0.0}
+{"latent": 13356, "f1": 0.2}
+{"latent": 13552, "f1": 0.857}
+{"latent": 13527, "f1": 0.182}
+{"latent": 13576, "f1": 0.0}
+{"latent": 11899, "f1": 0.2}
+{"latent": 9082, "caption": "This latent detects mentions of 'software', often in technical or business contexts.", "trigger": "\u00absoftware\u00bb", "specificity": 4}
+{"latent": 13526, "f1": 0.933}
+{"latent": 13334, "f1": 0.364}
+{"latent": 13569, "f1": 0.8}
+{"latent": 9103, "caption": "Tokens that are, is, was, or are used as auxiliary verbs or copulas.", "trigger": "is", "specificity": 2}
+{"latent": 13659, "f1": 0.2}
+{"latent": 13077, "f1": 0.2}
+{"latent": 13628, "f1": 0.8}
+{"latent": 11970, "f1": 0.375}
+{"latent": 13668, "f1": 0.4}
+{"latent": 13586, "f1": 0.222}
+{"latent": 12280, "f1": 1.0}
+{"latent": 9131, "caption": "Tokens related to country music, cowboys, and rural life.", "trigger": "cowboys, country, Lone Star State, Dixie Chicks", "specificity": 4}
+{"latent": 13639, "f1": 0.5}
+{"latent": 13624, "f1": 0.5}
+{"latent": 13486, "f1": 0.571}
+{"latent": 13660, "f1": 0.545}
+{"latent": 13673, "f1": 1.0}
+{"latent": 9142, "caption": "Numbers ending in '00'", "trigger": "00", "specificity": 4}
+{"latent": 11830, "f1": 0.533}
+{"latent": 13664, "f1": 0.737}
+{"latent": 9147, "caption": "The concept of something being very large or significant in scale or impact.", "trigger": "huge", "specificity": 4}
+{"latent": 13700, "f1": 0.824}
+{"latent": 13640, "f1": 0.4}
+{"latent": 13060, "f1": 0.5}
+{"latent": 13675, "f1": 0.533}
+{"latent": 13674, "f1": 0.333}
+{"latent": 13135, "f1": 0.615}
+{"latent": 13692, "f1": 0.625}
+{"latent": 13285, "f1": 0.625}
+{"latent": 13732, "f1": 0.222}
+{"latent": 13705, "f1": 0.5}
+{"latent": 13331, "f1": 0.471}
+{"latent": 13309, "f1": 0.0}
+{"latent": 9051, "caption": "This latent detects the number 5, often in mathematical contexts or lists.", "trigger": "5", "specificity": 4}
+{"latent": 9150, "caption": "This latent detects mentions of 'conference sessions' and related terms.", "trigger": "Conference sessions", "specificity": 4}
+{"latent": 13472, "f1": 0.222}
+{"latent": 13082, "f1": 0.571}
+{"latent": 13721, "f1": 0.933}
+{"latent": 13703, "f1": 0.615}
+{"latent": 13776, "f1": 0.615}
+{"latent": 12340, "f1": 0.556}
+{"latent": 13055, "f1": 0.667}
+{"latent": 13731, "f1": 0.556}
+{"latent": 13112, "f1": 0.4}
+{"latent": 13249, "f1": 0.353}
+{"latent": 13359, "f1": 0.222}
+{"latent": 13383, "f1": 0.706}
+{"latent": 9068, "caption": "Detects Python code related to data models, serialization, and database operations.", "trigger": "models.CharField, models.DecimalField, models.Model, models.ManyToManyField, models.SlugField, models.FileField, models.ImageField, serializers.ModelSerializer, serializers.SerializerMethodField, django.db.models", "specificity": 4}
+{"latent": 13320, "f1": 0.222}
+{"latent": 13950, "f1": 0.615}
+{"latent": 13815, "f1": 0.8}
+{"latent": 13126, "f1": 0.588}
+{"latent": 13951, "f1": 0.0}
+{"latent": 9160, "caption": "Numbers, especially those appearing in dates, measurements, or code.", "trigger": "\u00ab\u00b7\u00bb", "specificity": 3}
+{"latent": 13719, "f1": 0.545}
+{"latent": 13753, "f1": 0.2}
+{"latent": 13471, "f1": 0.4}
+{"latent": 13032, "f1": 0.667}
+{"latent": 13836, "f1": 0.5}
+{"latent": 13347, "f1": 0.533}
+{"latent": 13508, "f1": 0.5}
+{"latent": 9059, "caption": "This latent detects specific punctuation and symbols used in code, math, and conversational contexts.", "trigger": "\u00ab\u00bb . , ( )", "specificity": 3}
+{"latent": 13767, "f1": 0.824}
+{"latent": 13671, "f1": 0.615}
+{"latent": 9062, "caption": "This latent detects copyright notices and licensing information in code files.", "trigger": "Copyright (c) .", "specificity": 4}
+{"latent": 9173, "caption": "The latent detects requests for assistance or help.", "trigger": "help", "specificity": 4}
+{"latent": 13752, "f1": 0.7}
+{"latent": 13751, "f1": 0.667}
+{"latent": 14034, "f1": 0.875}
+{"latent": 13847, "f1": 0.706}
+{"latent": 13876, "f1": 0.533}
+{"latent": 14082, "f1": 0.4}
+{"latent": 13829, "f1": 0.533}
+{"latent": 14079, "f1": 0.333}
+{"latent": 13937, "f1": 0.222}
+{"latent": 9198, "caption": "Converts or transforms data from one format to another.", "trigger": "\u00abto\u00bb", "specificity": 3}
+{"latent": 14087, "f1": 0.857}
+{"latent": 13756, "f1": 0.615}
+{"latent": 14057, "f1": 0.2}
+{"latent": 14112, "f1": 0.0}
+{"latent": 9027, "caption": "Detects tokens related to portals, mental states, and specific technical terms like 'radial' and 'residual'.", "trigger": "portal, mental, radial, residual", "specificity": 4}
+{"latent": 9176, "caption": "Tokens related to actions, choices, and resolutions.", "trigger": "do, fix, replace, use, delete, ignore, past, about, from, to, with, for, in, okay, pride, know, fun, converts, maps, wrote, forgot", "specificity": 2}
+{"latent": 14013, "f1": 0.933}
+{"latent": 14159, "f1": 0.0}
+{"latent": 13992, "f1": 0.545}
+{"latent": 13175, "f1": 0.714}
+{"latent": 9079, "caption": "This latent detects the number '1' in mathematical and code contexts.", "trigger": "\u00ab1\u00bb", "specificity": 4}
+{"latent": 9061, "caption": "Python code for defining functions, classes, and methods, often involving conditional logic and data structures.", "trigger": "def self .", "specificity": 3}
+{"latent": 13063, "f1": 0.714}
+{"latent": 13571, "f1": 0.667}
+{"latent": 14100, "f1": 0.333}
+{"latent": 9209, "caption": "Tokens related to job applications, resumes, and professional correspondence.", "trigger": "job, resume, apply, cover, letter, skills, requirements, proposal, writer, interview, statement, email, rsvp", "specificity": 4}
+{"latent": 13984, "f1": 0.167}
+{"latent": 14114, "f1": 0.556}
+{"latent": 13277, "f1": 1.0}
+{"latent": 14054, "f1": 0.625}
+{"latent": 13103, "f1": 0.333}
+{"latent": 14223, "f1": 1.0}
+{"latent": 14230, "f1": 0.462}
+{"latent": 14141, "f1": 0.364}
+{"latent": 14185, "f1": 0.667}
+{"latent": 13395, "f1": 0.667}
+{"latent": 13787, "f1": 0.667}
+{"latent": 13322, "f1": 0.875}
+{"latent": 14263, "f1": 0.0}
+{"latent": 9245, "caption": "Mathematical expressions involving fractions, roots, and trigonometric functions.", "trigger": "math", "specificity": 4}
+{"latent": 9223, "caption": "Detects the use of 'have' or 'has' to indicate past actions or states, often with a past participle.", "trigger": "have", "specificity": 3}
+{"latent": 14313, "f1": 0.615}
+{"latent": 14283, "f1": 0.0}
+{"latent": 14240, "f1": 0.4}
+{"latent": 14190, "f1": 0.5}
+{"latent": 9231, "caption": "Detects the forward slash character, often used as a separator in dates, code, or fractions.", "trigger": "/ ", "specificity": 3}
+{"latent": 9229, "caption": "Requesting or offering to 'give' something to someone.", "trigger": "give \u00abme\u00bb", "specificity": 4}
+{"latent": 14329, "f1": 0.462}
+{"latent": 13733, "f1": 0.462}
+{"latent": 9230, "caption": "Numbers involving powers of 10, often with percentages or large quantities.", "trigger": "10", "specificity": 3}
+{"latent": 9250, "caption": "Numerical values, especially those involving currency, quantities, or measurements.", "trigger": "digits, numbers, currency symbols", "specificity": 4}
+{"latent": 14342, "f1": 0.308}
+{"latent": 14369, "f1": 0.308}
+{"latent": 10990, "f1": 1.0}
+{"latent": 14101, "f1": 0.0}
+{"latent": 9249, "caption": "Tokens related to the letter 'a' or 'pa' in various contexts, including names and common words.", "trigger": "a|pa", "specificity": 1}
+{"latent": 14335, "f1": 0.364}
+{"latent": 14302, "f1": 0.857}
+{"latent": 14350, "f1": 0.545}
+{"latent": 14356, "f1": 0.364}
+{"latent": 13161, "f1": 0.706}
+{"latent": 13766, "f1": 0.714}
+{"latent": 14392, "f1": 0.588}
+{"latent": 14429, "f1": 0.364}
+{"latent": 9274, "caption": "Tokens related to code, math, and web content, often involving specific terms or actions.", "trigger": "\u00abcode\u00bb | \u00abmath\u00bb | \u00abweb\u00bb", "specificity": 3}
+{"latent": 14333, "f1": 0.5}
+{"latent": 14466, "f1": 0.714}
+{"latent": 14440, "f1": 0.353}
+{"latent": 13995, "f1": 0.615}
+{"latent": 9270, "caption": "Tokens related to physical actions, objects, or processes that involve movement or change.", "trigger": "flick", "specificity": 3}
+{"latent": 14341, "f1": 0.0}
+{"latent": 14399, "f1": 0.875}
+{"latent": 14472, "f1": 0.545}
+{"latent": 14452, "f1": 0.824}
+{"latent": 9260, "caption": "Mathematical expressions involving fractions, roots, and trigonometric functions.", "trigger": "frac", "specificity": 4}
+{"latent": 14433, "f1": 0.364}
+{"latent": 9279, "caption": "Detects common input formats for competitive programming problems, often involving integers n and m.", "trigger": "Input The first line contains two integers n and m", "specificity": 4}
+{"latent": 14493, "f1": 0.667}
+{"latent": 14469, "f1": 0.545}
+{"latent": 14455, "f1": 0.182}
+{"latent": 14389, "f1": 0.333}
+{"latent": 9292, "caption": "Tokens related to programming, setup, and data management.", "trigger": "setup, bind, manage, encode, publish, load, execute, connect, sort, divide, conquer, shoot, sell, pay, carry, occurs, use", "specificity": 3}
+{"latent": 14527, "f1": 1.0}
+{"latent": 14504, "f1": 0.75}
+{"latent": 13771, "f1": 0.571}
+{"latent": 13031, "f1": 0.4}
+{"latent": 14395, "f1": 1.0}
+{"latent": 9284, "caption": "Detects numerical expressions, often involving punctuation or symbols like '.', '\u00b7', or '\u00ab\u00bb.", "trigger": "\u00b7", "specificity": 3}
+{"latent": 14371, "f1": 0.625}
+{"latent": 14494, "f1": 0.769}
+{"latent": 14502, "f1": 0.857}
+{"latent": 14543, "f1": 0.2}
+{"latent": 9293, "caption": "Detects concepts related to electricity, electrical systems, and electrical devices.", "trigger": "electrical", "specificity": 4}
+{"latent": 14542, "f1": 0.533}
+{"latent": 14635, "f1": 0.462}
+{"latent": 14021, "f1": 0.857}
+{"latent": 9318, "caption": "Executing code commands, scripts, and tasks, often involving system operations or program execution.", "trigger": "execute", "specificity": 4}
+{"latent": 13555, "f1": 0.778}
+{"latent": 14536, "f1": 0.625}
+{"latent": 14601, "f1": 0.615}
+{"latent": 14550, "f1": 0.222}
+{"latent": 14531, "f1": 1.0}
+{"latent": 14636, "f1": 0.625}
+{"latent": 14572, "f1": 0.571}
+{"latent": 14449, "f1": 0.308}
+{"latent": 13573, "f1": 0.824}
+{"latent": 9321, "caption": "Mathematical expressions and code snippets involving variables, numbers, and symbols.", "trigger": "math, code, cot, \u00ab\u00bb, (, ), =, +, -, /, *, ^, [, ], <, >, |", "specificity": 3}
+{"latent": 14676, "f1": 0.545}
+{"latent": 14653, "f1": 0.706}
+{"latent": 14480, "f1": 0.762}
+{"latent": 14529, "f1": 0.571}
+{"latent": 13402, "f1": 0.727}
+{"latent": 14678, "f1": 0.545}
+{"latent": 14632, "f1": 0.222}
+{"latent": 14716, "f1": 0.667}
+{"latent": 14179, "f1": 0.2}
+{"latent": 14200, "f1": 0.5}
+{"latent": 9177, "caption": "Detects tokens related to specific entities, brands, and concepts like 'Evil', 'tomatoes', 'arcade', 'berry', 'Brown', 'Book Bank'.", "trigger": "\u00abEvil\u00bb | \u00abtomatoes\u00bb | \u00abarcade\u00bb | \u00abberry\u00bb | \u00abBrown\u00bb | \u00abBook\u00bb", "specificity": 4}
+{"latent": 9339, "caption": "Software version numbers, often in the format X.Y.Z", "trigger": "\u00ab1\u00bb \u00ab.\u00bb \u00ab1\u00bb", "specificity": 4}
+{"latent": 14699, "f1": 0.714}
+{"latent": 14568, "f1": 0.0}
+{"latent": 14222, "f1": 0.5}
+{"latent": 14698, "f1": 0.5}
+{"latent": 14191, "f1": 0.0}
+{"latent": 14558, "f1": 0.625}
+{"latent": 14724, "f1": 0.4}
+{"latent": 12822, "f1": 0.615}
+{"latent": 14848, "f1": 0.933}
+{"latent": 9340, "caption": "Describes something as easy, simple, or convenient to do or use.", "trigger": "easy, simple, convenient", "specificity": 4}
+{"latent": 14717, "f1": 0.769}
+{"latent": 14170, "f1": 0.762}
+{"latent": 14137, "f1": 0.5}
+{"latent": 14761, "f1": 0.222}
+{"latent": 14184, "f1": 0.429}
+{"latent": 9352, "caption": "This latent detects concepts related to death, dying, and mortality.", "trigger": "die, died, death, dead, penalty", "specificity": 5}
+{"latent": 13945, "f1": 0.769}
+{"latent": 14741, "f1": 0.0}
+{"latent": 14780, "f1": 0.2}
+{"latent": 9350, "caption": "Mathematical and programming problem statements involving sequences and arrays.", "trigger": "a \u00ab_\u00bb", "specificity": 3}
+{"latent": 14847, "f1": 0.533}
+{"latent": 15025, "f1": 0.0}
+{"latent": 15015, "f1": 0.429}
+{"latent": 14982, "f1": 0.421}
+{"latent": 14985, "f1": 0.222}
+{"latent": 9364, "caption": "This latent detects examples of input/output pairs, often involving numbers and simple text.", "trigger": "\u00abExample\u00bb Input", "specificity": 3}
+{"latent": 15060, "f1": 0.0}
+{"latent": 14987, "f1": 0.2}
+{"latent": 15045, "f1": 0.615}
+{"latent": 9380, "caption": "This latent detects Python code using 'self' to access instance attributes and methods.", "trigger": "self .", "specificity": 4}
+{"latent": 15009, "f1": 0.5}
+{"latent": 14194, "f1": 0.571}
+{"latent": 14969, "f1": 0.545}
+{"latent": 14331, "f1": 0.267}
+{"latent": 15036, "f1": 0.571}
+{"latent": 9371, "caption": "Detects questions about capability, possibility, or certainty, often using 'can you' or 'could it be'.", "trigger": "can you|could it be|does it take|do you think|do you know|do you like|do you want|can i|can you help|can you clarify|can you solve|can you tell me|are you sure|is it", "specificity": 4}
+{"latent": 13544, "f1": 0.933}
+{"latent": 9391, "caption": "Latent detects the ability to perform an action or achieve a result.", "trigger": "can be <verb> <preposition>", "specificity": 3}
+{"latent": 15106, "f1": 0.778}
+{"latent": 15032, "f1": 0.364}
+{"latent": 15074, "f1": 0.0}
+{"latent": 15065, "f1": 0.8}
+{"latent": 15115, "f1": 0.769}
+{"latent": 14319, "f1": 0.0}
+{"latent": 9392, "caption": "Detects numerical sequences, especially within mathematical or programming contexts.", "trigger": "\u00b7", "specificity": 2}
+{"latent": 14924, "f1": 0.7}
+{"latent": 15130, "f1": 0.462}
+{"latent": 13805, "f1": 0.625}
+{"latent": 9402, "caption": "Detects tokens related to programming, code, and data structures.", "trigger": "code", "specificity": 4}
+{"latent": 15146, "f1": 0.222}
+{"latent": 15110, "f1": 0.75}
+{"latent": 15144, "f1": 0.4}
+{"latent": 15176, "f1": 0.667}
+{"latent": 15165, "f1": 0.167}
+{"latent": 14250, "f1": 0.533}
+{"latent": 9407, "caption": "Detects the concept of 'doing' or 'making' something happen, often involving a process or action.", "trigger": "doing, making, creating, saving, providing, improving, perceiving, helping, renting, understanding, minimizing, being, having, inviting, reducing, imitating, stabilizing, finding, using, applying", "specificity": 3}
+{"latent": 15164, "f1": 0.5}
+{"latent": 9415, "caption": "Mathematical expressions involving variables, numbers, and operators.", "trigger": "\u00ab+\u00bb", "specificity": 2}
+{"latent": 15170, "f1": 0.429}
+{"latent": 15219, "f1": 0.571}
+{"latent": 14173, "f1": 0.429}
+{"latent": 15239, "f1": 0.8}
+{"latent": 15193, "f1": 0.667}
+{"latent": 14922, "f1": 0.615}
+{"latent": 15205, "f1": 0.75}
+{"latent": 15157, "f1": 0.429}
+{"latent": 15129, "f1": 0.824}
+{"latent": 15276, "f1": 0.167}
+{"latent": 13248, "f1": 0.824}
+{"latent": 9428, "caption": "The concept of 'low' in various contexts, often referring to cost, impact, or quality.", "trigger": "low", "specificity": 3}
+{"latent": 15178, "f1": 0.222}
+{"latent": 15238, "f1": 0.571}
+{"latent": 15223, "f1": 0.4}
+{"latent": 9436, "caption": "Detects phrases like 'other X' or 'any X' where X is a noun or noun phrase.", "trigger": "other", "specificity": 3}
+{"latent": 15027, "f1": 0.545}
+{"latent": 15310, "f1": 0.714}
+{"latent": 15313, "f1": 0.533}
+{"latent": 15284, "f1": 0.4}
+{"latent": 15277, "f1": 0.462}
+{"latent": 14512, "f1": 0.571}
+{"latent": 13397, "f1": 0.353}
+{"latent": 15345, "f1": 0.778}
+{"latent": 15403, "f1": 0.364}
+{"latent": 9457, "caption": "Tokens related to playing games, sports, or engaging in activities.", "trigger": "play", "specificity": 3}
+{"latent": 15321, "f1": 0.0}
+{"latent": 9335, "caption": "Detects Python code related to database operations, configuration, and object-oriented programming.", "trigger": "\u00abconfig\u00bb file", "specificity": 3}
+{"latent": 9446, "caption": "The symbol '\u00b7' often represents a placeholder or a specific value in mathematical or computational contexts.", "trigger": "\u00b7", "specificity": 4}
+{"latent": 15250, "f1": 0.0}
+{"latent": 15423, "f1": 0.769}
+{"latent": 15363, "f1": 0.222}
+{"latent": 15246, "f1": 0.615}
+{"latent": 15347, "f1": 0.462}
+{"latent": 15431, "f1": 0.462}
+{"latent": 15318, "f1": 0.615}
+{"latent": 15456, "f1": 0.933}
+{"latent": 15428, "f1": 0.5}
+{"latent": 9475, "caption": "The time it takes to complete an action or process.", "trigger": "takes time", "specificity": 4}
+{"latent": 14561, "f1": 1.0}
+{"latent": 9470, "caption": "Tokens indicating a specific location or place.", "trigger": "there", "specificity": 3}
+{"latent": 15473, "f1": 0.8}
+{"latent": 15506, "f1": 0.444}
+{"latent": 9474, "caption": "Tokens related to asking for something, expressing inability, or making a request.", "trigger": "Sorry we couldn't complete your registration. Please try again.", "specificity": 3}
+{"latent": 15439, "f1": 0.364}
+{"latent": 15606, "f1": 1.0}
+{"latent": 15236, "f1": 0.545}
+{"latent": 14645, "f1": 0.0}
+{"latent": 15585, "f1": 0.308}
+{"latent": 15535, "f1": 0.462}
+{"latent": 15369, "f1": 0.588}
+{"latent": 14559, "f1": 0.615}
+{"latent": 14534, "f1": 0.625}
+{"latent": 14570, "f1": 0.364}
+{"latent": 15594, "f1": 0.533}
+{"latent": 15641, "f1": 0.941}
+{"latent": 15669, "f1": 0.0}
+{"latent": 15303, "f1": 0.769}
+{"latent": 15668, "f1": 0.667}
+{"latent": 15061, "f1": 0.714}
+{"latent": 14725, "f1": 0.533}
+{"latent": 15612, "f1": 0.333}
+{"latent": 15287, "f1": 0.941}
+{"latent": 15642, "f1": 0.462}
+{"latent": 14193, "f1": 0.222}
+{"latent": 15400, "f1": 0.8}
+{"latent": 9477, "caption": "The concept of 'reality' as opposed to fiction, performance, or abstract ideas.", "trigger": "reality", "specificity": 4}
+{"latent": 14604, "f1": 0.5}
+{"latent": 15118, "f1": 0.588}
+{"latent": 15678, "f1": 0.615}
+{"latent": 9507, "caption": "Detects questions starting with 'Can you' or 'Can I', often seeking information or action.", "trigger": "Can you", "specificity": 4}
+{"latent": 15647, "f1": 0.667}
+{"latent": 9526, "caption": "The month of May, often associated with holidays and significant events.", "trigger": "May", "specificity": 3}
+{"latent": 15492, "f1": 0.857}
+{"latent": 15729, "f1": 0.364}
+{"latent": 15534, "f1": 0.667}
+{"latent": 14691, "f1": 0.4}
+{"latent": 9263, "caption": "Tokens related to actions, states, or objects being 'done' or 'made'.", "trigger": "\u00abgot\u00bb \u00ab?\u00bb \u00abRICHARD\u00bb | \u00abquite\u00bb \u00abexpensive\u00bb | \u00abday\u00bb \u00abPete\u00bb | \u00abated\u00bb \u00abwaistband\u00bb \u00abembossed\u00bb | \u00abafter\u00bb \u00abtheir\u00bb \u00abhealth\u00bb | \u00abrealised\u00bb \u00abthey\u00bb \u00abwere\u00bb | \u00abpetrol\u00bb \u00abon\u00bb \u00abthe\u00bb | \u00abJohn\u00bb \u2019 \u00abs\u00bb \u00abCollege\u00bb | \u00aborganisation\u00bb name | \u00abAward\u00bb start \u00abdate\u00bb | \u00abMould\u00bb \u00abing\u00bb \u00abPrice\u00bb | \u00ablot\u00bb \u00abof\u00bb \u00abconfusion\u00bb | \u00abjust\u00bb learning | \u00abbit\u00bb \u00ababout\u00bb suicide | \u00abthat\u00bb the loved ones | \u00abchaff\u00bb | \u00abchilli\u00bb and \u00abcook\u00bb | \u00abwork\u00bb | \u00abbid\u00bb \u00abto\u00bb \u00abconvince\u00bb | \u00abgo\u00bb \u00abat\u00bb \u00absomething\u00bb | \u00abwell\u00bb \u00abbe\u00bb \u00abthat\u00bb | \u00abcharacterised\u00bb \u00abby\u00bb mental \u00abslow\u00bb ness", "specificity": 3}
+{"latent": 15777, "f1": 0.5}
+{"latent": 15680, "f1": 0.714}
+{"latent": 14894, "f1": 0.737}
+{"latent": 15314, "f1": 0.333}
+{"latent": 15747, "f1": 0.933}
+{"latent": 15690, "f1": 0.588}
+{"latent": 14840, "f1": 0.4}
+{"latent": 15755, "f1": 0.7}
+{"latent": 15826, "f1": 0.0}
+{"latent": 15771, "f1": 0.5}
+{"latent": 15799, "f1": 0.4}
+{"latent": 15645, "f1": 0.714}
+{"latent": 14175, "f1": 0.308}
+{"latent": 15820, "f1": 0.222}
+{"latent": 14508, "f1": 0.667}
+{"latent": 15827, "f1": 0.545}
+{"latent": 15797, "f1": 0.933}
+{"latent": 15782, "f1": 0.182}
+{"latent": 15833, "f1": 0.545}
+{"latent": 9530, "caption": "Specific product names and model numbers, often with punctuation.", "trigger": "\u00abPro\u00bb \u00b7 1 5 \u00ab", "specificity": 4}
+{"latent": 15803, "f1": 0.0}
+{"latent": 14776, "f1": 0.2}
+{"latent": 15760, "f1": 0.0}
+{"latent": 9546, "caption": "The word 'which' introducing a clause that explains or elaborates on the preceding noun or phrase.", "trigger": "which", "specificity": 4}
+{"latent": 9537, "caption": "Detects tokens related to age, history, and ancient times.", "trigger": "ancient, atis, antiquity, vetustatis, ancient, ancient, ancient, ancient", "specificity": 4}
+{"latent": 15832, "f1": 0.632}
+{"latent": 14722, "f1": 0.4}
+{"latent": 14872, "f1": 0.842}
+{"latent": 15677, "f1": 0.462}
+{"latent": 15954, "f1": 0.842}
+{"latent": 9337, "caption": "The future will be something.", "trigger": "be", "specificity": 1}
+{"latent": 15849, "f1": 0.714}
+{"latent": 15949, "f1": 0.571}
+{"latent": 14860, "f1": 0.632}
+{"latent": 15901, "f1": 0.727}
+{"latent": 15683, "f1": 0.667}
+{"latent": 15684, "f1": 0.364}
+{"latent": 16015, "f1": 0.857}
+{"latent": 15751, "f1": 0.2}
+{"latent": 15968, "f1": 0.571}
+{"latent": 16058, "f1": 0.2}
+{"latent": 14778, "f1": 0.571}
+{"latent": 15697, "f1": 0.2}
+{"latent": 14940, "f1": 0.714}
+{"latent": 16018, "f1": 0.778}
+{"latent": 16001, "f1": 0.182}
+{"latent": 14289, "f1": 0.857}
+{"latent": 16108, "f1": 0.667}
+{"latent": 16125, "f1": 0.8}
+{"latent": 16135, "f1": 0.8}
+{"latent": 16080, "f1": 0.167}
+{"latent": 9602, "caption": "Python code for setting up packages, including descriptions and licenses.", "trigger": "setup ( \u00b7 name =", "specificity": 4}
+{"latent": 15920, "f1": 0.706}
+{"latent": 9555, "caption": "Numerical values, especially measurements and quantities, often with units.", "trigger": "\u00ab2\u00bb", "specificity": 4}
+{"latent": 16154, "f1": 0.545}
+{"latent": 16071, "f1": 0.857}
+{"latent": 9304, "caption": "Tokens related to sudden, quick movements or appearances, often with a sense of surprise or excitement.", "trigger": "pop, blink, splash, jump, peek, buzz, hop, sparkle, sneak, dangle, bob, nib", "specificity": 4}
+{"latent": 9576, "caption": "Interactions and relationships between entities, often involving agreements or collaborations.", "trigger": "with", "specificity": 3}
+{"latent": 16121, "f1": 0.471}
+{"latent": 16033, "f1": 0.4}
+{"latent": 14218, "f1": 0.0}
+{"latent": 16188, "f1": 0.5}
+{"latent": 9591, "caption": "Mentions of 'summer' and related concepts like 'heat waves' and 'vacation'.", "trigger": "summer", "specificity": 3}
+{"latent": 16118, "f1": 0.714}
+{"latent": 9383, "caption": "Numbers between 60 and 70, often appearing in numerical sequences or as values.", "trigger": "6\u00ab5\u00bb", "specificity": 3}
+{"latent": 16184, "f1": 0.5}
+{"latent": 16077, "f1": 0.778}
+{"latent": 15225, "f1": 0.75}
+{"latent": 16195, "f1": 0.462}
+{"latent": 15182, "f1": 0.222}
+{"latent": 16064, "f1": 0.737}
+{"latent": 16127, "f1": 0.222}
+{"latent": 16163, "f1": 0.0}
+{"latent": 16187, "f1": 0.769}
+{"latent": 16276, "f1": 0.667}
+{"latent": 16322, "f1": 0.364}
+{"latent": 16337, "f1": 0.533}
+{"latent": 16358, "f1": 0.8}
+{"latent": 15997, "f1": 0.364}
+{"latent": 14751, "f1": 0.4}
+{"latent": 16331, "f1": 0.4}
+{"latent": 16264, "f1": 0.857}
+{"latent": 16285, "f1": 0.667}
+{"latent": 9608, "caption": "Code snippets related to Python, often involving imports, class definitions, and file handling.", "trigger": "import", "specificity": 3}
+{"latent": 9607, "caption": "Detects code related to data structures, object attributes, and method definitions.", "trigger": "self .", "specificity": 2}
+{"latent": 16286, "f1": 0.857}
+{"latent": 16248, "f1": 0.4}
+{"latent": 9609, "caption": "Tokens related to specific entities, brands, or concepts like 'Food Network', 'Super Mario Bros', or 'chiff chaff'.", "trigger": "\u00abFood\u00bb \u00abNetwork\u00bb | \u00abSuper\u00bb \u00abMario\u00bb \u00abBros\u00bb | \u00abchiff\u00bb \u00abchaff\u00bb", "specificity": 4}
+{"latent": 9611, "caption": "Python code related to XML parsing, configuration, and data structures.", "trigger": "xml _ to _ list", "specificity": 3}
+{"latent": 15460, "f1": 0.889}
+{"latent": 16111, "f1": 0.571}
+{"latent": 15437, "f1": 0.615}
+{"latent": 16341, "f1": 0.7}
+{"latent": 15501, "f1": 0.667}
+{"latent": 15541, "f1": 0.333}
+{"latent": 14144, "f1": 0.889}
+{"latent": 16376, "f1": 0.615}
+{"latent": 15056, "f1": 0.333}
+{"latent": 16222, "f1": 0.222}
+{"latent": 14978, "f1": 0.0}
+{"latent": 15546, "f1": 0.588}
+{"latent": 16368, "f1": 0.615}
+{"latent": 15098, "f1": 0.667}
+{"latent": 16199, "f1": 0.824}
+{"latent": 9634, "caption": "Detects code snippets and mathematical expressions, often involving formatting characters like colons, newlines, and quotation marks.", "trigger": "\u00ab:\u00bb", "specificity": 3}
+{"latent": 16178, "f1": 0.857}
+{"latent": 14824, "f1": 0.588}
+{"latent": 9633, "caption": "Tokens indicating possession or belonging, often with prepositions like 'of' or 'with'.", "trigger": "of", "specificity": 2}
+{"latent": 16269, "f1": 0.462}
+{"latent": 15529, "f1": 0.5}
+{"latent": 16271, "f1": 0.533}
+{"latent": 16383, "f1": 0.5}
+{"latent": 9636, "caption": "Inserting or injecting items into strings, data structures, or physical spaces.", "trigger": "insert", "specificity": 4}
+{"latent": 9640, "caption": "Tokens related to organizations, companies, and official bodies.", "trigger": "\u00abpartners\u00bb \u00ab,\u00bb \u00abeconomy\u00bb \u00abDepartment\u00bb \u00abof\u00bb \u00abVeterans\u00bb \u00abAffairs\u00bb \u00abAdvertisers\u00bb \u00abExclusive\u00bb \u00aband\u00bb \u00abEducation\u00bb \u00abproducts\u00bb \u00abcustomers\u00bb \u00abArchitects\u00bb \u00abnotes\u00bb \u00aband\u00bb \u00abCounty\u00bb \u00abOffice\u00bb \u00abLLC\u00bb \u00abCouncil\u00bb \u00abnotice\u00bb \u00abvideo\u00bb \u00abRelations\u00bb \u00aboffers\u00bb \u00abProcter\u00bb & \u00abGamble\u00bb \u00abbear\u00bb \u00ab/\u00bb \u00abare\u00bb \u00abNorth\u00bb \u00abCarolina\u00bb \u00abBarcelona\u00bb", "specificity": 4}
+{"latent": 15746, "f1": 0.778}
+{"latent": 16359, "f1": 0.706}
+{"latent": 9341, "caption": "Tokens related to attaching or hanging out, often with physical objects or people.", "trigger": "attach OR hanging OR stuck OR stick OR insert OR dangle OR chain", "specificity": 4}
+{"latent": 15527, "f1": 0.533}
+{"latent": 9679, "caption": "Detects tokens related to existence, possession, or description of things.", "trigger": "\u00abshow\u00bb \u00abyou\u00bb \u00abthe\u00bb", "specificity": 2}
+{"latent": 16081, "f1": 0.667}
+{"latent": 9553, "caption": "Detects mathematical expressions and code snippets involving numbers, variables, and operators.", "trigger": "\u00ab4\u00bb \u00abpi\u00bb \u00ab\u00bb 9", "specificity": 4}
+{"latent": 15973, "f1": 0.556}
+{"latent": 15994, "f1": 0.625}
+{"latent": 9686, "caption": "The latent detects mentions of 'the' in contexts related to numbers, quantities, and specific items.", "trigger": "the", "specificity": 3}
+{"latent": 16209, "f1": 1.0}
+{"latent": 9688, "caption": "Detects numerical sequences, often involving 'SAMPLE INPUT' or mathematical contexts.", "trigger": "\u00ab1\u00bb \u00ab\u00b7\u00bb \u00ab0\u00bb", "specificity": 3}
+{"latent": 9700, "caption": "Code related to parsing, accessing, or manipulating data structures and files.", "trigger": "parse", "specificity": 4}
+{"latent": 15566, "f1": 0.222}
+{"latent": 16272, "f1": 0.462}
+{"latent": 9702, "caption": "Python code using `assertEqual` or `assertIn` for testing", "trigger": "assertEqual", "specificity": 4}
+{"latent": 9681, "caption": "Numerical values, often as part of sequences or calculations.", "trigger": "\u00ab4\u00bb", "specificity": 3}
+{"latent": 15951, "f1": 0.769}
+{"latent": 9651, "caption": "This latent detects tokens related to correctness, sense, and good ideas.", "trigger": "right, sense, good, idea", "specificity": 3}
+{"latent": 9722, "caption": "This latent detects mathematical inequalities, particularly those involving comparisons like 'leq', 'geq', and '>', often within algebraic or calculus contexts.", "trigger": "\u00ableq\u00bb \u00ab\u00b7\u00bb \u00ab2\u00bb \u00ab(\u00bb a ^ 2 + b ^ 2 ) \u00b7", "specificity": 4}
+{"latent": 9728, "caption": "This latent detects mathematical expressions involving powers, roots, and trigonometric functions.", "trigger": "\u00ab2\u00bb \u00ab+\u00bb \u00abb\u00bb ^ 2", "specificity": 4}
+{"latent": 9737, "caption": "Detects phrases related to past actions, often involving 'did' and a verb.", "trigger": "did", "specificity": 3}
+{"latent": 9745, "caption": "Detects mathematical expressions involving 'gcd', 'pair', 'y', and 'ab'.", "trigger": "gcd", "specificity": 4}
+{"latent": 9696, "caption": "Actions involving commitment, completion, or significant life events.", "trigger": "commit, win, retirement, marriage, abortion, adoption, sign, accomplish, learn, discuss, dial, attack, bathroom, vomiting, together, forever, ER, visit, ambulance, filing, unemployment, themselves, playoffs, or, not, printed, marry, committed, win, murder, adoption, derail, sign, it, accomplish, learn, discuss, dial, attack, abortion, printed, marry, committed, win, murder, adoption, derail, sign, it", "specificity": 3}
+{"latent": 9747, "caption": "Various types of fruit, including apples, lemons, and berries.", "trigger": "fruit", "specificity": 3}
+{"latent": 9658, "caption": "Detects mathematical and code constructs, including specific tokens like 'bise', 'ctor', 'int', 'arr', 'frac', 'pi', 'Company', 'default', 'env', '^', '2', 'less', 'l', '_', 'datetime', '13th', 'th', 'Five', 'boxes', '[', '0', ']', 'DTS', 'Master', 'Audio', 'as', 'sum', 'quas', 'command', 'command', '2', '3', 'isos', 'celes', 'parallelism', 'triangle', '2', '-', '2', 'isos', 'celes', 'triangle', 'ppo', '1', 'world'", "trigger": "math|code|web|cot", "specificity": 3}
+{"latent": 9799, "caption": "Detects Python code related to database models, foreign keys, and ORM operations.", "trigger": "models . ForeignKey", "specificity": 4}
+{"latent": 9775, "caption": "Expressions of gratitude, often followed by punctuation or specific entities.", "trigger": "Thanks", "specificity": 3}
+{"latent": 9803, "caption": "This latent detects code related to data structures and object attributes.", "trigger": "self . \u00abname\u00bb \u00b7 self . long _ name = \u00ablong\u00bb _ name", "specificity": 3}
+{"latent": 9755, "caption": "The latent detects words related to 'bal' and 'pal', often found in place names, words, or concepts.", "trigger": "bal|pal", "specificity": 3}
+{"latent": 9769, "caption": "Locations like bars, sheds, capitals, hospitals, and kitchens.", "trigger": "bar, shed, capital, hospital, kitchen", "specificity": 4}
+{"latent": 9806, "caption": "Numbers representing quantities, counts, or measurements, often large.", "trigger": "number", "specificity": 3}
+{"latent": 9807, "caption": "Tokens related to punctuation, especially quotation marks and sentence terminators.", "trigger": "\u00ab", "specificity": 3}
+{"latent": 9821, "caption": "The latent detects phrases indicating the start of a problem-solving or task-oriented discussion.", "trigger": "Okay , \u00abI\u00bb", "specificity": 3}
+{"latent": 9836, "caption": "Numerical codes and identifiers, often in programming contexts.", "trigger": "\u00ab4\u00bb", "specificity": 3}
+{"latent": 9825, "caption": "This latent detects mathematical expressions involving fractions and variables.", "trigger": "frac", "specificity": 4}
+{"latent": 9757, "caption": "Detects tokens related to 'self', 'name', 'inputs', 'vars', 'ways', 'clients', 'family', 'home', 'removed', 'elements', 'project', 'share', 'tensor', 'placeholder', 'secret', 'api', 'international', 'leaders', 'head', 'asshole', 'shit', 'can', 'into', 'you', 'closer', 'glory', 'of', 'the', 'at', 'hits', 'with', 'my', 'favorite', 'fried', 'ice', 'cream', 'number', 'two', 'five', 'six', 'nine', 'g', 'b', 'd', 'j', 'f', 'h', 's', 'y', 'u', 'c', 'e', 'i', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 't', 'v', 'w', 'x', 'z', 'a', 'k', 'g', '0', '1', '3', '4', '7', '8', '9'", "trigger": "self . inputs . append ( [ tb . \u00abvars\u00bb \u00ab.\u00bb placeholder ( shape = pars", "specificity": 3}
+{"latent": 9854, "caption": "Tokens related to continuation, continuation markers, or specific numerical/alphanumeric identifiers.", "trigger": "\u00abContinued\u00bb \u00abhere\u00bb | \u00abContinued\u00bb \u00ab...\u00bb | \u00ab\u00b7\u00bb \u00ab1\u00bb 9 9 8 - 2 0 1 6 | \u00ab\u00b7\u00bb \u00ab1\u00bb", "specificity": 3}
+{"latent": 9844, "caption": "Detects mathematical concepts like graphs, triangles, and progressions.", "trigger": "graph, triangle, progression, arithmetic, geometric, conic, hyperbola, polygon, rectangle, prism, annulus, recurrence, trapezoid, semicircle", "specificity": 4}
+{"latent": 9862, "caption": "Detects code related to data handling, database interactions, and web frameworks.", "trigger": "\u00abvalue\u00bb", "specificity": 3}
+{"latent": 9861, "caption": "This latent detects sequences of numbers, often in mathematical or computational contexts.", "trigger": "number sequences", "specificity": 3}
+{"latent": 15656, "f1": 0.571}
+{"latent": 9897, "caption": "The definite article 'the' used before nouns, often in specific contexts.", "trigger": "the", "specificity": 3}
+{"latent": 9880, "caption": "Invitation to participate in a group or situation.", "trigger": "invitation to", "specificity": 3}
+{"latent": 15999, "f1": 0.615}
+{"latent": 9901, "caption": "Tokens related to permission, ability, and agreement, often in instructional or legal contexts.", "trigger": "you can redistribute", "specificity": 4}
+{"latent": 9863, "caption": "Detects code snippets, particularly those involving file paths, imports, and variable assignments.", "trigger": "code", "specificity": 4}
+{"latent": 9874, "caption": "Detects code snippets related to file paths, system commands, and data structures.", "trigger": "os . path . exists", "specificity": 3}
+{"latent": 9905, "caption": "Detects mathematical expressions and variables, often with units or specific notation.", "trigger": "\u00abmathrm\u00bb", "specificity": 4}
+{"latent": 9872, "caption": "Acronyms and abbreviations, often capitalized, like GDP, NCAA, and ERP.", "trigger": "\u00abGDP\u00bb", "specificity": 4}
+{"latent": 9909, "caption": "Tokens indicating quantity, amount, or degree, often related to risk or excess.", "trigger": "many, much, some, few, more, fewer, another, any, too", "specificity": 3}
+{"latent": 9928, "caption": "This latent detects tokens related to administrative roles, authorization, and code-related identifiers.", "trigger": "admin, auth, code", "specificity": 4}
+{"latent": 9715, "caption": "Detects phrases related to conditions, states, or outcomes, often with a sense of finality or transformation.", "trigger": "IS", "specificity": 2}
+{"latent": 9932, "caption": "Expressing strong negative emotions like screaming, crying, or complaining.", "trigger": "screams|screaming|crying|complaint|complains|complained|complaining|shouted|cried|cry|complaints|roars", "specificity": 4}
+{"latent": 9940, "caption": "Detects code related to object instantiation, configuration, and data structures.", "trigger": "class", "specificity": 2}
+{"latent": 9973, "caption": "Tokens related to legal and official authorization, registration, and claims.", "trigger": "registered and received prior authorization from", "specificity": 4}
+{"latent": 9947, "caption": "This latent detects code snippets involving string manipulation, particularly with regular expressions and data structures like dictionaries.", "trigger": "re . compile", "specificity": 4}
+{"latent": 9977, "caption": "Detects phrases that confirm or refer back to a previously stated idea or fact.", "trigger": "that is", "specificity": 3}
+{"latent": 9995, "caption": "This latent detects comparisons of quantities or qualities between two entities.", "trigger": "than", "specificity": 4}
+{"latent": 9955, "caption": "Detects tokens related to \"web\" and \"code\" contexts, often with \"mail\" or \"http\" in them.", "trigger": "mail", "specificity": 3}
+{"latent": 9907, "caption": "Detects mentions of Sphinx extensions and configuration in Python code.", "trigger": "Sphinx \u00abextension\u00bb \u00abmodule\u00bb", "specificity": 4}
+{"latent": 9968, "caption": "Tokens related to specific entities, concepts, or actions like 'fitness', 'St.', 'Sergeant', 'mirror', 'utm', 'denial', 'broken', 'Custom', 'Nig'.", "trigger": "\u00abfitness\u00bb | \u00abSt\u00bb | \u00abCorporal\u00bb * | \u00abSergeant\u00bb | \u00abif\u00bb | \u00abmirror\u00bb | \u00ab://\u00bb | \u00abem\u00bb | \u00abutm\u00bb | \u00absocial\u00bb | \u00ab{\u00bb | \u00abdenial\u00bb | \u00abhave\u00bb | \u00abis\u00bb | \u00abtwo\u00bb | \u00ab&\u00bb | \u00abas\u00bb | \u00abthe\u00bb | \u00abRhode\u00bb | \u00abcreate\u00bb | \u00abal\u00bb | \u00aba\u00bb | \u00abCustom\u00bb | \u00ab6\u00bb | \u00abbroken\u00bb | \u00abhe\u00bb | \u00abhas\u00bb | \u00abno\u00bb | \u00abbetter\u00bb | \u00abyour\u00bb | \u00abBlack\u00bb | \u00abNig\u00bb | \u00abneed\u00bb | \u00abdisable\u00bb | \u00aba\u00bb", "specificity": 4}
+{"latent": 10042, "caption": "Detects concepts related to learning, games, and problem-solving, often in educational or programming contexts.", "trigger": "play a game", "specificity": 3}
+{"latent": 10031, "caption": "This latent detects mathematical expressions involving the number '1' and operations like addition, subtraction, and division.", "trigger": "1 \u00ab+\u00bb", "specificity": 4}
+{"latent": 10050, "caption": "Detects sequences of numbers, often separated by commas, in code, math, and descriptive text.", "trigger": "\u00ab,\u00bb", "specificity": 3}
+{"latent": 10079, "caption": "Negative numbers and subtraction in mathematical and code contexts.", "trigger": "\u00ab-\u00bb", "specificity": 4}
+{"latent": 10080, "caption": "Detects tokens related to code definitions, especially for programming languages and data structures.", "trigger": "\u00abjs\u00bb", "specificity": 3}
+{"latent": 10083, "caption": "Detects tokens related to file operations and naming conventions.", "trigger": "ofile", "specificity": 3}
+{"latent": 10089, "caption": "Detects author and contributor information in code metadata and docstrings.", "trigger": "author", "specificity": 4}
+{"latent": 10062, "caption": "Mentions of \"Dr.\", often followed by a name or title, and related to professional or academic contexts.", "trigger": "Dr .", "specificity": 4}
+{"latent": 10098, "caption": "Tokens related to 'stock', 'station', 'stage', 'steak', 'stump', 'stun', 'stumble', 'stinky', 'stolen', 'stretched', 'stapled', 'stalking', 'stolid', 'st.', 'brattle st.'", "trigger": "st", "specificity": 2}
+{"latent": 10102, "caption": "Tokens related to mathematical concepts, parameters, and computational structures.", "trigger": "mathematics | parameter | minimum | maximum | therefore | certificate | administrator | rectangle | number | telephone", "specificity": 3}
+{"latent": 10113, "caption": "Python code defining classes, enums, and properties, often related to configuration or data structures.", "trigger": "class", "specificity": 4}
+{"latent": 10112, "caption": "Tokens related to abstract concepts, ownership, and specific entities.", "trigger": "\u00abredistribution\u00bb|\u00absense\u00bb|\u00abquec\u00bb|\u00abento\u00bb|\u00abimagination\u00bb|\u00abindependent\u00bb|\u00abadvantage\u00bb|\u00absupple\u00bb|\u00abits\u00bb|\u00abdamage\u00bb|\u00aboriented\u00bb|\u00abmodel\u00bb|\u00abwing\u00bb|\u00abtypal\u00bb|\u00abdian\u00bb|\u00abscholar\u00bb|\u00abWake\u00bb|\u00abists\u00bb|\u00abcapital\u00bb|\u00abthing\u00bb|\u00aberex\u00bb|\u00abamples\u00bb|\u00abpairs\u00bb|\u00abof\u00bb|\u00abpeople\u00bb|\u00abargv\u00bb|\u00abr\u00bb|\u00abhops\u00bb|\u00abformerly\u00bb|\u00abhave\u00bb|\u00abhand\u00bb|\u00abother\u00bb|\u00abgarland\u00bb|\u00abthus\u00bb|\u00abpaper\u00bb|\u00abcoordinator\u00bb", "specificity": 3}
+{"latent": 10128, "caption": "Tokens related to hiding, concealing, or obscuring something.", "trigger": "hide", "specificity": 4}
+{"latent": 10141, "caption": "Organizations and their acronyms, often governmental or regulatory bodies.", "trigger": "\u00abTE\u00bb \u00abCouncil\u00bb \u00abAC\u00bb \u00abAgency\u00bb \u00abNATO\u00bb \u00abDefense\u00bb \u00abCollege\u00bb \u00abFirearms\u00bb \u00absives\u00bb \u00abATF\u00bb \u00abFAA\u00bb \u00abAviation\u00bb \u00abProtection\u00bb \u00abEPA\u00bb \u00abrelations\u00bb \u00abresearch\u00bb \u00abInstitute\u00bb \u00abFoundation\u00bb \u00abInspector\u00bb \u00abGeneral\u00bb \u00abIG\u00bb \u00abActivities\u00bb \u00abAssociation\u00bb \u00abRights\u00bb \u00abCommission\u00bb \u00abbroadcaster\u00bb \u00abRTI\u00bb \u00abhas\u00bb", "specificity": 4}
+{"latent": 10061, "caption": "Detects tokens related to numbers, math, and counting.", "trigger": "number|math|count", "specificity": 3}
+{"latent": 10150, "caption": "Python code for file path manipulation and string formatting.", "trigger": "path.abspath(__file__)", "specificity": 4}
+{"latent": 10170, "caption": "Detects tokens related to types, kinds, and ways of doing things.", "trigger": "kind, type, way, part, advantage, rid, sake, midst, beginning, glimpse, bones, lot, lack, fond, blink", "specificity": 4}
+{"latent": 10073, "caption": "Tokens indicating something is created or defined by something else.", "trigger": "by", "specificity": 2}
+{"latent": 10060, "caption": "This latent detects words related to the end of something, like 'finale' or 'final'.", "trigger": "finale|final", "specificity": 4}
+{"latent": 10127, "caption": "Numerical values and mathematical operations, often within code or equations.", "trigger": "\u00ab4\u00bb", "specificity": 4}
+{"latent": 10130, "caption": "Tokens related to specific entities, concepts, or technical terms.", "trigger": "\u00ab0\u00bb", "specificity": 3}
+{"latent": 10186, "caption": "This latent detects mathematical and programming concepts involving variables and sequences.", "trigger": "x", "specificity": 2}
+{"latent": 10183, "caption": "Latent detects mentions of making copies of software, files, or strings, often in a legal or programmatic context.", "trigger": "\u00abcopy\u00bb \u00abof\u00bb \u00abthe\u00bb", "specificity": 4}
+{"latent": 10207, "caption": "Detects Python code related to Django, including forms, URL routing, and database models.", "trigger": "django", "specificity": 4}
+{"latent": 10199, "caption": "Mathematical equations and expressions involving variables, numbers, and operators.", "trigger": "\u00ab=\u00bb", "specificity": 4}
+{"latent": 10212, "caption": "Detects mentions of results, findings, or outputs from various sources.", "trigger": "results|findings|outputs", "specificity": 3}
+{"latent": 10182, "caption": "Detects tokens related to actions, existence, and descriptions of things.", "trigger": "do, play, associations, resource, file, dir, mask, number, probability, cost, type, move, pattern, exist, reason, implies, odd, length, numbers, in, for, how, the, color", "specificity": 2}
+{"latent": 10153, "caption": "This latent detects mathematical expressions and code snippets, often involving variables, equations, and programming constructs.", "trigger": "math|code", "specificity": 3}
+{"latent": 10216, "caption": "Phrases indicating specific names, brands, or titles.", "trigger": "\u00abHappy\u00bb \u00b7 \u00ab8\u00bb th \u00abAnniversary\u00bb", "specificity": 4}
+{"latent": 10208, "caption": "Detects sequences of tokens, often including punctuation and numbers, that form lists or enumerations.", "trigger": "\u00aband\u00bb \u00abthe\u00bb", "specificity": 3}
+{"latent": 10227, "caption": "Python code imports, especially for scientific computing and data handling.", "trigger": "import numpy", "specificity": 4}
+{"latent": 10246, "caption": "This latent detects the concept of 'getting' something, often with a subsequent action or outcome.", "trigger": "get", "specificity": 3}
+{"latent": 10224, "caption": "This latent detects mathematical expressions involving variables and constants, often with exponents and roots.", "trigger": "\u00abx\u00bb", "specificity": 3}
+{"latent": 10237, "caption": "Detects numerical constraints and ranges, often found in mathematical or programming contexts.", "trigger": "Constraints", "specificity": 4}
+{"latent": 10242, "caption": "Numbers, often in the context of lists, percentages, or specific values.", "trigger": "1\u00ab4\u00bb", "specificity": 3}
+{"latent": 10247, "caption": "Detects code related to prefixes and suffixes, often in file paths or string manipulation.", "trigger": "\u00abprefix\u00bb \u00absuffix\u00bb", "specificity": 4}
+{"latent": 10274, "caption": "Detects mentions of squares, grids, and geometric shapes in code, math, and descriptive contexts.", "trigger": "square", "specificity": 4}
+{"latent": 10162, "caption": "Python code for file paths, dates, database entries, and API calls.", "trigger": "code", "specificity": 3}
+{"latent": 10283, "caption": "This latent detects Python code, particularly imports, function definitions, and variable assignments.", "trigger": "import, def, class, =", "specificity": 4}
+{"latent": 10303, "caption": "Tokens related to international trade, movement of people, and foreign affairs.", "trigger": "export, import, border, foreign, abroad, overseas, origin, citizen, immigrant", "specificity": 4}
+{"latent": 10299, "caption": "Detects questions asking 'are' something or someone", "trigger": "are", "specificity": 3}
+{"latent": 10254, "caption": "Detects the introduction of something novel or recently created.", "trigger": "new", "specificity": 4}
+{"latent": 10288, "caption": "Detects pluralization and possessive forms, often with 's' or 'es'.", "trigger": "s", "specificity": 4}
+{"latent": 10315, "caption": "Detects docstrings, especially those with parameter and return type annotations.", "trigger": "\"\"\"", "specificity": 4}
+{"latent": 10318, "caption": "Tokens related to suicide, self-harm, and violent acts.", "trigger": "suicide, commit, kill, themselves, gunshot, bombers", "specificity": 5}
+{"latent": 10195, "caption": "Detects code snippets involving random number generation and string manipulation.", "trigger": "random . choice ( symbols ) for i in range ( \u00abrandom\u00bb \u00ab.\u00bb \u00abrandrange\u00bb ( maxlen ))", "specificity": 4}
+{"latent": 10321, "caption": "This latent detects tokens related to specific entities and concepts like 'Dubai', 'pumpkin', 'black market', and 'Call of Duty'.", "trigger": "Dubai, pumpkin, black, market, Call, Duty", "specificity": 4}
+{"latent": 10322, "caption": "This latent detects tokens related to measurements, lengths, and quantities, often in mathematical or technical contexts.", "trigger": "length", "specificity": 4}
+{"latent": 10334, "caption": "Describes order, sequence, or position within a set or context.", "trigger": "order, sequence, position", "specificity": 4}
+{"latent": 10330, "caption": "Copyright notices and code-related terms like 'License' and 'print'.", "trigger": "Copyright", "specificity": 4}
+{"latent": 10327, "caption": "Detects Python code related to data structures and object initialization.", "trigger": "self .", "specificity": 2}
+{"latent": 10316, "caption": "Detects Python code, especially related to parsing, arguments, and GUI elements.", "trigger": "\u00abcode\u00bb", "specificity": 4}
+{"latent": 10392, "caption": "Tokens related to dates, numbers, and quantities.", "trigger": "August \u00b7 1 \u00b7 4", "specificity": 3}
+{"latent": 10352, "caption": "This latent detects phrases related to actions, decisions, and states of being, often with a negative or consequential connotation.", "trigger": "decided to kill, should be decreased, case mouse can, neither a honey barrel, homemade pipe, Lives Matter, him to, Hand over, \", Human :, vintage, if, allowed to, will be an, reached its, Beginning with, INCLUDING, but not limited to, Space is, bark all, PC, I'm happy to", "specificity": 4}
+{"latent": 10372, "caption": "Detects Python code that imports modules, especially common libraries like 'os', 'sys', and 'numpy'.", "trigger": "import", "specificity": 4}
+{"latent": 10366, "caption": "This latent detects mathematical and programming contexts involving inequalities and ranges.", "trigger": "<=", "specificity": 4}
+{"latent": 10393, "caption": "Tokens related to asking questions, expressing desires, or stating capabilities.", "trigger": "can, want, tell, should, could, have, say, do, you, I, a, to, so", "specificity": 3}
+{"latent": 10414, "caption": "This latent detects specific tokens related to code, mathematics, and natural language processing.", "trigger": "\u00abPYTHON\u00bb", "specificity": 3}
+{"latent": 10416, "caption": "Tokens related to names, brands, and specific entities.", "trigger": "\u00abPapa\u00bb | \u00ab\u00b7\u00bb | \u00abStanding\u00bb | \u00abTranslate\u00bb | \u00abWSGI\u00bb | \u00abenjoys\u00bb | \u00abPhotos\u00bb | \u00ab=\u00bb | \u00abBryce\u00bb | \u00abBrows\u00bb | \u00ab7\u00bb | \u00abBull\u00bb | \u00ab1\u00bb | \u00abCele\u00bb | \u00abgift\u00bb | \u00abBag\u00bb | \u00abEleg\u00bb | \u00ab3\u00bb | \u00ab'\u00bb", "specificity": 3}
+{"latent": 10399, "caption": "This latent detects assertions about code execution and object properties.", "trigger": "assert", "specificity": 4}
+{"latent": 10342, "caption": "This latent detects tokens related to 'slips', 'slaps', 'slims', and 'flus'.", "trigger": "sl, fl, cl", "specificity": 3}
+{"latent": 10423, "caption": "Detects mathematical expressions and code snippets, often involving variables and operations.", "trigger": "\u00ab\\\u00bb", "specificity": 3}
+{"latent": 10409, "caption": "This latent detects code related to lists, especially when cloning items or creating lists of flags.", "trigger": "List ( list _ type = flags , \u00b7 ** dd . str 2 kw (' designation ', _(\" Py Con \u00b7 2 0 1 4 \")))", "specificity": 4}
+{"latent": 10420, "caption": "Tokens related to definitions, theorems, and sequences.", "trigger": "\u00abstates\u00bb \u00abthat\u00bb", "specificity": 4}
+{"latent": 10376, "caption": "The latent detects the pronoun 'he' referring to a male person, often in narrative or problem-solving contexts.", "trigger": "he", "specificity": 4}
+{"latent": 10432, "caption": "This latent detects requests for actions or information, often starting with 'Give' or 'Wear'.", "trigger": "Give|Wear", "specificity": 3}
+{"latent": 10455, "caption": "Tokens related to actions of giving, receiving, or holding something.", "trigger": "provide", "specificity": 3}
+{"latent": 10474, "caption": "The latent detects the variable 'y' in mathematical and programming contexts, often alongside 'x'.", "trigger": "\u00aby\u00bb", "specificity": 4}
+{"latent": 10498, "caption": "Living organisms, including humans, animals, and plants.", "trigger": "humans, mice, children, pigs, cows, Pinus, plants, elderly, wild, type, dog, infants, woman, female", "specificity": 4}
+{"latent": 10468, "caption": "This latent detects mathematical expressions involving modular arithmetic, equations, and geometric concepts.", "trigger": "\u00abequiv\u00bb", "specificity": 4}
+{"latent": 10485, "caption": "This latent detects Python code related to function arguments and data structures.", "trigger": "Args", "specificity": 4}

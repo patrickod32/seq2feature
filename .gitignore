@@ -1,0 +1,14 @@
+# never commit secrets
+.env
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# local scratch / logs
+*.log
+/tmp/
+monitor_app/monitor_explorer.log

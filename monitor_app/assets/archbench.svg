@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 460" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
+  <rect width="820" height="460" fill="#FFFFFF"/>
+  <text x="40" y="28" font-size="16" font-weight="700" fill="#33302A">Architecture bench — what each design is worth</text>
+  <text x="40" y="47" font-size="12" fill="#8B8273">top-5 precision vs its own teacher · tan = Act I (2B dictionary) · orange = Act II (9B dictionary) · gray = controls</text>
+  <g font-size="10.5" fill="#9A8F77">
+    <line x1="210" y1="62" x2="210" y2="412" stroke="#D6CDBB"/>
+    <line x1="352.5" y1="62" x2="352.5" y2="412" stroke="#EDE7D8"/><text x="352.5" y="424" text-anchor="middle">0.25</text>
+    <line x1="495" y1="62" x2="495" y2="412" stroke="#EDE7D8"/><text x="495" y="424" text-anchor="middle">0.50</text>
+    <line x1="637.5" y1="62" x2="637.5" y2="412" stroke="#EDE7D8"/><text x="637.5" y="424" text-anchor="middle">0.75</text>
+    <line x1="780" y1="62" x2="780" y2="412" stroke="#EDE7D8"/><text x="780" y="424" text-anchor="middle">1.0</text>
+  </g>
+  <g font-size="12" fill="#33302A">
+    <text x="202" y="86" text-anchor="end">shuffle-null (control)</text>
+    <rect x="210" y="72" width="38.8" height="20" fill="#C9C2B2"/><text x="255" y="86" font-size="11" fill="#8B8273">0.068 — random</text>
+    <text x="202" y="120" text-anchor="end">frequency-5 floor</text>
+    <rect x="210" y="106" width="169.3" height="20" fill="#C9C2B2"/><text x="386" y="120" font-size="11" fill="#8B8273">0.297 — "always show the 5 most common"</text>
+    <text x="202" y="154" text-anchor="end">bge bi-encoder (embedder)</text>
+    <rect x="210" y="140" width="302.1" height="20" fill="#D9CBB4"/><text x="519" y="154" font-size="11" fill="#8B8273">0.53</text>
+    <text x="202" y="188" text-anchor="end">bag-of-hashes + bigram, no attention</text>
+    <rect x="210" y="174" width="387.6" height="20" fill="#D9CBB4" opacity="0.55" stroke="#C9BFA9" stroke-dasharray="4 3"/><text x="604" y="188" font-size="11" fill="#8B8273">0.68 macro AUC †</text>
+    <text x="202" y="222" text-anchor="end">hashed tables + transformer (nano)</text>
+    <rect x="210" y="208" width="478.8" height="20" fill="#D9CBB4"/><text x="695" y="222" font-size="11" fill="#8B8273">0.84</text>
+    <text x="202" y="256" text-anchor="end">weight soup ×4 (failed — gauge freedom)</text>
+    <rect x="210" y="242" width="532.4" height="20" fill="#E0B49C"/><text x="748" y="256" font-size="11" fill="#8B8273">0.934</text>
+    <text x="202" y="290" text-anchor="end">stock transformer block · 15 ep</text>
+    <rect x="210" y="276" width="539.2" height="20" fill="#E0B49C"/><text x="755" y="290" font-size="11" fill="#8B8273">0.946</text>
+    <text x="202" y="324" text-anchor="end">golfed block (SwiGLU·RoPE·pre-norm) · 15 ep</text>
+    <rect x="210" y="310" width="542.6" height="20" fill="#E0B49C"/><text x="758" y="324" font-size="11" fill="#8B8273">0.952</text>
+    <text x="202" y="358" text-anchor="end">+ third block (depth buys nothing)</text>
+    <rect x="210" y="344" width="542.6" height="20" fill="#E0B49C"/><text x="758" y="358" font-size="11" fill="#8B8273">0.952</text>
+    <text x="202" y="392" text-anchor="end" font-weight="700">shipped: stock block · converged (F)</text>
+    <rect x="210" y="378" width="544.9" height="20" fill="#BF5A38"/><text x="760" y="392" font-size="11" font-weight="700" fill="#BF5A38">0.956</text>
+  </g>
+  <text x="40" y="446" font-size="10.5" fill="#8B8273">† the no-attention ablation predates the honest-metric switch; its macro AUC is shown for lineage and is not comparable to the z-p@5 bars. Noise bar on 9B bars: ±0.0005.</text>
+</svg>
