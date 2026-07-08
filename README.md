@@ -61,6 +61,18 @@ HF_HUB_OFFLINE=0 python monitor_app/monitor_explorer.py   # first run downloads 
 
 A flat, information-dense suite: paste text and see the concepts the probe surfaces, per-token evidence, the architecture, a live CPU throughput benchmark, and an **agent-monitoring** demo — the cheap probe screens every message and escalates flagged spans to a Claude Code / sentry model (the tiered-oversight pattern). *Demonstrated, not evaluated as a safety system.* (The app also loads a small legacy 2B-SAE monitor for comparison; the seq2feature probe is `golf_final/`.)
 
+**Explore** — the concepts the probe surfaces on a span, with per-token localization and an on-demand Claude review of the labels:
+
+![The Explore tab: seq2feature's concept readout on a span, with token localization and a Claude review of the surfaced concepts.](monitor_app/assets/app-explore.png)
+
+**Inside the probe** — the architecture end to end (own tokenizer → hashed unigram/bigram tables → 1.5M-param transformer → per-token concept head → span pool), with a live token trace:
+
+![The Inside-the-probe tab: the seq2feature architecture with a per-token trace through the network.](monitor_app/assets/app-architecture.png)
+
+**Firewall for agent traffic** — the tiered-oversight demo: two agents work a task, the 5.3 MB probe screens every message (~$0, ~12 ms, ~130× faster than the agents), and when a watched concept fires (here, API-key exfiltration) the message is **held** and a Claude sentry is summoned to judge it:
+
+![The Agents firewall tab: the probe screens every agent message and escalates a flagged API-key-exfiltration span to a Claude sentry.](monitor_app/assets/app-firewall.png)
+
 ---
 
 ## Repo layout
