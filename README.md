@@ -8,6 +8,8 @@ A 5.3 MB probe (int8) reproduces the SAE's concept readout on held-out text — 
 
 This is a technical write-up and a thing to play with, not an anonymised paper. It shares the approach, the trained probe, an interactive UI, and enough data + notebooks to reproduce the training and the numbers.
 
+**🏆 [Leaderboard](LEADERBOARD.md)** — seq2feature is the current record (0.956 top-5 agreement in 5.3 MB). It's an open Competitive-AI-Safety target: recover more of the SAE from text, or match it in fewer bytes. *Beat that.*
+
 ---
 
 ## The claim, in numbers
